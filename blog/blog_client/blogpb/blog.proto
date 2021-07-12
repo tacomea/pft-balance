@@ -50,6 +50,7 @@ message ListBlogRequest {
 message ListBlogResponse {
   Blog blog = 1;
 }
+
 service BlogService {
   rpc CreateBlog (CreateBlogRequest) returns (CreateBlogResponse);
   rpc ReadBlog (ReadBlogRequest) returns (ReadBlogResponse);

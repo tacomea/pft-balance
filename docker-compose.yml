@@ -1,0 +1,42 @@
+version: "3"
+services:
+  data_server:
+    build: ./food
+    ports:
+      - 80:80
+    volumes:
+      - ./food:/go/src/food/
+    command: >
+      sh -c "reflex -s -r '\.go$$' go run main.go"
+    depends_on:
+      - mysql
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: food_data
+
+  mysql:
+    image: mysql:5.7.22
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: food_data
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./mysql/data:/var/lib/mysql"
+      - "./mysql/conf_d:/etc/mysql/conf.d"
+      - "./mysql/init:/docker-entrypoint-initdb.d"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
+      - PMA_USER=admin
+      - PMA_PASSWORD=password
+    links:
+      - mysql
+    ports:
+      - 8888:80
