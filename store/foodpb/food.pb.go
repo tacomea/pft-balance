@@ -555,6 +555,622 @@ func (x *ListFoodResponse) GetFood() *Food {
 	return nil
 }
 
+type Menu struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Id      uint32  `protobuf:"varint,1,opt,name=id,proto3" json:"id,omitempty"`
+	Name    string  `protobuf:"bytes,2,opt,name=name,proto3" json:"name,omitempty"`
+	Protein float64 `protobuf:"fixed64,3,opt,name=protein,proto3" json:"protein,omitempty"`
+	Fat     float64 `protobuf:"fixed64,4,opt,name=fat,proto3" json:"fat,omitempty"`
+	Carbs   float64 `protobuf:"fixed64,5,opt,name=carbs,proto3" json:"carbs,omitempty"`
+}
+
+func (x *Menu) Reset() {
+	*x = Menu{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[11]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *Menu) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*Menu) ProtoMessage() {}
+
+func (x *Menu) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[11]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use Menu.ProtoReflect.Descriptor instead.
+func (*Menu) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{11}
+}
+
+func (x *Menu) GetId() uint32 {
+	if x != nil {
+		return x.Id
+	}
+	return 0
+}
+
+func (x *Menu) GetName() string {
+	if x != nil {
+		return x.Name
+	}
+	return ""
+}
+
+func (x *Menu) GetProtein() float64 {
+	if x != nil {
+		return x.Protein
+	}
+	return 0
+}
+
+func (x *Menu) GetFat() float64 {
+	if x != nil {
+		return x.Fat
+	}
+	return 0
+}
+
+func (x *Menu) GetCarbs() float64 {
+	if x != nil {
+		return x.Carbs
+	}
+	return 0
+}
+
+type CreateMenuRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Menu *Menu `protobuf:"bytes,1,opt,name=menu,proto3" json:"menu,omitempty"`
+}
+
+func (x *CreateMenuRequest) Reset() {
+	*x = CreateMenuRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[12]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *CreateMenuRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*CreateMenuRequest) ProtoMessage() {}
+
+func (x *CreateMenuRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[12]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use CreateMenuRequest.ProtoReflect.Descriptor instead.
+func (*CreateMenuRequest) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{12}
+}
+
+func (x *CreateMenuRequest) GetMenu() *Menu {
+	if x != nil {
+		return x.Menu
+	}
+	return nil
+}
+
+type CreateMenuResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *CreateMenuResponse) Reset() {
+	*x = CreateMenuResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[13]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *CreateMenuResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*CreateMenuResponse) ProtoMessage() {}
+
+func (x *CreateMenuResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[13]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use CreateMenuResponse.ProtoReflect.Descriptor instead.
+func (*CreateMenuResponse) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{13}
+}
+
+type ReadMenuRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	MenuId string `protobuf:"bytes,1,opt,name=menu_id,json=menuId,proto3" json:"menu_id,omitempty"`
+}
+
+func (x *ReadMenuRequest) Reset() {
+	*x = ReadMenuRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[14]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *ReadMenuRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ReadMenuRequest) ProtoMessage() {}
+
+func (x *ReadMenuRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[14]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ReadMenuRequest.ProtoReflect.Descriptor instead.
+func (*ReadMenuRequest) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{14}
+}
+
+func (x *ReadMenuRequest) GetMenuId() string {
+	if x != nil {
+		return x.MenuId
+	}
+	return ""
+}
+
+type ReadMenuResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Menu *Menu `protobuf:"bytes,1,opt,name=menu,proto3" json:"menu,omitempty"`
+}
+
+func (x *ReadMenuResponse) Reset() {
+	*x = ReadMenuResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[15]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *ReadMenuResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ReadMenuResponse) ProtoMessage() {}
+
+func (x *ReadMenuResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[15]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ReadMenuResponse.ProtoReflect.Descriptor instead.
+func (*ReadMenuResponse) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{15}
+}
+
+func (x *ReadMenuResponse) GetMenu() *Menu {
+	if x != nil {
+		return x.Menu
+	}
+	return nil
+}
+
+type UpdateMenuRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Menu *Menu `protobuf:"bytes,1,opt,name=menu,proto3" json:"menu,omitempty"`
+}
+
+func (x *UpdateMenuRequest) Reset() {
+	*x = UpdateMenuRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[16]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *UpdateMenuRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*UpdateMenuRequest) ProtoMessage() {}
+
+func (x *UpdateMenuRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[16]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use UpdateMenuRequest.ProtoReflect.Descriptor instead.
+func (*UpdateMenuRequest) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{16}
+}
+
+func (x *UpdateMenuRequest) GetMenu() *Menu {
+	if x != nil {
+		return x.Menu
+	}
+	return nil
+}
+
+type UpdateMenuResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Menu *Menu `protobuf:"bytes,1,opt,name=menu,proto3" json:"menu,omitempty"`
+}
+
+func (x *UpdateMenuResponse) Reset() {
+	*x = UpdateMenuResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[17]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *UpdateMenuResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*UpdateMenuResponse) ProtoMessage() {}
+
+func (x *UpdateMenuResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[17]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use UpdateMenuResponse.ProtoReflect.Descriptor instead.
+func (*UpdateMenuResponse) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{17}
+}
+
+func (x *UpdateMenuResponse) GetMenu() *Menu {
+	if x != nil {
+		return x.Menu
+	}
+	return nil
+}
+
+type DeleteMenuRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	MenuId string `protobuf:"bytes,1,opt,name=menu_id,json=menuId,proto3" json:"menu_id,omitempty"`
+}
+
+func (x *DeleteMenuRequest) Reset() {
+	*x = DeleteMenuRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[18]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *DeleteMenuRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*DeleteMenuRequest) ProtoMessage() {}
+
+func (x *DeleteMenuRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[18]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use DeleteMenuRequest.ProtoReflect.Descriptor instead.
+func (*DeleteMenuRequest) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{18}
+}
+
+func (x *DeleteMenuRequest) GetMenuId() string {
+	if x != nil {
+		return x.MenuId
+	}
+	return ""
+}
+
+type DeleteMenuResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *DeleteMenuResponse) Reset() {
+	*x = DeleteMenuResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[19]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *DeleteMenuResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*DeleteMenuResponse) ProtoMessage() {}
+
+func (x *DeleteMenuResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[19]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use DeleteMenuResponse.ProtoReflect.Descriptor instead.
+func (*DeleteMenuResponse) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{19}
+}
+
+type ListMenuRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	MenuId string `protobuf:"bytes,1,opt,name=menu_id,json=menuId,proto3" json:"menu_id,omitempty"`
+}
+
+func (x *ListMenuRequest) Reset() {
+	*x = ListMenuRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[20]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *ListMenuRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ListMenuRequest) ProtoMessage() {}
+
+func (x *ListMenuRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[20]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ListMenuRequest.ProtoReflect.Descriptor instead.
+func (*ListMenuRequest) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{20}
+}
+
+func (x *ListMenuRequest) GetMenuId() string {
+	if x != nil {
+		return x.MenuId
+	}
+	return ""
+}
+
+type ListMenuResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Menu *Menu `protobuf:"bytes,1,opt,name=menu,proto3" json:"menu,omitempty"`
+}
+
+func (x *ListMenuResponse) Reset() {
+	*x = ListMenuResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[21]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *ListMenuResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ListMenuResponse) ProtoMessage() {}
+
+func (x *ListMenuResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[21]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ListMenuResponse.ProtoReflect.Descriptor instead.
+func (*ListMenuResponse) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{21}
+}
+
+func (x *ListMenuResponse) GetMenu() *Menu {
+	if x != nil {
+		return x.Menu
+	}
+	return nil
+}
+
+type ListAllMenusRequest struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+}
+
+func (x *ListAllMenusRequest) Reset() {
+	*x = ListAllMenusRequest{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[22]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *ListAllMenusRequest) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ListAllMenusRequest) ProtoMessage() {}
+
+func (x *ListAllMenusRequest) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[22]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ListAllMenusRequest.ProtoReflect.Descriptor instead.
+func (*ListAllMenusRequest) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{22}
+}
+
+type ListAllMenusResponse struct {
+	state         protoimpl.MessageState
+	sizeCache     protoimpl.SizeCache
+	unknownFields protoimpl.UnknownFields
+
+	Menu *Menu `protobuf:"bytes,1,opt,name=menu,proto3" json:"menu,omitempty"`
+}
+
+func (x *ListAllMenusResponse) Reset() {
+	*x = ListAllMenusResponse{}
+	if protoimpl.UnsafeEnabled {
+		mi := &file_foodpb_food_proto_msgTypes[23]
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		ms.StoreMessageInfo(mi)
+	}
+}
+
+func (x *ListAllMenusResponse) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ListAllMenusResponse) ProtoMessage() {}
+
+func (x *ListAllMenusResponse) ProtoReflect() protoreflect.Message {
+	mi := &file_foodpb_food_proto_msgTypes[23]
+	if protoimpl.UnsafeEnabled && x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ListAllMenusResponse.ProtoReflect.Descriptor instead.
+func (*ListAllMenusResponse) Descriptor() ([]byte, []int) {
+	return file_foodpb_food_proto_rawDescGZIP(), []int{23}
+}
+
+func (x *ListAllMenusResponse) GetMenu() *Menu {
+	if x != nil {
+		return x.Menu
+	}
+	return nil
+}
+
 var File_foodpb_food_proto protoreflect.FileDescriptor
 
 var file_foodpb_food_proto_rawDesc = []byte{
@@ -594,29 +1210,94 @@ var file_foodpb_food_proto_rawDesc = []byte{
 	0x10, 0x4c, 0x69, 0x73, 0x74, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73,
 	0x65, 0x12, 0x1e, 0x0a, 0x04, 0x66, 0x6f, 0x6f, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x0b, 0x32,
 	0x0a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x04, 0x66, 0x6f, 0x6f,
-	0x64, 0x32, 0xcd, 0x02, 0x0a, 0x0b, 0x46, 0x6f, 0x6f, 0x64, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63,
-	0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x12,
-	0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f,
-	0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e,
-	0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e,
-	0x73, 0x65, 0x12, 0x39, 0x0a, 0x08, 0x52, 0x65, 0x61, 0x64, 0x46, 0x6f, 0x6f, 0x64, 0x12, 0x15,
-	0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x52, 0x65, 0x61, 0x64, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65,
-	0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x52, 0x65, 0x61,
-	0x64, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x3f, 0x0a,
-	0x0a, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x12, 0x17, 0x2e, 0x64, 0x61,
-	0x74, 0x61, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71,
-	0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x55, 0x70, 0x64, 0x61,
-	0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x3f,
-	0x0a, 0x0a, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x12, 0x17, 0x2e, 0x64,
+	0x64, 0x22, 0x6c, 0x0a, 0x04, 0x4d, 0x65, 0x6e, 0x75, 0x12, 0x0e, 0x0a, 0x02, 0x69, 0x64, 0x18,
+	0x01, 0x20, 0x01, 0x28, 0x0d, 0x52, 0x02, 0x69, 0x64, 0x12, 0x12, 0x0a, 0x04, 0x6e, 0x61, 0x6d,
+	0x65, 0x18, 0x02, 0x20, 0x01, 0x28, 0x09, 0x52, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x12, 0x18, 0x0a,
+	0x07, 0x70, 0x72, 0x6f, 0x74, 0x65, 0x69, 0x6e, 0x18, 0x03, 0x20, 0x01, 0x28, 0x01, 0x52, 0x07,
+	0x70, 0x72, 0x6f, 0x74, 0x65, 0x69, 0x6e, 0x12, 0x10, 0x0a, 0x03, 0x66, 0x61, 0x74, 0x18, 0x04,
+	0x20, 0x01, 0x28, 0x01, 0x52, 0x03, 0x66, 0x61, 0x74, 0x12, 0x14, 0x0a, 0x05, 0x63, 0x61, 0x72,
+	0x62, 0x73, 0x18, 0x05, 0x20, 0x01, 0x28, 0x01, 0x52, 0x05, 0x63, 0x61, 0x72, 0x62, 0x73, 0x22,
+	0x33, 0x0a, 0x11, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71,
+	0x75, 0x65, 0x73, 0x74, 0x12, 0x1e, 0x0a, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x18, 0x01, 0x20, 0x01,
+	0x28, 0x0b, 0x32, 0x0a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x04,
+	0x6d, 0x65, 0x6e, 0x75, 0x22, 0x14, 0x0a, 0x12, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x4d, 0x65,
+	0x6e, 0x75, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x2a, 0x0a, 0x0f, 0x52, 0x65,
+	0x61, 0x64, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x17, 0x0a,
+	0x07, 0x6d, 0x65, 0x6e, 0x75, 0x5f, 0x69, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06,
+	0x6d, 0x65, 0x6e, 0x75, 0x49, 0x64, 0x22, 0x32, 0x0a, 0x10, 0x52, 0x65, 0x61, 0x64, 0x4d, 0x65,
+	0x6e, 0x75, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x1e, 0x0a, 0x04, 0x6d, 0x65,
+	0x6e, 0x75, 0x18, 0x01, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e,
+	0x4d, 0x65, 0x6e, 0x75, 0x52, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x22, 0x33, 0x0a, 0x11, 0x55, 0x70,
+	0x64, 0x61, 0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12,
+	0x1e, 0x0a, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x18, 0x01, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0a, 0x2e,
+	0x64, 0x61, 0x74, 0x61, 0x2e, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x22,
+	0x34, 0x0a, 0x12, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x73,
+	0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x1e, 0x0a, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x18, 0x01, 0x20,
+	0x01, 0x28, 0x0b, 0x32, 0x0a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4d, 0x65, 0x6e, 0x75, 0x52,
+	0x04, 0x6d, 0x65, 0x6e, 0x75, 0x22, 0x2c, 0x0a, 0x11, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x4d,
+	0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x17, 0x0a, 0x07, 0x6d, 0x65,
+	0x6e, 0x75, 0x5f, 0x69, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x6d, 0x65, 0x6e,
+	0x75, 0x49, 0x64, 0x22, 0x14, 0x0a, 0x12, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x4d, 0x65, 0x6e,
+	0x75, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x2a, 0x0a, 0x0f, 0x4c, 0x69, 0x73,
+	0x74, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x17, 0x0a, 0x07,
+	0x6d, 0x65, 0x6e, 0x75, 0x5f, 0x69, 0x64, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x06, 0x6d,
+	0x65, 0x6e, 0x75, 0x49, 0x64, 0x22, 0x32, 0x0a, 0x10, 0x4c, 0x69, 0x73, 0x74, 0x4d, 0x65, 0x6e,
+	0x75, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x1e, 0x0a, 0x04, 0x6d, 0x65, 0x6e,
+	0x75, 0x18, 0x01, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4d,
+	0x65, 0x6e, 0x75, 0x52, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x22, 0x15, 0x0a, 0x13, 0x4c, 0x69, 0x73,
+	0x74, 0x41, 0x6c, 0x6c, 0x4d, 0x65, 0x6e, 0x75, 0x73, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74,
+	0x22, 0x36, 0x0a, 0x14, 0x4c, 0x69, 0x73, 0x74, 0x41, 0x6c, 0x6c, 0x4d, 0x65, 0x6e, 0x75, 0x73,
+	0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x1e, 0x0a, 0x04, 0x6d, 0x65, 0x6e, 0x75,
+	0x18, 0x01, 0x20, 0x01, 0x28, 0x0b, 0x32, 0x0a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4d, 0x65,
+	0x6e, 0x75, 0x52, 0x04, 0x6d, 0x65, 0x6e, 0x75, 0x32, 0xcd, 0x02, 0x0a, 0x0b, 0x46, 0x6f, 0x6f,
+	0x64, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x43, 0x72, 0x65, 0x61,
+	0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x12, 0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x43, 0x72,
+	0x65, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a,
+	0x18, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f,
+	0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x39, 0x0a, 0x08, 0x52, 0x65, 0x61,
+	0x64, 0x46, 0x6f, 0x6f, 0x64, 0x12, 0x15, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x52, 0x65, 0x61,
+	0x64, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x64,
+	0x61, 0x74, 0x61, 0x2e, 0x52, 0x65, 0x61, 0x64, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70,
+	0x6f, 0x6e, 0x73, 0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x46, 0x6f,
+	0x6f, 0x64, 0x12, 0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65,
+	0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64, 0x61,
+	0x74, 0x61, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73,
+	0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x46,
+	0x6f, 0x6f, 0x64, 0x12, 0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x44, 0x65, 0x6c, 0x65, 0x74,
+	0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64,
 	0x61, 0x74, 0x61, 0x2e, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65,
-	0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x44, 0x65, 0x6c,
-	0x65, 0x74, 0x65, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12,
-	0x40, 0x0a, 0x09, 0x4c, 0x69, 0x73, 0x74, 0x46, 0x6f, 0x6f, 0x64, 0x73, 0x12, 0x15, 0x2e, 0x64,
-	0x61, 0x74, 0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71, 0x75,
-	0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x46,
-	0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22, 0x00, 0x28, 0x01, 0x30,
-	0x01, 0x42, 0x0a, 0x5a, 0x08, 0x2e, 0x2f, 0x66, 0x6f, 0x6f, 0x64, 0x70, 0x62, 0x62, 0x06, 0x70,
-	0x72, 0x6f, 0x74, 0x6f, 0x33,
+	0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x40, 0x0a, 0x09, 0x4c, 0x69, 0x73, 0x74, 0x46, 0x6f,
+	0x6f, 0x64, 0x73, 0x12, 0x15, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x46,
+	0x6f, 0x6f, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x64, 0x61, 0x74,
+	0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x46, 0x6f, 0x6f, 0x64, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e,
+	0x73, 0x65, 0x22, 0x00, 0x28, 0x01, 0x30, 0x01, 0x32, 0x98, 0x03, 0x0a, 0x0b, 0x4d, 0x65, 0x6e,
+	0x75, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x43, 0x72, 0x65, 0x61,
+	0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x12, 0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x43, 0x72,
+	0x65, 0x61, 0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a,
+	0x18, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x4d, 0x65, 0x6e,
+	0x75, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x39, 0x0a, 0x08, 0x52, 0x65, 0x61,
+	0x64, 0x4d, 0x65, 0x6e, 0x75, 0x12, 0x15, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x52, 0x65, 0x61,
+	0x64, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x64,
+	0x61, 0x74, 0x61, 0x2e, 0x52, 0x65, 0x61, 0x64, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x73, 0x70,
+	0x6f, 0x6e, 0x73, 0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x4d, 0x65,
+	0x6e, 0x75, 0x12, 0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65,
+	0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64, 0x61,
+	0x74, 0x61, 0x2e, 0x55, 0x70, 0x64, 0x61, 0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x73,
+	0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x3f, 0x0a, 0x0a, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x4d,
+	0x65, 0x6e, 0x75, 0x12, 0x17, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x44, 0x65, 0x6c, 0x65, 0x74,
+	0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x18, 0x2e, 0x64,
+	0x61, 0x74, 0x61, 0x2e, 0x44, 0x65, 0x6c, 0x65, 0x74, 0x65, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65,
+	0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x12, 0x40, 0x0a, 0x09, 0x4c, 0x69, 0x73, 0x74, 0x4d, 0x65,
+	0x6e, 0x75, 0x73, 0x12, 0x15, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x4d,
+	0x65, 0x6e, 0x75, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a, 0x16, 0x2e, 0x64, 0x61, 0x74,
+	0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x4d, 0x65, 0x6e, 0x75, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e,
+	0x73, 0x65, 0x22, 0x00, 0x28, 0x01, 0x30, 0x01, 0x12, 0x49, 0x0a, 0x0c, 0x4c, 0x69, 0x73, 0x74,
+	0x41, 0x6c, 0x6c, 0x4d, 0x65, 0x6e, 0x75, 0x73, 0x12, 0x19, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e,
+	0x4c, 0x69, 0x73, 0x74, 0x41, 0x6c, 0x6c, 0x4d, 0x65, 0x6e, 0x75, 0x73, 0x52, 0x65, 0x71, 0x75,
+	0x65, 0x73, 0x74, 0x1a, 0x1a, 0x2e, 0x64, 0x61, 0x74, 0x61, 0x2e, 0x4c, 0x69, 0x73, 0x74, 0x41,
+	0x6c, 0x6c, 0x4d, 0x65, 0x6e, 0x75, 0x73, 0x52, 0x65, 0x73, 0x70, 0x6f, 0x6e, 0x73, 0x65, 0x22,
+	0x00, 0x30, 0x01, 0x42, 0x0a, 0x5a, 0x08, 0x2e, 0x2f, 0x66, 0x6f, 0x6f, 0x64, 0x70, 0x62, 0x62,
+	0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
 }
 
 var (
@@ -631,19 +1312,32 @@ func file_foodpb_food_proto_rawDescGZIP() []byte {
 	return file_foodpb_food_proto_rawDescData
 }
 
-var file_foodpb_food_proto_msgTypes = make([]protoimpl.MessageInfo, 11)
+var file_foodpb_food_proto_msgTypes = make([]protoimpl.MessageInfo, 24)
 var file_foodpb_food_proto_goTypes = []interface{}{
-	(*Food)(nil),               // 0: data.Food
-	(*CreateFoodRequest)(nil),  // 1: data.CreateFoodRequest
-	(*CreateFoodResponse)(nil), // 2: data.CreateFoodResponse
-	(*ReadFoodRequest)(nil),    // 3: data.ReadFoodRequest
-	(*ReadFoodResponse)(nil),   // 4: data.ReadFoodResponse
-	(*UpdateFoodRequest)(nil),  // 5: data.UpdateFoodRequest
-	(*UpdateFoodResponse)(nil), // 6: data.UpdateFoodResponse
-	(*DeleteFoodRequest)(nil),  // 7: data.DeleteFoodRequest
-	(*DeleteFoodResponse)(nil), // 8: data.DeleteFoodResponse
-	(*ListFoodRequest)(nil),    // 9: data.ListFoodRequest
-	(*ListFoodResponse)(nil),   // 10: data.ListFoodResponse
+	(*Food)(nil),                 // 0: data.Food
+	(*CreateFoodRequest)(nil),    // 1: data.CreateFoodRequest
+	(*CreateFoodResponse)(nil),   // 2: data.CreateFoodResponse
+	(*ReadFoodRequest)(nil),      // 3: data.ReadFoodRequest
+	(*ReadFoodResponse)(nil),     // 4: data.ReadFoodResponse
+	(*UpdateFoodRequest)(nil),    // 5: data.UpdateFoodRequest
+	(*UpdateFoodResponse)(nil),   // 6: data.UpdateFoodResponse
+	(*DeleteFoodRequest)(nil),    // 7: data.DeleteFoodRequest
+	(*DeleteFoodResponse)(nil),   // 8: data.DeleteFoodResponse
+	(*ListFoodRequest)(nil),      // 9: data.ListFoodRequest
+	(*ListFoodResponse)(nil),     // 10: data.ListFoodResponse
+	(*Menu)(nil),                 // 11: data.Menu
+	(*CreateMenuRequest)(nil),    // 12: data.CreateMenuRequest
+	(*CreateMenuResponse)(nil),   // 13: data.CreateMenuResponse
+	(*ReadMenuRequest)(nil),      // 14: data.ReadMenuRequest
+	(*ReadMenuResponse)(nil),     // 15: data.ReadMenuResponse
+	(*UpdateMenuRequest)(nil),    // 16: data.UpdateMenuRequest
+	(*UpdateMenuResponse)(nil),   // 17: data.UpdateMenuResponse
+	(*DeleteMenuRequest)(nil),    // 18: data.DeleteMenuRequest
+	(*DeleteMenuResponse)(nil),   // 19: data.DeleteMenuResponse
+	(*ListMenuRequest)(nil),      // 20: data.ListMenuRequest
+	(*ListMenuResponse)(nil),     // 21: data.ListMenuResponse
+	(*ListAllMenusRequest)(nil),  // 22: data.ListAllMenusRequest
+	(*ListAllMenusResponse)(nil), // 23: data.ListAllMenusResponse
 }
 var file_foodpb_food_proto_depIdxs = []int32{
 	0,  // 0: data.CreateFoodRequest.food:type_name -> data.Food
@@ -651,21 +1345,39 @@ var file_foodpb_food_proto_depIdxs = []int32{
 	0,  // 2: data.UpdateFoodRequest.food:type_name -> data.Food
 	0,  // 3: data.UpdateFoodResponse.food:type_name -> data.Food
 	0,  // 4: data.ListFoodResponse.food:type_name -> data.Food
-	1,  // 5: data.FoodService.CreateFood:input_type -> data.CreateFoodRequest
-	3,  // 6: data.FoodService.ReadFood:input_type -> data.ReadFoodRequest
-	5,  // 7: data.FoodService.UpdateFood:input_type -> data.UpdateFoodRequest
-	7,  // 8: data.FoodService.DeleteFood:input_type -> data.DeleteFoodRequest
-	9,  // 9: data.FoodService.ListFoods:input_type -> data.ListFoodRequest
-	2,  // 10: data.FoodService.CreateFood:output_type -> data.CreateFoodResponse
-	4,  // 11: data.FoodService.ReadFood:output_type -> data.ReadFoodResponse
-	6,  // 12: data.FoodService.UpdateFood:output_type -> data.UpdateFoodResponse
-	8,  // 13: data.FoodService.DeleteFood:output_type -> data.DeleteFoodResponse
-	10, // 14: data.FoodService.ListFoods:output_type -> data.ListFoodResponse
-	10, // [10:15] is the sub-list for method output_type
-	5,  // [5:10] is the sub-list for method input_type
-	5,  // [5:5] is the sub-list for extension type_name
-	5,  // [5:5] is the sub-list for extension extendee
-	0,  // [0:5] is the sub-list for field type_name
+	11, // 5: data.CreateMenuRequest.menu:type_name -> data.Menu
+	11, // 6: data.ReadMenuResponse.menu:type_name -> data.Menu
+	11, // 7: data.UpdateMenuRequest.menu:type_name -> data.Menu
+	11, // 8: data.UpdateMenuResponse.menu:type_name -> data.Menu
+	11, // 9: data.ListMenuResponse.menu:type_name -> data.Menu
+	11, // 10: data.ListAllMenusResponse.menu:type_name -> data.Menu
+	1,  // 11: data.FoodService.CreateFood:input_type -> data.CreateFoodRequest
+	3,  // 12: data.FoodService.ReadFood:input_type -> data.ReadFoodRequest
+	5,  // 13: data.FoodService.UpdateFood:input_type -> data.UpdateFoodRequest
+	7,  // 14: data.FoodService.DeleteFood:input_type -> data.DeleteFoodRequest
+	9,  // 15: data.FoodService.ListFoods:input_type -> data.ListFoodRequest
+	12, // 16: data.MenuService.CreateMenu:input_type -> data.CreateMenuRequest
+	14, // 17: data.MenuService.ReadMenu:input_type -> data.ReadMenuRequest
+	16, // 18: data.MenuService.UpdateMenu:input_type -> data.UpdateMenuRequest
+	18, // 19: data.MenuService.DeleteMenu:input_type -> data.DeleteMenuRequest
+	20, // 20: data.MenuService.ListMenus:input_type -> data.ListMenuRequest
+	22, // 21: data.MenuService.ListAllMenus:input_type -> data.ListAllMenusRequest
+	2,  // 22: data.FoodService.CreateFood:output_type -> data.CreateFoodResponse
+	4,  // 23: data.FoodService.ReadFood:output_type -> data.ReadFoodResponse
+	6,  // 24: data.FoodService.UpdateFood:output_type -> data.UpdateFoodResponse
+	8,  // 25: data.FoodService.DeleteFood:output_type -> data.DeleteFoodResponse
+	10, // 26: data.FoodService.ListFoods:output_type -> data.ListFoodResponse
+	13, // 27: data.MenuService.CreateMenu:output_type -> data.CreateMenuResponse
+	15, // 28: data.MenuService.ReadMenu:output_type -> data.ReadMenuResponse
+	17, // 29: data.MenuService.UpdateMenu:output_type -> data.UpdateMenuResponse
+	19, // 30: data.MenuService.DeleteMenu:output_type -> data.DeleteMenuResponse
+	21, // 31: data.MenuService.ListMenus:output_type -> data.ListMenuResponse
+	23, // 32: data.MenuService.ListAllMenus:output_type -> data.ListAllMenusResponse
+	22, // [22:33] is the sub-list for method output_type
+	11, // [11:22] is the sub-list for method input_type
+	11, // [11:11] is the sub-list for extension type_name
+	11, // [11:11] is the sub-list for extension extendee
+	0,  // [0:11] is the sub-list for field type_name
 }
 
 func init() { file_foodpb_food_proto_init() }
@@ -806,6 +1518,162 @@ func file_foodpb_food_proto_init() {
 				return nil
 			}
 		}
+		file_foodpb_food_proto_msgTypes[11].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*Menu); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[12].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*CreateMenuRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[13].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*CreateMenuResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[14].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*ReadMenuRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[15].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*ReadMenuResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[16].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*UpdateMenuRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[17].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*UpdateMenuResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[18].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*DeleteMenuRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[19].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*DeleteMenuResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[20].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*ListMenuRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[21].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*ListMenuResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[22].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*ListAllMenusRequest); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
+		file_foodpb_food_proto_msgTypes[23].Exporter = func(v interface{}, i int) interface{} {
+			switch v := v.(*ListAllMenusResponse); i {
+			case 0:
+				return &v.state
+			case 1:
+				return &v.sizeCache
+			case 2:
+				return &v.unknownFields
+			default:
+				return nil
+			}
+		}
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
@@ -813,9 +1681,9 @@ func file_foodpb_food_proto_init() {
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: file_foodpb_food_proto_rawDesc,
 			NumEnums:      0,
-			NumMessages:   11,
+			NumMessages:   24,
 			NumExtensions: 0,
-			NumServices:   1,
+			NumServices:   2,
 		},
 		GoTypes:           file_foodpb_food_proto_goTypes,
 		DependencyIndexes: file_foodpb_food_proto_depIdxs,
@@ -1079,6 +1947,318 @@ var _FoodService_serviceDesc = grpc.ServiceDesc{
 			Handler:       _FoodService_ListFoods_Handler,
 			ServerStreams: true,
 			ClientStreams: true,
+		},
+	},
+	Metadata: "foodpb/food.proto",
+}
+
+// MenuServiceClient is the client API for MenuService service.
+//
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+type MenuServiceClient interface {
+	CreateMenu(ctx context.Context, in *CreateMenuRequest, opts ...grpc.CallOption) (*CreateMenuResponse, error)
+	ReadMenu(ctx context.Context, in *ReadMenuRequest, opts ...grpc.CallOption) (*ReadMenuResponse, error)
+	UpdateMenu(ctx context.Context, in *UpdateMenuRequest, opts ...grpc.CallOption) (*UpdateMenuResponse, error)
+	DeleteMenu(ctx context.Context, in *DeleteMenuRequest, opts ...grpc.CallOption) (*DeleteMenuResponse, error)
+	ListMenus(ctx context.Context, opts ...grpc.CallOption) (MenuService_ListMenusClient, error)
+	ListAllMenus(ctx context.Context, in *ListAllMenusRequest, opts ...grpc.CallOption) (MenuService_ListAllMenusClient, error)
+}
+
+type menuServiceClient struct {
+	cc grpc.ClientConnInterface
+}
+
+func NewMenuServiceClient(cc grpc.ClientConnInterface) MenuServiceClient {
+	return &menuServiceClient{cc}
+}
+
+func (c *menuServiceClient) CreateMenu(ctx context.Context, in *CreateMenuRequest, opts ...grpc.CallOption) (*CreateMenuResponse, error) {
+	out := new(CreateMenuResponse)
+	err := c.cc.Invoke(ctx, "/data.MenuService/CreateMenu", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *menuServiceClient) ReadMenu(ctx context.Context, in *ReadMenuRequest, opts ...grpc.CallOption) (*ReadMenuResponse, error) {
+	out := new(ReadMenuResponse)
+	err := c.cc.Invoke(ctx, "/data.MenuService/ReadMenu", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *menuServiceClient) UpdateMenu(ctx context.Context, in *UpdateMenuRequest, opts ...grpc.CallOption) (*UpdateMenuResponse, error) {
+	out := new(UpdateMenuResponse)
+	err := c.cc.Invoke(ctx, "/data.MenuService/UpdateMenu", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *menuServiceClient) DeleteMenu(ctx context.Context, in *DeleteMenuRequest, opts ...grpc.CallOption) (*DeleteMenuResponse, error) {
+	out := new(DeleteMenuResponse)
+	err := c.cc.Invoke(ctx, "/data.MenuService/DeleteMenu", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *menuServiceClient) ListMenus(ctx context.Context, opts ...grpc.CallOption) (MenuService_ListMenusClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_MenuService_serviceDesc.Streams[0], "/data.MenuService/ListMenus", opts...)
+	if err != nil {
+		return nil, err
+	}
+	x := &menuServiceListMenusClient{stream}
+	return x, nil
+}
+
+type MenuService_ListMenusClient interface {
+	Send(*ListMenuRequest) error
+	Recv() (*ListMenuResponse, error)
+	grpc.ClientStream
+}
+
+type menuServiceListMenusClient struct {
+	grpc.ClientStream
+}
+
+func (x *menuServiceListMenusClient) Send(m *ListMenuRequest) error {
+	return x.ClientStream.SendMsg(m)
+}
+
+func (x *menuServiceListMenusClient) Recv() (*ListMenuResponse, error) {
+	m := new(ListMenuResponse)
+	if err := x.ClientStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
+func (c *menuServiceClient) ListAllMenus(ctx context.Context, in *ListAllMenusRequest, opts ...grpc.CallOption) (MenuService_ListAllMenusClient, error) {
+	stream, err := c.cc.NewStream(ctx, &_MenuService_serviceDesc.Streams[1], "/data.MenuService/ListAllMenus", opts...)
+	if err != nil {
+		return nil, err
+	}
+	x := &menuServiceListAllMenusClient{stream}
+	if err := x.ClientStream.SendMsg(in); err != nil {
+		return nil, err
+	}
+	if err := x.ClientStream.CloseSend(); err != nil {
+		return nil, err
+	}
+	return x, nil
+}
+
+type MenuService_ListAllMenusClient interface {
+	Recv() (*ListAllMenusResponse, error)
+	grpc.ClientStream
+}
+
+type menuServiceListAllMenusClient struct {
+	grpc.ClientStream
+}
+
+func (x *menuServiceListAllMenusClient) Recv() (*ListAllMenusResponse, error) {
+	m := new(ListAllMenusResponse)
+	if err := x.ClientStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
+// MenuServiceServer is the server API for MenuService service.
+type MenuServiceServer interface {
+	CreateMenu(context.Context, *CreateMenuRequest) (*CreateMenuResponse, error)
+	ReadMenu(context.Context, *ReadMenuRequest) (*ReadMenuResponse, error)
+	UpdateMenu(context.Context, *UpdateMenuRequest) (*UpdateMenuResponse, error)
+	DeleteMenu(context.Context, *DeleteMenuRequest) (*DeleteMenuResponse, error)
+	ListMenus(MenuService_ListMenusServer) error
+	ListAllMenus(*ListAllMenusRequest, MenuService_ListAllMenusServer) error
+}
+
+// UnimplementedMenuServiceServer can be embedded to have forward compatible implementations.
+type UnimplementedMenuServiceServer struct {
+}
+
+func (*UnimplementedMenuServiceServer) CreateMenu(context.Context, *CreateMenuRequest) (*CreateMenuResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method CreateMenu not implemented")
+}
+func (*UnimplementedMenuServiceServer) ReadMenu(context.Context, *ReadMenuRequest) (*ReadMenuResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method ReadMenu not implemented")
+}
+func (*UnimplementedMenuServiceServer) UpdateMenu(context.Context, *UpdateMenuRequest) (*UpdateMenuResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method UpdateMenu not implemented")
+}
+func (*UnimplementedMenuServiceServer) DeleteMenu(context.Context, *DeleteMenuRequest) (*DeleteMenuResponse, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method DeleteMenu not implemented")
+}
+func (*UnimplementedMenuServiceServer) ListMenus(MenuService_ListMenusServer) error {
+	return status.Errorf(codes.Unimplemented, "method ListMenus not implemented")
+}
+func (*UnimplementedMenuServiceServer) ListAllMenus(*ListAllMenusRequest, MenuService_ListAllMenusServer) error {
+	return status.Errorf(codes.Unimplemented, "method ListAllMenus not implemented")
+}
+
+func RegisterMenuServiceServer(s *grpc.Server, srv MenuServiceServer) {
+	s.RegisterService(&_MenuService_serviceDesc, srv)
+}
+
+func _MenuService_CreateMenu_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(CreateMenuRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(MenuServiceServer).CreateMenu(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/data.MenuService/CreateMenu",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(MenuServiceServer).CreateMenu(ctx, req.(*CreateMenuRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _MenuService_ReadMenu_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(ReadMenuRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(MenuServiceServer).ReadMenu(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/data.MenuService/ReadMenu",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(MenuServiceServer).ReadMenu(ctx, req.(*ReadMenuRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _MenuService_UpdateMenu_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(UpdateMenuRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(MenuServiceServer).UpdateMenu(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/data.MenuService/UpdateMenu",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(MenuServiceServer).UpdateMenu(ctx, req.(*UpdateMenuRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _MenuService_DeleteMenu_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(DeleteMenuRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(MenuServiceServer).DeleteMenu(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/data.MenuService/DeleteMenu",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(MenuServiceServer).DeleteMenu(ctx, req.(*DeleteMenuRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _MenuService_ListMenus_Handler(srv interface{}, stream grpc.ServerStream) error {
+	return srv.(MenuServiceServer).ListMenus(&menuServiceListMenusServer{stream})
+}
+
+type MenuService_ListMenusServer interface {
+	Send(*ListMenuResponse) error
+	Recv() (*ListMenuRequest, error)
+	grpc.ServerStream
+}
+
+type menuServiceListMenusServer struct {
+	grpc.ServerStream
+}
+
+func (x *menuServiceListMenusServer) Send(m *ListMenuResponse) error {
+	return x.ServerStream.SendMsg(m)
+}
+
+func (x *menuServiceListMenusServer) Recv() (*ListMenuRequest, error) {
+	m := new(ListMenuRequest)
+	if err := x.ServerStream.RecvMsg(m); err != nil {
+		return nil, err
+	}
+	return m, nil
+}
+
+func _MenuService_ListAllMenus_Handler(srv interface{}, stream grpc.ServerStream) error {
+	m := new(ListAllMenusRequest)
+	if err := stream.RecvMsg(m); err != nil {
+		return err
+	}
+	return srv.(MenuServiceServer).ListAllMenus(m, &menuServiceListAllMenusServer{stream})
+}
+
+type MenuService_ListAllMenusServer interface {
+	Send(*ListAllMenusResponse) error
+	grpc.ServerStream
+}
+
+type menuServiceListAllMenusServer struct {
+	grpc.ServerStream
+}
+
+func (x *menuServiceListAllMenusServer) Send(m *ListAllMenusResponse) error {
+	return x.ServerStream.SendMsg(m)
+}
+
+var _MenuService_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "data.MenuService",
+	HandlerType: (*MenuServiceServer)(nil),
+	Methods: []grpc.MethodDesc{
+		{
+			MethodName: "CreateMenu",
+			Handler:    _MenuService_CreateMenu_Handler,
+		},
+		{
+			MethodName: "ReadMenu",
+			Handler:    _MenuService_ReadMenu_Handler,
+		},
+		{
+			MethodName: "UpdateMenu",
+			Handler:    _MenuService_UpdateMenu_Handler,
+		},
+		{
+			MethodName: "DeleteMenu",
+			Handler:    _MenuService_DeleteMenu_Handler,
+		},
+	},
+	Streams: []grpc.StreamDesc{
+		{
+			StreamName:    "ListMenus",
+			Handler:       _MenuService_ListMenus_Handler,
+			ServerStreams: true,
+			ClientStreams: true,
+		},
+		{
+			StreamName:    "ListAllMenus",
+			Handler:       _MenuService_ListAllMenus_Handler,
+			ServerStreams: true,
 		},
 	},
 	Metadata: "foodpb/food.proto",

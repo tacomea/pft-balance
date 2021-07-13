@@ -12,7 +12,6 @@ import (
 	"pft-balance/food/domain"
 	"pft-balance/food/foodpb"
 	"pft-balance/food/repository"
-	"pft-balance/food/usecase"
 )
 
 var (
@@ -100,16 +99,20 @@ func main() {
 	//fu := usecase.NewFoodUsecase(sm)
 	mm := repository.NewMenuServerMySQL(db)
 
+	foodServer := grpc.NewServer()
+	menuServer := grpc.NewServer()
 
-	var opts []grpc.ServerOption
-	s := grpc.NewServer(opts...)
-	foodpb.RegisterFoodServiceServer(s, sm)
+	foodpb.RegisterFoodServiceServer(foodServer, sm)
+	foodpb.RegisterMenuServiceServer(menuServer, mm)
 
 	// Register reflection service on gRPC server
 	//reflection.Register(s)
 
 	go func() {
-		if err := s.Serve(lis); err != nil {
+		if err := foodServer.Serve(lis); err != nil {
+			log.Fatalf("failed to serve : %v", err)
+		}
+		if err := menuServer.Serve(lis); err != nil {
 			log.Fatalf("failed to serve : %v", err)
 		}
 	}()
@@ -121,7 +124,7 @@ func main() {
 	// block until a signal is received
 	<-ch
 	fmt.Println("stopping the server")
-	s.Stop()
+	foodServer.Stop()
 	fmt.Println("Closing the lister")
 	lis.Close()
 	fmt.Println("End of program")

@@ -104,10 +104,19 @@ message ListMenuResponse {
   Menu menu = 1;
 }
 
+message ListAllMenusRequest {
+
+}
+
+message ListAllMenusResponse {
+  Menu menu = 1;
+}
+
 service MenuService {
   rpc CreateMenu (CreateMenuRequest) returns (CreateMenuResponse);
   rpc ReadMenu (ReadMenuRequest) returns (ReadMenuResponse);
   rpc UpdateMenu (UpdateMenuRequest) returns (UpdateMenuResponse);
   rpc DeleteMenu (DeleteMenuRequest) returns (DeleteMenuResponse);
   rpc ListMenus (stream ListMenuRequest) returns (stream ListMenuResponse){};
+  rpc ListAllMenus (ListAllMenusRequest) returns (stream ListAllMenusResponse){};
 }

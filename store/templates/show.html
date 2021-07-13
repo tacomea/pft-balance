@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>追加したメニュー</h1>
+{{if .}}
+
+{{range .}}
+<p>ID: {{.ID}}</p>
+<p>Name: {{.Name}}</p>
+<p>Protein: {{.Protein}}</p>
+<p>Fat: {{.Fat}}</p>
+<p>Carbs: {{.Carbs}}</p>
+
+{{end}}
+
+{{end}}
+</body>
+</html>

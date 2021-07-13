@@ -43,6 +43,7 @@ type MenuRepository interface {
 	UpdateMenu(ctx context.Context, req *foodpb.UpdateMenuRequest) (*foodpb.UpdateMenuResponse, error)
 	DeleteMenu(ctx context.Context, req *foodpb.DeleteMenuRequest) (*foodpb.DeleteMenuResponse, error)
 	ListMenus(stream foodpb.MenuService_ListMenusServer) error
+	ListAllMenus(req *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error
 }
 
 type MenuUsecase interface {
@@ -51,4 +52,5 @@ type MenuUsecase interface {
 	UpdateMenu(ctx context.Context, req *foodpb.UpdateMenuRequest) (*foodpb.UpdateMenuResponse, error)
 	DeleteMenu(ctx context.Context, req *foodpb.DeleteMenuRequest) (*foodpb.DeleteMenuResponse, error)
 	ListMenus(stream foodpb.MenuService_ListMenusServer) error
+	ListAllMenus(req *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error
 }

@@ -57,3 +57,66 @@ service FoodService {
   rpc DeleteFood (DeleteFoodRequest) returns (DeleteFoodResponse);
   rpc ListFoods (stream ListFoodRequest) returns (stream ListFoodResponse){};
 }
+
+message Menu {
+  uint32 id = 1;
+  string name = 2;
+  double protein = 3;
+  double fat = 4;
+  double carbs = 5;
+}
+
+message CreateMenuRequest {
+  Menu menu = 1;
+}
+
+message CreateMenuResponse {
+}
+
+message ReadMenuRequest {
+  string menu_id = 1;
+}
+
+message ReadMenuResponse {
+  Menu menu = 1;
+}
+
+message UpdateMenuRequest {
+  Menu menu = 1;
+}
+
+message UpdateMenuResponse {
+  Menu menu = 1;
+}
+
+message DeleteMenuRequest {
+  string menu_id = 1;
+}
+
+message DeleteMenuResponse {
+}
+
+message ListMenuRequest {
+  string menu_id = 1;
+}
+
+message ListMenuResponse {
+  Menu menu = 1;
+}
+
+message ListAllMenusRequest {
+
+}
+
+message ListAllMenusResponse {
+  Menu menu = 1;
+}
+
+service MenuService {
+  rpc CreateMenu (CreateMenuRequest) returns (CreateMenuResponse);
+  rpc ReadMenu (ReadMenuRequest) returns (ReadMenuResponse);
+  rpc UpdateMenu (UpdateMenuRequest) returns (UpdateMenuResponse);
+  rpc DeleteMenu (DeleteMenuRequest) returns (DeleteMenuResponse);
+  rpc ListMenus (stream ListMenuRequest) returns (stream ListMenuResponse){};
+  rpc ListAllMenus (ListAllMenusRequest) returns (stream ListAllMenusResponse){};
+}

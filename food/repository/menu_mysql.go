@@ -7,6 +7,7 @@ import (
 	"google.golang.org/grpc/status"
 	"gorm.io/gorm"
 	"io"
+	"log"
 	"pft-balance/food/domain"
 	"pft-balance/food/foodpb"
 	"pft-balance/food/utils"
@@ -139,5 +140,22 @@ func (sm *menuServerMySQL) ListMenus(stream foodpb.MenuService_ListMenusServer) 
 				fmt.Sprintf("unexpected error in ListMenu(): %v\n", res.Error),
 			)
 		}
+	}
+}
+
+func (sm *menuServerMySQL) ListAllMenus(_ *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error {
+	id := 0
+	for {
+		var data domain.Menu
+
+		res := sm.db.First(&data, "id = ?", id)
+		if res.Error != nil {
+			return nil
+		}
+		err := stream.Send(&foodpb.ListAllMenusResponse{Menu: utils.DataToMenuPb(&data)})
+		if err != nil {
+			log.Fatalln(err)
+		}
+		id++
 	}
 }
