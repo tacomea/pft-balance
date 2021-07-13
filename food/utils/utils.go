@@ -23,3 +23,22 @@ func DataToFoodPb(data *domain.Food) *foodpb.Food {
 		Carbs:   data.Carbs,
 	}
 }
+
+func MenuPbToData(menu *foodpb.Menu) *domain.Menu {
+	return &domain.Menu{
+		Name:    menu.GetName(),
+		Protein: menu.GetProtein(),
+		Fat:     menu.GetFat(),
+		Carbs:   menu.GetCarbs(),
+	}
+}
+
+func DataToMenuPb(data *domain.Menu) *foodpb.Menu {
+	return &foodpb.Menu{
+		Id:      data.ID,
+		Name:    data.Name,
+		Protein: data.Protein,
+		Fat:     data.Fat,
+		Carbs:   data.Carbs,
+	}
+}

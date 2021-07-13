@@ -12,6 +12,7 @@ import (
 	"pft-balance/food/domain"
 	"pft-balance/food/foodpb"
 	"pft-balance/food/repository"
+	"pft-balance/food/usecase"
 )
 
 var (
@@ -96,6 +97,8 @@ func main() {
 	}
 
 	sm := repository.NewFoodServerMySQL(db)
+	//fu := usecase.NewFoodUsecase(sm)
+	mm := repository.NewMenuServerMySQL(db)
 
 
 	var opts []grpc.ServerOption
