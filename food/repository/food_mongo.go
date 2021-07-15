@@ -59,7 +59,7 @@ func (sm *foodServerMongo) ReadFood(_ context.Context, req *foodpb.ReadFoodReque
 	// create an empty struct
 	data := &domain.Food{}
 
-	filter := bson.M{"_id": id}
+	filter := bson.M{"id": id}
 
 	res := sm.collection.FindOne(context.Background(), filter)
 	if err := res.Decode(data); err != nil {
@@ -87,7 +87,7 @@ func (sm *foodServerMongo) UpdateFood(_ context.Context, req *foodpb.UpdateFoodR
 
 	// create an empty struct
 	data := &domain.Food{}
-	filter := bson.M{"_id": food.GetId()}
+	filter := bson.M{"id": food.GetId()}
 
 	res := sm.collection.FindOne(context.Background(), filter)
 	if err := res.Decode(data); err != nil {
@@ -124,7 +124,7 @@ func (sm *foodServerMongo) DeleteFood(_ context.Context, req *foodpb.DeleteFoodR
 	//}
 
 	// create an empty struct
-	filter := bson.M{"_id": id}
+	filter := bson.M{"id": id}
 	res, err := sm.collection.DeleteOne(context.Background(), filter)
 	if err != nil {
 		return nil, status.Errorf(
@@ -161,7 +161,7 @@ func (sm *foodServerMongo) ListFoods(stream foodpb.FoodService_ListFoodsServer) 
 
 		data := &domain.Food{}
 
-		filter := bson.M{"_id": req.GetFoodId()}
+		filter := bson.M{"id": req.GetFoodId()}
 
 		res := sm.collection.FindOne(context.Background(), filter)
 		if err := res.Decode(data); err != nil {

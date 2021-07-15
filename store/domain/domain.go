@@ -1,7 +1,7 @@
 package domain
 
 type Menu struct {
-	ID      uint32 `gorm:"primaryKey;autoIncrement;index"`
+	ID      string `gorm:"primaryKey;index"`
 	Name    string
 	Protein float64
 	Fat     float64

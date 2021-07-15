@@ -6,7 +6,7 @@ import (
 )
 
 type Food struct {
-	ID      uint32 `gorm:"primaryKey;autoIncrement;index"`
+	ID      string `gorm:"primaryKey;index"`
 	Name    string
 	Protein float64
 	Fat     float64
@@ -30,7 +30,7 @@ type FoodUsecase interface {
 }
 
 type Menu struct {
-	ID      uint32 `gorm:"primaryKey;autoIncrement;index"`
+	ID      string `gorm:"primaryKey;index"`
 	Name    string
 	Protein float64
 	Fat     float64

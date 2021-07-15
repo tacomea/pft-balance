@@ -14,18 +14,48 @@ func main() {
 
 	opts := grpc.WithInsecure()
 
-	cc, err := grpc.Dial("0.0.0.0:50050", opts)
+	cc1, err := grpc.Dial("0.0.0.0:50051", opts)
 	if err != nil {
 		log.Fatalf("could not conntect: %v\n", err)
 	}
-	defer cc.Close()
+	defer cc1.Close()
 
-	c := foodpb.NewMenuServiceClient(cc)
+	cc2, err := grpc.Dial("0.0.0.0:50050", opts)
+	if err != nil {
+		log.Fatalf("could not conntect: %v\n", err)
+	}
+	defer cc2.Close()
+
+	c1 := foodpb.NewFoodServiceClient(cc1)
+	c2 := foodpb.NewMenuServiceClient(cc2)
+
+	res, err := c1.ReadFood(context.Background(), &foodpb.ReadFoodRequest{FoodId: "1"})
+	if err != nil {
+		log.Println(err)
+		return
+	}
+	fmt.Println(res.GetFood())
+
+	res1, err := c2.ListAllMenus(context.Background(), &foodpb.ListAllMenusRequest{})
+	if err != nil {
+		log.Println(err)
+		return
+	}
+	for {
+		msg, err := res1.Recv()
+		if err != io.EOF {
+			break
+		}
+		if err != nil {
+			log.Println(err)
+		}
+		log.Println(msg.GetMenu())
+	}
 
 	// create food
-	createMenu(c)
-	createMenu(c)
-	createMenu(c)
+	//createMenu(c2)
+	//createMenu(c2)
+	//createMenu(c2)
 
 	// read food
 	//readMenu(c, foodId)

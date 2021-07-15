@@ -163,15 +163,12 @@ func (c *serviceClient) updateHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	name := r.FormValue("name")
-	id, err := strconv.ParseUint(r.FormValue("id"), 10, 32)
-	if err != nil {
-		log.Println(err)
-	}
+	id := r.FormValue("id")
 
 	protein, fat, carbs := calcNutri(r, c.fc)
 
-	_, err = c.mc.UpdateMenu(context.Background(), &foodpb.UpdateMenuRequest{Menu: &foodpb.Menu{
-		Id:      uint32(id),
+	_, err := c.mc.UpdateMenu(context.Background(), &foodpb.UpdateMenuRequest{Menu: &foodpb.Menu{
+		Id:      id,
 		Name:    name,
 		Protein: protein,
 		Fat:     fat,

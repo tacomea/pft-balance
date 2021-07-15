@@ -3,6 +3,7 @@ package repository
 import (
 	"context"
 	"fmt"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -184,7 +185,7 @@ func (sm *menuServerMongo) ListMenu(stream foodpb.MenuService_ListMenuServer) er
 
 func (sm *menuServerMongo) ListAllMenus(_ *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error {
 	fmt.Println("ListAllMenus()")
-	cur, err := sm.collection.Find(context.Background(), nil)
+	cur, err := sm.collection.Find(context.Background(), primitive.D{{}})
 	if err != nil {
 		return status.Errorf(
 			codes.Internal,

@@ -5,7 +5,7 @@ package data;
 option go_package = "./foodpb";
 
 message Food {
-  uint32 id = 1;
+  string id = 1;
   string name = 2;
   double protein = 3;
   double fat = 4;
@@ -59,7 +59,7 @@ service FoodService {
 }
 
 message Menu {
-  uint32 id = 1;
+  string id = 1;
   string name = 2;
   double protein = 3;
   double fat = 4;
@@ -117,6 +117,6 @@ service MenuService {
   rpc ReadMenu (ReadMenuRequest) returns (ReadMenuResponse);
   rpc UpdateMenu (UpdateMenuRequest) returns (UpdateMenuResponse);
   rpc DeleteMenu (DeleteMenuRequest) returns (DeleteMenuResponse);
-  rpc ListMenus (stream ListMenuRequest) returns (stream ListMenuResponse){};
+  rpc ListMenu (stream ListMenuRequest) returns (stream ListMenuResponse){};
   rpc ListAllMenus (ListAllMenusRequest) returns (stream ListAllMenusResponse){};
 }
