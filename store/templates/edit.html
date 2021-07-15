@@ -5,5 +5,34 @@
     <title>Document</title>
 </head>
 <body>
+<p><a href="/">Go back home</a></p>
+<form method="post" action="/edit">
+    <label for="id">Input menu ID</label>
+    <input type="text" name="id" id="id">
+    <input type="submit">
+</form>
+<p>Please refer <a href="/show">here</a> for menu ID</p>
+{{ if . }}
+<form method="post" action="/update">
+    <div>
+        <label for="name">Menu Name<br></label>
+        <input type="text" id="name" name="name" value={{.Name}}>
+        <input type="hidden" name="id" value={{.ID}}>
+    </div>
+    <div>
+        <p>Protein</p>
+        <input type="number" name="protein" value={{.Protein}}>
+    </div>
+    <div>
+        <p>Fat</p>
+        <input type="number" name="fat" value={{.Fat}}>
+    </div>
+    <div>
+        <p>Carbs</p>
+        <input type="number" name="carbs" value={{.Carbs}}>
+    </div>
+    <input type="submit">
+</form>
+{{ end }}
 </body>
 </html>

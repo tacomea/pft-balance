@@ -5,6 +5,7 @@
     <title>Document</title>
 </head>
 <body>
+<p><a href="/">Go back home</a></p>
 <h1>追加したメニュー</h1>
 {{if .}}
 
@@ -14,6 +15,15 @@
 <p>Protein: {{.Protein}}</p>
 <p>Fat: {{.Fat}}</p>
 <p>Carbs: {{.Carbs}}</p>
+<form action="/delete" method="post">
+    <input type="hidden" value={{.ID}} name="id">
+    <input type="submit" value="削除">
+</form>
+
+{{else}}
+
+<p>メニューが追加されていません</p>
+<p><a href="/add">こちら</a>から追加してください！</p>
 
 {{end}}
 

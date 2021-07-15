@@ -68,8 +68,9 @@ func main() {
 	r.HandleFunc("/edit", c.editHandler)
 
 	// POST
-	r.HandleFunc("/create", c.createHandler)
-	r.HandleFunc("/update", c.updateHandler)
+	r.HandleFunc("/create", c.createHandler).Methods("POST")
+	r.HandleFunc("/update", c.updateHandler).Methods("POST")
+	r.HandleFunc("/delete", c.deleteHandler).Methods("POST")
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "80"
@@ -126,12 +127,36 @@ func (c *serviceClient) addHandler(w http.ResponseWriter, _ *http.Request) {
 	}
 }
 
-func (c *serviceClient) editHandler(w http.ResponseWriter, _ *http.Request) {
+func (c *serviceClient) editHandler(w http.ResponseWriter, r *http.Request) {
+	id := r.FormValue("id")
+	if id != "" {
+		res, err := c.mc.ReadMenu(context.Background(), &foodpb.ReadMenuRequest{MenuId: id})
+		if err != nil {
+			msg := url.QueryEscape("Menu does not exist with the specified ID")
+			http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+			return
+		}
+		menu := domain.Menu{
+			ID:      res.GetMenu().GetId(),
+			Name:    res.GetMenu().GetName(),
+			Protein: res.GetMenu().GetProtein(),
+			Fat:     res.GetMenu().GetFat(),
+			Carbs:   res.GetMenu().GetCarbs(),
+		}
+		fmt.Println(menu)
+		err = tpl.ExecuteTemplate(w, "edit.html", menu)
+		if err != nil {
+			log.Println(err)
+		}
+		return
+	}
+
 	err := tpl.ExecuteTemplate(w, "edit.html", nil)
 	if err != nil {
 		log.Println(err)
 	}
 }
+
 
 func (c *serviceClient) createHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
@@ -157,17 +182,22 @@ func (c *serviceClient) createHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func (c *serviceClient) updateHandler(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
-		http.Redirect(w, r, "/", http.StatusSeeOther)
-		return
-	}
-
 	name := r.FormValue("name")
 	id := r.FormValue("id")
+	protein, err := strconv.ParseFloat(r.FormValue("protein"), 32)
+	if err != nil {
+		log.Println(err)
+	}
+	fat, err := strconv.ParseFloat(r.FormValue("fat"), 32)
+	if err != nil {
+		log.Println(err)
+	}
+	carbs, err := strconv.ParseFloat(r.FormValue("carbs"), 32)
+	if err != nil {
+		log.Println(err)
+	}
 
-	protein, fat, carbs := calcNutri(r, c.fc)
-
-	_, err := c.mc.UpdateMenu(context.Background(), &foodpb.UpdateMenuRequest{Menu: &foodpb.Menu{
+	_, err = c.mc.UpdateMenu(context.Background(), &foodpb.UpdateMenuRequest{Menu: &foodpb.Menu{
 		Id:      id,
 		Name:    name,
 		Protein: protein,
@@ -222,4 +252,16 @@ func calcNutri(r *http.Request, fc foodpb.FoodServiceClient) (float64, float64, 
 	carbs += res3.GetFood().GetCarbs() * amount3 / 100
 
 	return protein, fat, carbs
+}
+func (c *serviceClient) deleteHandler(w http.ResponseWriter, r *http.Request) {
+	id := r.FormValue("id")
+
+	_, err := c.mc.DeleteMenu(context.Background(), &foodpb.DeleteMenuRequest{MenuId: id})
+	if err != nil {
+		msg := url.QueryEscape("Internal Error: Menu was not deleted")
+		http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+		return
+	}
+	msg := url.QueryEscape("Menu was successfully deleted")
+	http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
 }
