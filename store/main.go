@@ -89,26 +89,26 @@ func (c *serviceClient) indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func (c *serviceClient) showHandler(w http.ResponseWriter, _ *http.Request) {
-	res, err := c.mc.ListAllMenus(context.Background(), &foodpb.ListAllMenusRequest{})
+	stream, err := c.mc.ListAllMenus(context.Background(), &foodpb.ListAllMenusRequest{})
 	if err != nil {
 		log.Println(err)
 	}
 
 	var menus []domain.Menu
 	for {
-		msg, err := res.Recv()
-		if err != io.EOF {
+		res, err := stream.Recv()
+		if err == io.EOF {
 			break
 		}
 		if err != nil {
 			log.Println(err)
 		}
 		menu := domain.Menu{
-			ID:      msg.GetMenu().GetId(),
-			Name:    msg.GetMenu().GetName(),
-			Protein: msg.GetMenu().GetProtein(),
-			Fat:     msg.GetMenu().GetFat(),
-			Carbs:   msg.GetMenu().GetCarbs(),
+			ID:      res.GetMenu().GetId(),
+			Name:    res.GetMenu().GetName(),
+			Protein: res.GetMenu().GetProtein(),
+			Fat:     res.GetMenu().GetFat(),
+			Carbs:   res.GetMenu().GetCarbs(),
 		}
 		menus = append(menus, menu)
 	}

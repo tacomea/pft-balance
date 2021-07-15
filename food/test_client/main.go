@@ -14,11 +14,11 @@ func main() {
 
 	opts := grpc.WithInsecure()
 
-	cc1, err := grpc.Dial("0.0.0.0:50051", opts)
-	if err != nil {
-		log.Fatalf("could not conntect: %v\n", err)
-	}
-	defer cc1.Close()
+	//cc1, err := grpc.Dial("0.0.0.0:50051", opts)
+	//if err != nil {
+	//	log.Fatalf("could not conntect: %v\n", err)
+	//}
+	//defer cc1.Close()
 
 	cc2, err := grpc.Dial("0.0.0.0:50050", opts)
 	if err != nil {
@@ -26,15 +26,32 @@ func main() {
 	}
 	defer cc2.Close()
 
-	c1 := foodpb.NewFoodServiceClient(cc1)
+	//c1 := foodpb.NewFoodServiceClient(cc1)
 	c2 := foodpb.NewMenuServiceClient(cc2)
 
-	res, err := c1.ReadFood(context.Background(), &foodpb.ReadFoodRequest{FoodId: "1"})
+	//res, err := c1.ReadFood(context.Background(), &foodpb.ReadFoodRequest{FoodId: "1"})
+	//if err != nil {
+	//	log.Println(err)
+	//	return
+	//}
+	//fmt.Println(res.GetFood())
+
+	menu := foodpb.Menu{
+		Name:    "test",
+		Protein: 1.2,
+		Fat:     1.2,
+		Carbs:   1.2,
+	}
+	_, err = c2.CreateMenu(context.Background(), &foodpb.CreateMenuRequest{Menu: &menu})
 	if err != nil {
 		log.Println(err)
+	}
+
+	response, err := c2.ReadMenu(context.Background(), &foodpb.ReadMenuRequest{MenuId: "60eff9760b468d550bc191ad"})
+	if err != nil {
 		return
 	}
-	fmt.Println(res.GetFood())
+	fmt.Println(response.GetMenu())
 
 	res1, err := c2.ListAllMenus(context.Background(), &foodpb.ListAllMenusRequest{})
 	if err != nil {
@@ -43,7 +60,7 @@ func main() {
 	}
 	for {
 		msg, err := res1.Recv()
-		if err != io.EOF {
+		if err == io.EOF {
 			break
 		}
 		if err != nil {
@@ -73,10 +90,10 @@ func main() {
 
 func createMenu(c foodpb.MenuServiceClient) {
 	food := foodpb.Menu{
-		Name: "test",
+		Name:    "test",
 		Protein: 10.10,
-		Fat: 10.10,
-		Carbs: 10.10,
+		Fat:     10.10,
+		Carbs:   10.10,
 	}
 	createMenuRes, err := c.CreateMenu(context.Background(), &foodpb.CreateMenuRequest{Menu: &food})
 	if err != nil {
@@ -101,10 +118,10 @@ func readMenu(c foodpb.MenuServiceClient, foodId string) {
 
 func updateMenu(c foodpb.MenuServiceClient, foodId string) {
 	newMenu := foodpb.Menu{
-		Name: "changed",
+		Name:    "changed",
 		Protein: 20.20,
-		Fat: 20.20,
-		Carbs: 20.20,
+		Fat:     20.20,
+		Carbs:   20.20,
 	}
 	updateRes, err := c.UpdateMenu(context.Background(), &foodpb.UpdateMenuRequest{Menu: &newMenu})
 	if err != nil {

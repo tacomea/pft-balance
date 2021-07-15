@@ -9,7 +9,6 @@ import (
 	"google.golang.org/grpc/status"
 	"gopkg.in/mgo.v2/bson"
 	"io"
-	"log"
 	"pft-balance/menu/domain"
 	"pft-balance/menu/foodpb"
 	"pft-balance/menu/utils"
@@ -29,19 +28,20 @@ func (sm *menuServerMongo) CreateMenu(_ context.Context, req *foodpb.CreateMenuR
 	fmt.Println("CreateMenu()")
 	data := utils.MenuPbToData(req.GetMenu())
 
-	_, err := sm.collection.InsertOne(context.Background(), data)
+	res, err := sm.collection.InsertOne(context.Background(), data)
 	if err != nil {
 		return nil, status.Errorf(
 			codes.Internal,
 			fmt.Sprintf("Internal error: %v", err))
 	}
 
-	//oid, ok := res.InsertedID.(primitive.ObjectID)
-	//if !ok {
-	//	return nil, status.Errorf(
-	//		codes.Internal,
-	//		fmt.Sprintf("cannot convert to OID"))
-	//}
+	oid, ok := res.InsertedID.(primitive.ObjectID)
+	if !ok {
+		return nil, status.Errorf(
+			codes.Internal,
+			fmt.Sprintf("cannot convert to OID"))
+	}
+	fmt.Println(oid)
 
 	return &foodpb.CreateMenuResponse{}, nil
 }
@@ -50,18 +50,18 @@ func (sm *menuServerMongo) ReadMenu(_ context.Context, req *foodpb.ReadMenuReque
 	fmt.Println("ReadMenu()")
 	id := req.GetMenuId()
 
-	//oid, err := primitive.ObjectIDFromHex(foodId)
-	//if err != nil {
-	//	return nil, status.Errorf(
-	//		codes.InvalidArgument,
-	//		fmt.Sprintf("Cannot parse ID"),
-	//	)
-	//}
+	oid, err := primitive.ObjectIDFromHex(id)
+	if err != nil {
+		return nil, status.Errorf(
+			codes.InvalidArgument,
+			fmt.Sprintf("Cannot parse ID"),
+		)
+	}
 
 	// create an empty struct
 	data := &domain.Menu{}
 
-	filter := bson.M{"id": id}
+	filter := bson.M{"_id": oid}
 
 	res := sm.collection.FindOne(context.Background(), filter)
 	if err := res.Decode(data); err != nil {
@@ -79,17 +79,17 @@ func (sm *menuServerMongo) ReadMenu(_ context.Context, req *foodpb.ReadMenuReque
 func (sm *menuServerMongo) UpdateMenu(_ context.Context, req *foodpb.UpdateMenuRequest) (*foodpb.UpdateMenuResponse, error) {
 	fmt.Println("UpdateMenu()")
 	food := req.GetMenu()
-	//oid, err := primitive.ObjectIDFromHex(food.GetId())
-	//if err != nil {
-	//	return nil, status.Errorf(
-	//		codes.InvalidArgument,
-	//		fmt.Sprintf("cannot parse ID"),
-	//	)
-	//}
+	oid, err := primitive.ObjectIDFromHex(food.GetId())
+	if err != nil {
+		return nil, status.Errorf(
+			codes.InvalidArgument,
+			fmt.Sprintf("cannot parse ID"),
+		)
+	}
 
 	// create an empty struct
 	data := &domain.Menu{}
-	filter := bson.M{"id": food.GetId()}
+	filter := bson.M{"_id": oid}
 
 	res := sm.collection.FindOne(context.Background(), filter)
 	if err := res.Decode(data); err != nil {
@@ -101,7 +101,7 @@ func (sm *menuServerMongo) UpdateMenu(_ context.Context, req *foodpb.UpdateMenuR
 
 	data = utils.MenuPbToData(food)
 
-	_, err := sm.collection.ReplaceOne(context.Background(), filter, data)
+	_, err = sm.collection.ReplaceOne(context.Background(), filter, data)
 	if err != nil {
 		return nil, status.Errorf(
 			codes.Internal,
@@ -116,17 +116,17 @@ func (sm *menuServerMongo) UpdateMenu(_ context.Context, req *foodpb.UpdateMenuR
 
 func (sm *menuServerMongo) DeleteMenu(_ context.Context, req *foodpb.DeleteMenuRequest) (*foodpb.DeleteMenuResponse, error) {
 	fmt.Println("DeleteMenu()")
-	id := req.GetMenuId()
-	//oid, err := primitive.ObjectIDFromHex(req.GetMenuId())
-	//if err != nil {
-	//	return nil, status.Errorf(
-	//		codes.InvalidArgument,
-	//		fmt.Sprintf("cannot parse ID"),
-	//	)
-	//}
+
+	oid, err := primitive.ObjectIDFromHex(req.GetMenuId())
+	if err != nil {
+		return nil, status.Errorf(
+			codes.InvalidArgument,
+			fmt.Sprintf("cannot parse ID"),
+		)
+	}
 
 	// create an empty struct
-	filter := bson.M{"id": id}
+	filter := bson.M{"_id": oid}
 	res, err := sm.collection.DeleteOne(context.Background(), filter)
 	if err != nil {
 		return nil, status.Errorf(
@@ -192,22 +192,17 @@ func (sm *menuServerMongo) ListAllMenus(_ *foodpb.ListAllMenusRequest, stream fo
 			fmt.Sprintf("unknown internal error: %v", err),
 		)
 	}
-	defer func(cur *mongo.Cursor, ctx context.Context) {
-		err := cur.Close(ctx)
-		if err != nil {
-			log.Println(err)
-		}
-	}(cur, context.Background())
+	defer cur.Close(context.Background())
 
 	for cur.Next(context.Background()) {
 		data := &domain.Menu{}
-		if err := cur.Decode(data); err != nil {
+		if err = cur.Decode(data); err != nil {
 			return status.Errorf(
 				codes.Internal,
 				fmt.Sprintf("error while decoding data from mongo db: %v", err),
 			)
 		}
-		err := stream.Send(&foodpb.ListAllMenusResponse{Menu: utils.DataToMenuPb(data)})
+		err = stream.Send(&foodpb.ListAllMenusResponse{Menu: utils.DataToMenuPb(data)})
 		if err != nil {
 			return status.Errorf(
 				codes.Internal,

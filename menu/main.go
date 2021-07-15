@@ -69,11 +69,11 @@ func main() {
 	// Mongo
 	client := connectMongo()
 	colMenu := client.Database("food_db").Collection("menu")
+	mm := repository.NewMenuServerMongo(colMenu)
 
 	// Initializing DB
 	//initDb(colFood)
 
-	mm := repository.NewMenuServerMongo(colMenu)
 
 	menuServer := grpc.NewServer()
 
@@ -100,6 +100,7 @@ func main() {
 	fmt.Println("Closing the lister")
 	lis.Close()
 	fmt.Println("closing the mongodb connection")
-	client.Disconnect(context.TODO())
+	//client.Disconnect(context.TODO())
+
 	fmt.Println("End of program")
 }

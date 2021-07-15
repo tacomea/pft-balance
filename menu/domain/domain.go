@@ -6,11 +6,11 @@ import (
 )
 
 type Menu struct {
-	ID      string `gorm:"primaryKey;autoIncrement;index"`
-	Name    string
-	Protein float64
-	Fat     float64
-	Carbs   float64
+	ID      string  `bson:"_id,omitempty"`
+	Name    string  `bson:"name"`
+	Protein float64 `bson:"protein"`
+	Fat     float64 `bson:"fat"`
+	Carbs   float64 `bson:"carbs"`
 }
 
 type MenuRepository interface {
@@ -21,4 +21,3 @@ type MenuRepository interface {
 	ListMenu(stream foodpb.MenuService_ListMenuServer) error
 	ListAllMenus(req *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error
 }
-

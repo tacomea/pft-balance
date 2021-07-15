@@ -86,7 +86,8 @@ func main() {
 	//foodpb.RegisterMenuServiceServer(menuServer, mm)
 
 	// Initializing DB
-	//initDb(colFood)
+	//initMongo(colFood)
+	//initMySQL(db)
 
 	// Register reflection service on gRPC server
 	//reflection.Register(s)
@@ -110,11 +111,11 @@ func main() {
 	fmt.Println("Closing the lister")
 	lis.Close()
 	fmt.Println("closing the mongodb connection")
-	client.Disconnect(context.TODO())
+	//client.Disconnect(context.TODO())
 	fmt.Println("End of program")
 }
 
-func initDb(collection *mongo.Collection) {
+func initMongo(collection *mongo.Collection) {
 	file, err := os.Open("csv/food_en.csv")
 	if err != nil {
 		log.Fatal(err)
@@ -133,11 +134,6 @@ func initDb(collection *mongo.Collection) {
 			log.Fatalln(err)
 		}
 
-		//id, err := strconv.ParseUint(line[0], 10, 32)
-		//if err != nil {
-		//	log.Fatal(err)
-		//}
-		//fmt.Println(id)
 		protein, err := strconv.ParseFloat(line[2], 64)
 		if err != nil {
 			log.Fatal(err)
@@ -151,27 +147,63 @@ func initDb(collection *mongo.Collection) {
 		if err != nil {
 			log.Fatal(err)
 		}
-		// My SQL
-		//res := db.Create(domain.Food{
-		//	Name: line[1],
-		//	Protein: protein,
-		//	Fat: fat,
-		//	Carbs: carbs,
-		//})
-		//if res.Error != nil {
-		//	log.Fatal(res.Error)
-		//}
 
-		// Mongo
 		_, err = collection.InsertOne(context.Background(), domain.Food{
-			Name:    line[1],
 			ID:      line[0],
+			Name:    line[1],
 			Protein: protein,
 			Fat:     fat,
 			Carbs:   carbs,
 		})
 		if err != nil {
 			log.Fatal(err)
+		}
+
+	}
+}
+
+func initMySQL(db *gorm.DB) {
+	file, err := os.Open("csv/food_en.csv")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	var line []string
+
+	for {
+		line, err = reader.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			log.Fatalln(err)
+		}
+
+		protein, err := strconv.ParseFloat(line[2], 64)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fat, err := strconv.ParseFloat(line[3], 64)
+		if err != nil {
+			log.Fatal(err)
+		}
+		carbs, err := strconv.ParseFloat(line[4], 64)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		fmt.Println(line[0])
+		res := db.Create(domain.Food{
+			ID:      line[0],
+			Name: line[1],
+			Protein: protein,
+			Fat: fat,
+			Carbs: carbs,
+		})
+		if res.Error != nil {
+			log.Fatal(res.Error)
 		}
 
 	}
