@@ -42,7 +42,7 @@ type MenuRepository interface {
 	ReadMenu(ctx context.Context, req *foodpb.ReadMenuRequest) (*foodpb.ReadMenuResponse, error)
 	UpdateMenu(ctx context.Context, req *foodpb.UpdateMenuRequest) (*foodpb.UpdateMenuResponse, error)
 	DeleteMenu(ctx context.Context, req *foodpb.DeleteMenuRequest) (*foodpb.DeleteMenuResponse, error)
-	ListMenus(stream foodpb.MenuService_ListMenusServer) error
+	ListMenu(stream foodpb.MenuService_ListMenuServer) error
 	ListAllMenus(req *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error
 }
 
@@ -51,6 +51,6 @@ type MenuUsecase interface {
 	ReadMenu(ctx context.Context, req *foodpb.ReadMenuRequest) (*foodpb.ReadMenuResponse, error)
 	UpdateMenu(ctx context.Context, req *foodpb.UpdateMenuRequest) (*foodpb.UpdateMenuResponse, error)
 	DeleteMenu(ctx context.Context, req *foodpb.DeleteMenuRequest) (*foodpb.DeleteMenuResponse, error)
-	ListMenus(stream foodpb.MenuService_ListMenusServer) error
+	ListMenu(stream foodpb.MenuService_ListMenuServer) error
 	ListAllMenus(req *foodpb.ListAllMenusRequest, stream foodpb.MenuService_ListAllMenusServer) error
 }

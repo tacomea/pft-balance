@@ -109,7 +109,7 @@ func (sm *menuServerMySQL) DeleteMenu(_ context.Context, req *foodpb.DeleteMenuR
 	return &foodpb.DeleteMenuResponse{}, nil
 }
 
-func (sm *menuServerMySQL) ListMenus(stream foodpb.MenuService_ListMenusServer) error {
+func (sm *menuServerMySQL) ListMenu(stream foodpb.MenuService_ListMenuServer) error {
 	fmt.Println("ListMenu()")
 
 	for {

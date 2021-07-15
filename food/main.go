@@ -90,7 +90,7 @@ func main() {
 	//initDb(db)
 
 	fmt.Println("Food Database Server Started!!")
-	lis, err := net.Listen("tcp", "0.0.0.0:50051")
+	lis, err := net.Listen("tcp", "localhost:50051")
 	if err != nil {
 		log.Fatalf("Failed to listen: %v", err)
 	}
