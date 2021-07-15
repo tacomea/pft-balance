@@ -159,11 +159,6 @@ func (c *serviceClient) editHandler(w http.ResponseWriter, r *http.Request) {
 
 
 func (c *serviceClient) createHandler(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
-		http.Redirect(w, r, "/", http.StatusSeeOther)
-		return
-	}
-
 	name := r.FormValue("name")
 
 	protein, fat, carbs := calcNutri(r, c.fc)

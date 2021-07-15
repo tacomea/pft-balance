@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+<p><a href="/">Go back home</a></p>
+<h1>注文する</h1>
+{{if .}}
+
+{{range .}}
+<p>ID: {{.ID}}</p>
+<p>Name: {{.Name}}</p>
+<p>Protein: {{.Protein}}</p>
+<p>Fat: {{.Fat}}</p>
+<p>Carbs: {{.Carbs}}</p>
+<form action="/mfp/check" method="post">
+    <input type="hidden" value={{.ID}} name="id">
+    <input type="submit" value="注文">
+</form>
+
+{{else}}
+
+<p>メニューが追加されていません</p>
+<p><a href="/add">こちら</a>から追加してください！</p>
+
+{{end}}
+
+{{end}}
+</body>
+</html>
