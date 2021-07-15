@@ -1,7 +1,10 @@
 package main
 
 import (
+	"context"
 	"fmt"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
 	"google.golang.org/grpc"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -26,7 +29,7 @@ func init() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 }
 
-func connect() *gorm.DB {
+func connectMySQL() *gorm.DB {
 	connection, err := gorm.Open(mysql.Open(dataSourceName), &gorm.Config{})
 	if err != nil {
 		log.Fatalf("Could not connect to the database: %v", err)
@@ -37,73 +40,50 @@ func connect() *gorm.DB {
 	return connection
 }
 
-//func initDb(db *gorm.DB) {
-//	file, err := os.Open("csv/food_en.csv")
-//	if err != nil {
-//		log.Fatal(err)
-//	}
-//	defer file.Close()
-//
-//	reader := csv.NewReader(file)
-//	var line []string
-//
-//	i := 0
-//	for {
-//		fmt.Println(i)
-//		i++
-//		line, err = reader.Read()
-//		if err == io.EOF {
-//			break
-//		}
-//		if err != nil {
-//			log.Fatalln(err)
-//		}
-//
-//		protein, err := strconv.ParseFloat(line[2], 64)
-//		if err != nil {
-//			log.Fatal(err)
-//		}
-//		fat, err := strconv.ParseFloat(line[3], 64)
-//		if err != nil {
-//			log.Fatal(err)
-//		}
-//		carbs, err := strconv.ParseFloat(line[4], 64)
-//		if err != nil {
-//			log.Fatal(err)
-//		}
-//		res := db.Create(domain.Food{
-//			Name: line[1],
-//			Protein: protein,
-//			Fat: fat,
-//			Carbs: carbs,
-//		})
-//		if res.Error != nil {
-//			log.Fatal(res.Error)
-//		}
-//	}
-//}
+func connectMongo() *mongo.Client {
+	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://localhost:27017"))
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	err = client.Connect(context.TODO())
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return client
+}
 
 func main() {
-	// MySQL
-	db := connect()
-	fmt.Println("initializing DB")
-	//initDb(db)
 
-	fmt.Println("Food Database Server Started!!")
-	lis, err := net.Listen("tcp", "localhost:50051")
+	fmt.Println("Food Database Server Starting...")
+	lis, err := net.Listen("tcp", "0.0.0.0:50051")
 	if err != nil {
 		log.Fatalf("Failed to listen: %v", err)
 	}
 
-	sm := repository.NewFoodServerMySQL(db)
-	//fu := usecase.NewFoodUsecase(sm)
-	mm := repository.NewMenuServerMySQL(db)
+	// MySQL
+	//db := connectMySQL()
+	//sm := repository.NewFoodServerMySQL(db)
+	//mm := repository.NewMenuServerMySQL(db)
 
+	// Mongo
+	client := connectMongo()
+
+	// Food
+	colFood := client.Database("food_db").Collection("food")
+	sm := repository.NewFoodServerMongo(colFood)
 	foodServer := grpc.NewServer()
-	menuServer := grpc.NewServer()
-
 	foodpb.RegisterFoodServiceServer(foodServer, sm)
-	foodpb.RegisterMenuServiceServer(menuServer, mm)
+
+	// Menu
+	//colMenu := client.Database("food_db").Collection("menu")
+	//mm := repository.NewMenuServerMongo(colMenu)
+	//menuServer := grpc.NewServer()
+	//foodpb.RegisterMenuServiceServer(menuServer, mm)
+
+	// Initializing DB
+	//initDb(colFood)
 
 	// Register reflection service on gRPC server
 	//reflection.Register(s)
@@ -112,9 +92,7 @@ func main() {
 		if err := foodServer.Serve(lis); err != nil {
 			log.Fatalf("failed to serve : %v", err)
 		}
-		if err := menuServer.Serve(lis); err != nil {
-			log.Fatalf("failed to serve : %v", err)
-		}
+
 	}()
 
 	// wait for control C to stop
@@ -124,8 +102,75 @@ func main() {
 	// block until a signal is received
 	<-ch
 	fmt.Println("stopping the server")
+	//foodServer.Stop()
 	foodServer.Stop()
 	fmt.Println("Closing the lister")
 	lis.Close()
+	fmt.Println("closing the mongodb connection")
+	client.Disconnect(context.TODO())
 	fmt.Println("End of program")
 }
+
+//func initDb(collection *mongo.Collection) {
+//	file, err := os.Open("csv/food_en.csv")
+//	if err != nil {
+//		log.Fatal(err)
+//	}
+//	defer file.Close()
+//
+//	reader := csv.NewReader(file)
+//	var line []string
+//
+//	for {
+//		line, err = reader.Read()
+//		if err == io.EOF {
+//			break
+//		}
+//		if err != nil {
+//			log.Fatalln(err)
+//		}
+//
+//		id, err := strconv.ParseUint(line[0], 10, 32)
+//		if err != nil {
+//			log.Fatal(err)
+//		}
+//		fmt.Println(id)
+//		protein, err := strconv.ParseFloat(line[2], 64)
+//		if err != nil {
+//			log.Fatal(err)
+//		}
+//		fmt.Println(line[3])
+//		fat, err := strconv.ParseFloat(line[3], 64)
+//		if err != nil {
+//			log.Fatal(err)
+//		}
+//		carbs, err := strconv.ParseFloat(line[4], 64)
+//		if err != nil {
+//			log.Fatal(err)
+//		}
+//		// My SQL
+//		//res := db.Create(domain.Food{
+//		//	Name: line[1],
+//		//	Protein: protein,
+//		//	Fat: fat,
+//		//	Carbs: carbs,
+//		//})
+//		//if res.Error != nil {
+//		//	log.Fatal(res.Error)
+//		//}
+//
+//		// Mongo
+//		_, err = collection.InsertOne(context.Background(), domain.Food{
+//			Name:    line[1],
+//			ID: uint32(id),
+//			Protein: protein,
+//			Fat:     fat,
+//			Carbs:   carbs,
+//		})
+//		if err != nil {
+//			log.Fatal(err)
+//		}
+//
+//
+//	}
+//}

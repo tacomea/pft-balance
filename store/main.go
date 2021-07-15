@@ -30,7 +30,7 @@ func init() {
 
 func main() {
 	// gRPC
-	cc, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
+	cc1, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("could not conntect: %v\n", err)
 	}
@@ -39,10 +39,21 @@ func main() {
 		if err != nil {
 			log.Println(err)
 		}
-	}(cc)
+	}(cc1)
 
-	fc := foodpb.NewFoodServiceClient(cc)
-	mc := foodpb.NewMenuServiceClient(cc)
+	cc2, err := grpc.Dial("localhost:50050", grpc.WithInsecure())
+	if err != nil {
+		log.Fatalf("could not conntect: %v\n", err)
+	}
+	defer func(cc *grpc.ClientConn) {
+		err := cc.Close()
+		if err != nil {
+			log.Println(err)
+		}
+	}(cc2)
+
+	fc := foodpb.NewFoodServiceClient(cc1)
+	mc := foodpb.NewMenuServiceClient(cc2)
 
 	c := serviceClient{fc: fc, mc: mc}
 
@@ -64,7 +75,7 @@ func main() {
 		port = "80"
 	}
 
-	fmt.Println("Starting Server...")
+	fmt.Println("Starting Store Server...")
 	log.Fatalln(http.ListenAndServe(":"+port, r))
 }
 
@@ -188,15 +199,15 @@ func calcNutri(r *http.Request, fc foodpb.FoodServiceClient) (float64, float64, 
 		log.Println(err)
 	}
 
-	res1, err := fc.ReadFood(nil, &foodpb.ReadFoodRequest{FoodId: r.FormValue("id1")})
+	res1, err := fc.ReadFood(context.Background(), &foodpb.ReadFoodRequest{FoodId: r.FormValue("id1")})
 	if err != nil {
 		log.Println(err)
 	}
-	res2, err := fc.ReadFood(nil, &foodpb.ReadFoodRequest{FoodId: r.FormValue("id2")})
+	res2, err := fc.ReadFood(context.Background(), &foodpb.ReadFoodRequest{FoodId: r.FormValue("id2")})
 	if err != nil {
 		log.Println(err)
 	}
-	res3, err := fc.ReadFood(nil, &foodpb.ReadFoodRequest{FoodId: r.FormValue("id3")})
+	res3, err := fc.ReadFood(context.Background(), &foodpb.ReadFoodRequest{FoodId: r.FormValue("id3")})
 	if err != nil {
 		log.Println(err)
 	}

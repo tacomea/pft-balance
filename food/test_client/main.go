@@ -14,7 +14,7 @@ func main() {
 
 	opts := grpc.WithInsecure()
 
-	cc, err := grpc.Dial("data_server:50051", opts)
+	cc, err := grpc.Dial("0.0.0.0:50050", opts)
 	if err != nil {
 		log.Fatalf("could not conntect: %v\n", err)
 	}

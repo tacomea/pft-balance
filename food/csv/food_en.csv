@@ -1,0 +1,2478 @@
+1,"Amaranth, whole grain, raw",12.7,6.0,64.9
+2,"Foxtail millet, milled grain, raw",11.2,4.4,69.7
+3,"Foxtail millet, glutinous cake",5.1,1.3,45.3
+4,"""Common oats*, oatmeal, raw",13.7,5.7,69.1
+5,"［*Syn. Oats］""",10.9,2.1,72.1
+6,"Barley, under-milled pressed grain, raw",6.2,1.3,77.8
+7,"Barley, pressed grain, raw",7.0,2.1,76.2
+8,"Barley, split grain, raw",12.9,1.7,68.0
+9,"Barley, dried noodles, raw",4.8,0.6,24.3
+10,"Barley, dried noodles, boiled",12.5,5.0,77.1
+11,"Barley, roasted flour",11.3,3.3,70.9
+12,"""Proso millet*, milled grain, raw",10.6,3.1,72.2
+13,"［*Syn. Common millet］""",10.1,3.3,75.2
+14,"Common wheat, whole grain, domestic, medium-s0ength, raw",13.0,3.0,69.4
+15,"Common wheat, whole grain, imported, soft, raw",8.3,1.5,75.8
+16,"Common wheat, whole grain, imported, hard, raw",9.3,1.9,74.3
+17,"Common wheat, soft flour, first grade",9.0,1.6,75.1
+18,"Common wheat, soft flour, second grade",9.7,1.8,74.0
+19,"Common wheat, medium-s0ength flour, first grade",11.8,1.5,71.7
+20,"Common wheat, medium-s0ength flour, second grade",12.6,1.7,70.6
+21,"Common wheat, hard flour, first grade",12.8,2.9,68.2
+22,"Common wheat, hard flour, second grade",10.1,1.9,73.6
+23,"Common wheat, hard flour, whole grain",7.8,4.0,74.4
+24,"Common wheat, premixed flour for ""Okonomiyaki"" (Japanese-style savory pancake with various ingredients)",10.2,1.2,70.0
+25,"Common wheat, premixed flour for pancake",8.8,1.3,76.1
+26,"Common wheat, premixed flour for fried food",9.3,4.4,46.7
+27,"Common wheat, premixed flour for Tempura",8.5,3.8,49.1
+28,"Common wheat, bread, white",9.5,4.4,78.8
+29,"Common wheat, bread, white long roll ",9.4,1.3,57.5
+30,"Common wheat, bread, hardtack",8.4,2.2,52.7
+31,"Common wheat, bread, French bread",8.2,3.5,51.1
+32,"Common wheat, bread, rye and wheat bread",10.1,9.0,48.6
+33,"Common wheat, bread, raisin bread",7.9,26.8,43.9
+34,"Common wheat, bread, soft rolls",8.1,3.6,40.8
+35,"Common wheat, bread, croissants",10.3,3.4,47.6
+36,"Common wheat, bread, English muffins",9.6,2.0,54.6
+37,"Common wheat, bread, naan",6.1,0.6,56.8
+38,"Common wheat, bread, bagel",2.6,0.4,21.6
+39,"Common wheat, ""Udon"" (thick wheat noodles), uncooked",8.5,1.1,71.9
+40,"Common wheat, ""Udon"" (thick wheat noodles), boiled",3.1,0.5,25.8
+41,"Common wheat, ""Udon"" (thick wheat noodles), dried noodles, uncooked ",9.5,1.1,72.7
+42,"Common wheat, ""Udon"" (thick wheat noodles), dried noodles, boiled",3.5,0.4,25.8
+43,"Common wheat, ""Somen and Hiyamugi"" (thin wheat noodles), dried noodles, uncooked",9.3,1.5,68.9
+44,"Common wheat, ""Somen and Hiyamugi"" (thin wheat noodles), dried noodles, boiled ",3.5,0.6,25.5
+45,"Common wheat,  ""Somen and Hiyamugi"" (thin wheat noodles), dried noodles, hand-s0etched, raw",8.6,1.2,55.7
+46,"Common wheat,  ""Somen and Hiyamugi"" (thin wheat noodles), dried noodles, hand-s0etched, boiled",4.9,0.6,29.2
+47,"Common wheat, yellow alkaline noodles, uncooked",5.3,1.7,38.4
+48,"Common wheat, yellow alkaline noodles, boiled",10.5,1.6,73.0
+49,"Common wheat, yellow alkaline noodles, steamed noodles",4.1,0.5,28.1
+50,"Common wheat, yellow alkaline noodles, dried noodles, uncooked ",9.2,2.0,54.2
+51,"Common wheat, yellow alkaline noodles, dried noodles, boiled",5.2,0.8,28.0
+52,"Common wheat, Okinawa noodles, uncooked",12.0,1.7,67.8
+53,"Common wheat, Okinawa noodles, boiled",5.2,0.6,28.6
+54,"Common wheat, Okinawa noodles, dried noodles, uncooked",10.1,16.7,63.5
+55,"Common wheat, Okinawa noodles, dried noodles, boiled",10.1,19.1,61.4
+56,"Common wheat, instant Chinese noodles, dried by frying, seasoned",10.3,5.2,67.1
+57,"Common wheat, instant Chinese noodles, dried by frying, not seasoned",10.7,19.7,56.9
+58,"Common wheat, instant Chinese noodles, dried without frying",8.4,18.9,58.1
+59,"Common wheat, instant Chinese noodles, dried by frying and packed in cups",9.0,6.4,62.2
+60,"Common wheat, ""Yakisoba"", instant Chinese oil-fried noodles, dried by frying and in cups",10.9,20.1,56.6
+61,"Common wheat, instant, Chinese noodles, dried by without frying and packed in cups",12.2,1.9,73.9
+62,"Common wheat,  instant, ""Udon"" noodles, Japanese thick wheat noodles, dried by frying and packed in cups",5.4,0.9,32.0
+63,"Durum wheat, macaroni and spaghetti, dry pasta, uncooked",7.8,1.9,46.9
+64,"Durum wheat, macaroni and spaghetti, dry pasta, boiled",12.7,0.8,26.2
+65,"Durum wheat, macaroni and spaghetti, fresh pasta, uncooked",28.5,2.7,56.9
+66,"Common wheat, ""Fu"" (wheat gluten cake), ""Namafu"" (steamed dough made from gluten and glutinous rice flour) ",25.6,3.3,57.3
+67,"Common wheat, ""Fu"" (wheat gluten cake), ""Kamayakifu"" (dried by oven baking) ",30.2,3.4,54.2
+68,"Common wheat, ""Fu"" (wheat gluten cake),  ""Itafu"" (dried gluten sheet by baking)",32.0,11.6,48.3
+69,"Common wheat, ""Fu"" (wheat gluten cake), ""Kurumafu"" (dried gluten cake by baking ring-shaped)",72.0,9.7,10.6
+70,"Common wheat, wheat germ",20.0,2.0,1.8
+71,"Common wheat, wheat gluten, powdered type",25.0,4.1,3.9
+72,"Common wheat, wheat gluten, pellet type",9.3,1.4,57.0
+73,"Common wheat, wheat gluten, paste type",8.3,1.4,58.9
+74,"Common wheat, Outer steamed wheat ""Jiaozi *"" dough (*Chinese meat dumpling)",9.1,3.0,51.1
+75,"Common wheat, Outer steamed wheat ""Shumai *"" dough (*Chinese meat dumpling)",7.1,1.2,31.1
+76,"Common wheat, pizza crust",11.0,5.1,47.6
+77,"Common wheat, ""Chikuwabu"" (tube-shaped steamed wheat dough) ",12.5,5.8,54.3
+78,"Common wheat, bread crumbs, fresh",14.6,6.8,63.4
+79,"Common wheat, bread crumbs, semi-dry ",3.9,0.7,57.6
+80,"Common wheat, bread crumbs, dry ",6.8,2.7,74.3
+81,"Common wheat, cold noodles, uncooked",6.5,1.8,75.9
+82,"Rice, paddy rice, brown rice, raw",6.3,1.5,76.6
+83,"Rice, paddy rice, half-milled, raw",6.1,0.9,77.6
+84,"Rice, paddy rice, under-milled, raw",6.4,1.2,77.2
+85,"Rice, paddy rice, non-glutinous, well-milled, raw ",7.5,0.8,79.1
+86,"Rice, paddy rice, glutinous rice, well-milled, raw ",6.5,2.0,75.8
+87,"Rice, long grain, paddy rice, well-milled, raw ",6.5,3.3,74.3
+88,"Rice, short grain, paddy rice, well-milled, rice with embryo, raw",2.8,1.0,35.6
+89,"Rice, short grain, paddy rice, germinated brown rice, raw",2.7,0.6,36.4
+90,"Rice, short grain, paddy rice, brown, ""meshi"" (cooked rice)",2.6,0.5,36.7
+91,"Rice, short grain, paddy rice, half-milled, ""meshi"" (cooked rice)",2.5,0.3,37.1
+92,"Rice, short grain, paddy rice, under-milled,  ""meshi"" (cooked rice)",3.5,0.5,43.9
+93,"Rice, short grain, paddy rice, nonglutinous rice, well-milled, ""meshi"" (cooked rice)",2.7,0.6,36.4
+94,"Rice, short grain, paddy rice, glutinous rice, well-milled,  ""meshi"" (cooked rice)",3.0,1.4,35.0
+95,"Rice, short grain, paddy rice, well-milled, rice with embryo,  ""meshi"" (cooked rice)",1.2,0.4,15.2
+96,"Rice, short grain, paddy rice, germinated brown rice,  ""meshi"" (cooked rice)",1.1,0.3,15.5
+97,"Rice, short grain, paddy rice, brown, ""zengayu"" (gruel)",1.1,0.2,15.6
+98,"Rice, short grain, paddy rice, half-milled, ""zengayu"" (gruel)",1.1,0.1,15.7
+99,"Rice, short grain, paddy rice, under-milled,  ""zengayu"" (gruel)",0.6,0.2,7.6
+100,"Rice, short grain, paddy rice,  well-milled, ""zengayu"" (gruel)",0.6,0.1,7.7
+101,"Rice, short grain, paddy rice, brown, ""gobugayu"" (diluted gruel)",0.6,0.1,7.7
+102,"Rice, short grain, paddy rice, half-milled, ""gobugayu"" (diluted gruel)",0.5,0.1,7.9
+103,"Rice, short grain, paddy rice, under-milled,  ""gobugayu"" (diluted gruel)",0.4,0.1,4.4
+104,"Rice, short grain, paddy rice,  well-milled,  ""gobugayu"" (diluted gruel)",0.3,0.1,4.6
+105,"Rice, short grain, paddy rice, brown, ""omoyu"" (thin gruel)",0.3,0.1,4.6
+106,"Rice, short grain, paddy rice, half-milled, ""omoyu"" (thin gruel)",0.3,0,4.7
+107,"Rice, short grain, paddy rice, under-milled, ""omoyu"" (thin gruel)",10.1,2.7,71.1
+108,"Rice, short grain, paddy rice,  well-milled, ""omoyu"" (thin gruel)",9.6,1.8,72.9
+109,"Rice, short grain, upland rice, brown, raw",9.5,1.5,73.4
+110,"Rice, short grain, upland rice, half-milled, raw",9.3,0.9,74.5
+111,"Rice, short grain, upland rice, under-milled, raw",4.1,1.0,34.3
+112,"Rice, short grain, upland rice, well-milled, raw",3.8,0.6,35.3
+113,"Rice, short grain, upland rice, brown, ""meshi"" (cooked rice)",3.6,0.5,35.7
+114,"Rice, short grain, upland rice, half-milled, ""meshi"" (cooked rice)",3.5,0.3,36.1
+115,"Rice, short grain, upland rice, under-milled, ""meshi"" (cooked rice)",6.0,1.0,84.8
+116,"Rice, short grain, upland rice, well-milled, ""meshi"" (cooked rice)",6.0,1.0,84.8
+117,"Rice, non-glutinous rice products, quick-cooking rice, regular, raw",2.7,0.3,39.4
+118,"Rice, non-glutinous rice products, quick-cooking rice, fortified product for school lunch, raw",3.1,0.3,39.5
+119,"Rice, non-glutinous rice products, ""Onigiri"" (rice ball)",3.2,0.4,46.2
+120,"Rice, non-glutinous rice products, ""Yaki-onigiri"" (baked rice ball)",6.2,0.9,78.5
+121,"Rice, non-glutinous rice products, ""Kiritanpo"" (baked tube-shaped cooked rice)",7.1,2.9,84.1
+122,"Rice, non-glutinous rice products, ""Joshinko"" (ordinary rice flour)",6.0,0.7,81.9
+123,"Rice, non-glutinous rice products, roasted brown rice flour",3.4,3.1,51.3
+124,"Rice, non-glutinous rice products, fine flour",3.6,0.7,58.4
+125,"Rice, non-glutinous rice products, rice bread",7.0,1.6,79.9
+126,"Rice, non-glutinous rice products, fresh noodles, rice noodles, raw",5.8,1.7,59.2
+127,"Rice, non-glutinous rice products, dried noodles, raw",4.0,0.6,50.8
+128,"Rice, non-glutinous rice products, rice-koji",4.3,0.6,41.9
+129,"Rice, glutinous rice products, rice cake",2.3,1.8,25.7
+130,"Rice, glutinous rice products, ""Sekihan"" (steamed rice with adzuki beans or cowpeas)",6.3,1.0,80.0
+131,"Rice, glutinous rice products, ""Akumaki"" (lye-soaked and cooked rice in bamboo leaf wrapping)",7.1,0.7,80.4
+132,"Rice, glutinous rice products, ""Shiratamako"" (flour milled in water)",13.4,19.6,48.8
+133,"Rice, glutinous rice products, ""Domyojiko"" (steamed flour)",12.0,3.1,69.6
+134,"Rice, bran",6.0,1.6,77.6
+135,"Buckwheat flour, s0aight ",10.2,2.7,71.6
+136,"Buckwheat flour, inner layer ",15.0,3.6,65.1
+137,"Buckwheat flour, middle layer",9.6,2.5,73.7
+138,"Buckwheat flour, outer layer",9.8,1.9,54.5
+139,"Buckwheat, parboiled grain",4.8,1.0,26.0
+140,"Buckwheat, fresh noodles, uncooked",14.0,2.3,66.7
+141,"Buckwheat, fresh noodles, boiled",4.8,0.7,22.1
+142,"Buckwheat, dried noodles, uncooked ",8.6,5.0,70.6
+143,"Buckwheat, dried noodles, boiled ",8.6,5.0,70.6
+144,"Corn, whole grain, yellow kernel, raw",8.3,4.0,72.4
+145,"Corn, whole grain, white kernel, raw",8.3,4.0,72.4
+146,"Corn, Corn meal, yellow kernel, raw",8.2,1.0,76.4
+147,"Corn, Corn meal, white kernel, raw",8.2,1.0,76.4
+148,"Corn, Corn grits, yellow kernel, raw",6.6,2.8,76.1
+149,"Corn, Corn grits, white kernel, raw",6.6,2.8,76.1
+150,"Corn, Corn flour, yellow kernel, raw",5.7,11.8,76.6
+151,"Corn, Corn flour, white kernel, raw",10.2,22.8,59.6
+152,"Corn, cultivar: Cuzco, oil-roasted and salted",7.8,1.7,83.6
+153,"Corn, popcorn, oil-popped and salted",13.3,1.3,72.2
+154,"Corn, cornflakes",9.4,3.3,73.2
+155,"Job's tears, milled grain, raw",10.3,4.7,71.1
+156,"Japanese barnyard millet, milled grain, raw",9.5,2.6,74.1
+157,"Sorghum, whole grain, raw",12.7,2.7,70.7
+158,"Sorghum, milled grain, raw",8.5,1.6,75.8
+159,"Rye, whole flour",12.6,2.8,70.2
+160,"Rye, flour",1.9,0.4,14.7
+161,"Miscellaneous products, mixture of five grains ",1.6,0.5,11.3
+162,"Jerusalem-artichoke, tuber, raw",3.0,0.1,85.3
+163,"Jerusalem-artichoke, tuber, boiled",0.1,0,2.3
+164,"Konjac, fine powder",0.1,0.1,3.3
+165,"Konjac, block, made from fine powder",0.1,0,2.5
+166,"Konjac, block, made from corm",3.3,1.4,77.1
+167,"Konjac, block, red",0.7,0.3,16.8
+168,"Konjac, freeze-dried, raw",0.2,0,3.0
+169,"Konjac, freeze-dried, rehydrated and boiled",1.2,0.2,31.9
+170,"Konjac, noodles",1.2,0.2,31.9
+171,"Sweet potato, tuberous root, without skin, raw",1.4,0.2,39.0
+172,"Sweet potato, tuberous root, without skin, steamed",0.9,0.5,33.1
+173,"Sweet potato, tuberous root, without skin, baked",0.9,0.2,33.7
+174,"Sweet potato, tuberous root, with skin, raw",1.4,6.8,38.4
+175,"Sweet potato, tuberous root, with skin, steamed",3.1,0.6,71.9
+176,"Sweet potatoes, tuberous root, with skin, tempura",1.2,0.3,31.7
+177,"Sweet potato, purple flesh type, tuberous root, without skin, raw",1.2,0.3,31.4
+178,"Sweet potato, purple flesh type, tuberous root, without skin, steamed",1.5,0.1,13.1
+179,"Sweet potato, Mushikiriboshi (sliced and dried after steaming) ",1.5,0.1,13.4
+180,"Taro, ""Satoimo"", corm, raw",2.2,0.1,16.1
+181,"Taro, ""Satoimo"", corm, boiled",2.2,0.3,19.8
+182,"Taro, ""Satoimo"", corm, frozen",2.1,0.3,19.1
+183,"Taro, 'Celebes', corm, raw",1.7,0.4,23.5
+184,"Taro, 'Celebes', corm, boiled",1.6,0.4,21.8
+185,"Taro, ""Takenoko-imo"", corm, raw",0.7,0.4,27.6
+186,"Taro, ""Takenoko-imo"", corm, boiled",0.7,0.4,26.1
+187,"Taro, ""Mizuimo"", corm, raw",3.0,0.7,20.5
+188,"Taro, ""Mizuimo"", corm, boiled",2.7,0.6,20.0
+189,"Taro, ""Yatsugashira"", corm, raw",1.6,0.1,17.6
+190,"Taro, ""Yatsugashira"", corm, boiled",1.5,0.1,19.7
+191,"Potatoes, tuber, raw",1.5,0.1,16.8
+192,"Potatoes, tuber, steamed",2.9,10.6,32.4
+193,"Potatoes, tuber, boiled",6.6,0.6,82.8
+194,"Potatoes, french fries",0.6,0.3,12.4
+195,"Potatoes, dehydrated mashed potato",0.6,0.3,9.9
+196,"Yacon, tuber, raw",4.5,0.5,22.6
+197,"Yacon, tuber, boiled",2.2,0.3,13.9
+198,"Yam, Chinese yam, ""Ichoimo"", tuberous root, raw",2.0,0.3,12.6
+199,"Yam, Chinese yam, ""Nagaimo"", tuberous root, raw",4.5,0.2,27.1
+200,"Yam, Chinese yam, ""Nagaimo"", tuberous root, boiled",2.8,0.7,26.7
+201,"Yam, Chinese yam, ""Yamatoimo"", tuberous root, raw",2.6,0.1,25.0
+202,"Yam, Japanese yam, tuberous root, raw",0.1,0.2,85.3
+203,"Yam, white yam, tuberous root, raw",0.2,0.2,85.6
+204,"Starch, cassava starch",0.2,0.7,89.3
+205,"Starch, kudzu starch",0.2,0.5,86.0
+206,"Starch, rice starch",0.1,0.2,86.1
+207,"Starch, wheat starch",0.1,0.2,82.0
+208,"Starch, sago starch",0.1,0.1,81.6
+209,"Starch, sweet potato starch",0.1,0.7,86.3
+210,"Starch, potato starch",0.2,0.2,87.7
+211,"Starch, corn starch",0.1,0.1,33.3
+212,"Starch products, ""kuzukiri"" (kudzu starch noodles), dried, uncooked",1.5,4.3,9.1
+213,"Starch products, ""kuzukiri"" (kudzu starch noodles), dried, boiled",0,0.2,87.8
+214,"Starch products, ""Goma-dofu"" (tofu-like gel made from sesame paste and kudzu starch)",0,0,15.4
+215,"Starch products, tapioca pearls, dried, uncooked",0.1,0.2,32.2
+216,"Starch products, tapioca pearls, boiled",0.2,0.3,86.7
+217,"Starch products, fresh noodles, uncooked",0,0.2,20.6
+218,"Starch products, dried noodles, uncooked",0.2,0.4,87.5
+219,"Starch products, dried noodles, boiled",0,0.1,20.6
+220,"Starch products, ""Harusame"" (thin starch noodles), made from mung bean starch, dried, uncooked",0,0.2,86.6
+221,"Starch products, ""Harusame"" (thin starch noodles), made from mung bean starch, boiled",0,0,19.9
+222,"Starch products, ""Harusame"" (thin starch noodles), made from potato and sweet potato starches, dried, uncooked",1.7,0,89.7
+223,"Starch products, ""Harusame"" (thin starch noodles), made from potato and sweet potato starches, boiled",0.2,0,98.8
+224,"Sugars, brown sugar lump",0,0,99.2
+225,"Sugars, ""Wasanbonto"" (0aditional non-cen0ifugal soft white cane sugar)",0,0,98.7
+226,"Sugars, soft sugars, white",0,0,100.0
+227,"Sugars, soft sugars, yellow",0,0,100.0
+228,"Sugars, hard sugars, granulated ",0,0,100.0
+229,"Sugars, hard sugars, coarse crystal, white ",0,0,100.0
+230,"Sugars, hard sugars, coarse crystal, yellow",0,0,100.0
+231,"Sugars, reprocessed sugars, cubes",0.1,0,99.9
+232,"Sugars, reprocessed sugars, ""Korizato"" (crystal candy sugar)",0,0,99.7
+233,"Sugars, reprocessed sugars, candy sugar for coffee",0,0,70.0
+234,"Sugars, reprocessed, powdered",0,0,79.3
+235,"Sugars, liquid sugars, sucrose",0.2,0,68.2
+236,"Sugars, liquid sugars, inverted",0,0,97.0
+237,"Sugars, candy sugar molasses",0,0,85.0
+238,"Starch sweeteners, dried glucose syrup",0,0,85.0
+239,"Starch sweeteners, glucose syrup, enzyme-converted",0,0,91.0
+240,"Starch sweeteners, glucose syrup, acid-converted",0,0,91.3
+241,"""Starch sweeteners, glucose*, total sugar type, powdered ",0,0,99.7
+242,"［*Syn. dex0ose］ """,0,0,99.9
+243,"""Starch sweeteners, glucose*, monohydrate",0,0,75.0
+244,"［*Syn. dex0ose］ """,0,0,75.0
+245,"""Starch sweeteners, glucose*, anhydrous",0,0,75.0
+246,"［*Syn. dex0ose］ """,1.0,0,50.5
+247,"Starch sweeteners, fructose",0.2,0,79.7
+248,"Starch sweeteners, glucose fructose syrup ",0.1,0,66.3
+249,"Starch sweeteners, fructose glucose syrup ",20.3,2.2,58.7
+250,"Starch sweeteners, high fructose syrup",8.9,1.0,24.2
+251,Brown sugar syrup ,4.4,0.4,49.2
+252,Honey,9.8,0.6,27.1
+253,Maple syrup,26.2,1.0,66.8
+254,"Adzuki beans, mature seeds, whole, raw",5.6,0.6,54.0
+255,"Adzuki beans, mature seeds, whole, boiled",19.9,2.2,57.8
+256,"Adzuki beans, mature seeds, whole, boiled, canned in syrup",8.5,1.0,24.8
+257,"Adzuki beans, mature seeds, ""An"" (bean paste), ""Koshi-an""(s0ained bean paste)",6.7,1.3,49.6
+258,"Adzuki beans, mature seeds, ""An"" (bean paste), ""Sarashi-an"" (powder of s0ained bean paste)",9.4,0.9,27.0
+259,"Adzuki beans, mature seeds, ""An"" (bean paste), ""Tsubushi-an"" (mushed sweet bean paste)",4.9,0.5,56.2
+260,"Kidney beans, mature seeds, whole, raw",21.7,2.3,60.4
+261,"Kidney beans, mature seeds, whole, boiled",21.7,2.3,60.4
+262,"Kidney beans, mature seeds, ""Uzura-mame"" (beans cooked with sugar and salt)",9.2,1.0,25.2
+263,"Kidney beans, mature seeds, ""Koshi-an"" (s0ained sweet bean paste)",9.2,1.0,25.2
+264,"Kidney beans, mature seeds, ""Mame-kinton"" (sweetened whole beans with bean paste)",20.8,11.6,58.8
+265,"Peas, mature seeds, green seed coats and cotyledons, whole, raw",23.3,2.4,61.5
+266,"Peas, mature seeds, dun seed coats, whole, raw",5.6,0.7,52.9
+267,"Peas, mature seeds, green seed coats and cotyledons, whole, boiled",23.9,2.0,55.0
+268,"Peas, mature seeds, dun seed coats, whole, boiled",10.2,0.9,23.8
+269,"Peas, mature seeds, oil-roasted and salted",26.0,2.0,55.9
+270,"Peas, mature seeds, ""Shio-mame"" (peas roasted and coated with calcium carbonate and salt) ",24.7,20.8,46.4
+271,"Peas, mature seeds, ""Uguisu-mame"" (green peas cooked with sugar and salt)",7.9,1.2,52.2
+272,"Cowpeas, mature seeds, whole, raw",9.6,1.6,52.5
+273,"Cowpeas, mature seeds, whole, dried, boiled",9.8,0.9,37.1
+274,"Broad beans, mature seeds, whole, raw",33.8,19.7,29.5
+275,"Broad beans, mature seeds, oil-roasted and salted",33.9,18.1,30.8
+276,"Broad beans, mature seeds, ""Otafuku-mame"" (beans cooked with sugar and salt or soy sauce)",14.8,9.8,8.4
+277,"Broad beans, mature seeds, ""Fuki-mame"" (hulled beans cooked with sugar and salt) ",33.0,21.7,28.8
+278,"Broad beans, mature seeds, ""Shoyu-mame"" (beans cooked with sugar and soy sauce) ",32.8,19.5,30.8
+279,"Soybeans, mature seeds, whole, domestic, yellow seed coats, raw",33.6,22.6,30.7
+280,"Soybeans, mature seeds, whole, domestic, black seed coats, raw",37.5,21.6,33.3
+281,"Soybeans, mature seeds, whole, domestic, yellow seed coats, boiled",36.4,22.0,34.3
+282,"Soybeans, mature seeds, whole, imported from the U.S.A., yellow seed coats, raw",37.7,20.7,33.9
+283,"Soybeans, mature seeds, whole, imported from China, yellow seed coats, raw",12.9,6.7,7.7
+284,"Soybeans, mature seeds, whole, imported from Brazil, yellow seed coats, dried, raw",16.6,9.8,13.8
+285,"Soybeans, mature seeds, whole, yellow seed coats, roasted",36.7,25.7,28.5
+286,"Soybeans, mature seeds, whole, black seed coats, roasted",37.0,22.8,29.3
+287,"Soybeans, mature seeds, whole, green seed coats, roasted",37.5,25.1,29.5
+288,"Soybeans, mature seeds, whole, yellow seed coats, boiled, canned in water, drained ",37.8,14.7,39.5
+289,"Soybeans, mature seeds, whole, yellow seed coats, steamed, retort packed",14.1,9.4,37.0
+290,"Soybeans, ""Kinako"" (roasted and ground beans), made from whole beans with yellow seed coats ",6.6,4.2,1.6
+291,"Soybeans, ""Kinako"" (roasted and ground beans), made from whole beans with green seed coats and cotyledons ",4.9,3.0,2.0
+292,"Soybeans, ""Kinako"" (roasted and ground beans), made from hulled beans with yellow seed coats",5.1,3.3,2.0
+293,"Soybeans, embryonic axis",5.0,3.1,2.5
+294,"Soybeans, ""Budo-mame"" (beans cooked with sugar and salt)",9.1,7.2,0.7
+295,"Soybeans, tofu, ""Momen-tofu"" (regular tofu)",4.3,2.8,1.7
+296,"Soybeans, tofu, ""Kinugoshi-tofu"" (silken tofu)",7.8,5.7,1.0
+297,"Soybeans, tofu, soft tofu",10.7,11.3,0.9
+298,"Soybeans, tofu, ""Juten-tofu"" (packaged tofu) ",23.4,34.4,0.4
+299,"Soybeans, tofu, ""Okinawa-tofu"" (firm tofu made in Okinawa prefecture)",18.2,23.4,0
+300,"Soybeans, tofu, ""Yushi-dofu"" (unmoulded tofu) ",24.9,32.2,0.7
+301,"Soybeans, tofu, ""Yaki-tofu"" (grilled tofu)",12.4,13.8,0.3
+302,"Soybeans, tofu, ""Nama-age"" (fried slices of drained tofu)",15.3,17.8,1.6
+303,"Soybeans, tofu, ""Abura-age"" (fried thin slices of pressed tofu), uncooked",50.5,34.1,4.2
+304,"Soybeans, tofu, ""Abura-age"" (fried thin slices of pressed tofu), blanched with boiling water, uncooked",10.7,7.3,1.1
+305,"Soybeans, tofu, ""Abura-age"" (fried thin slices of pressed tofu), blanched with boiling water, baked",9.5,8.3,19.1
+306,"Soybeans, tofu, ""Abura-age"" (fried thin slices of pressed tofu), blanched with boiling water, boiled",14.9,4.4,6.7
+307,"Soybeans, tofu, ""Ganmodoki"" (fried mixture of crushed tofu, vegetables and ground yam)",16.1,4.9,7.5
+308,"Soybeans, tofu, ""Kori-dofu"" (freeze dried tofu), uncooked",34.7,21.5,3.8
+309,"Soybeans, tofu, ""Kori-dofu"" (freeze dried tofu), rehydrated with hot water and boiled",16.5,10.0,12.1
+310,"Soybeans, tofu, ""Tofu-yo"" (fermented tofu)",16.6,10.0,10.5
+311,"Soybeans, tofu, ""Tofu-chikuwa"" (tubular tofu made with surimi), steamed type",15.3,8.1,24.0
+312,"Soybeans, tofu, ""Tofu-chikuwa"" (tubular tofu made with surimi), baked type",18.6,8.1,31.5
+313,"Soybeans, tofu, ""Rokujo-tofu"" (salted and sun-dried tofu)",6.1,3.6,13.8
+314,"Soybeans, natto, ""Itohiki-natto"" (fermented whole soybean) ",23.1,13.6,52.3
+315,"Soybeans, natto, ""Hikiwari-natto"" (fermented dehulled and split soybean)",3.6,2.0,3.1
+316,"Soybeans, natto, ""Goto-natto"" (natto fermented with rice-koji and salt)",3.2,3.6,4.8
+317,"Soybeans, natto, ""Tera-natto"" (koji-molded, salted, steamed soybeans)",2.2,2.2,7.8
+318,"Soybeans, ""Okara"" (insoluble residue from soy milk processing), fresh",46.3,3.0,36.7
+319,"Soybeans, ""Okara"" (insoluble residue from soy milk processing), dried",58.2,1.7,27.9
+320,"Soybeans, soy milk, regular",79.1,3.0,7.5
+321,"Soybeans, soy milk, reconstituted",79.1,3.0,7.5
+322,"Soybeans, soy milk based beverage, coffee flavored",59.3,5.0,25.2
+323,"Soybeans, soy protein, textured",21.8,13.7,4.1
+324,"Soybeans, soy protein, concen0ated",50.4,32.1,7.2
+325,"Soybeans, soy protein, isolated, regular",15.7,10.6,0.1
+326,"Soybeans, soy protein,  isolated, mineral- con0olled product ",6.9,3.2,50.0
+327,"Soybeans, soy protein, s0uctured",6.5,2.7,38.8
+328,"Soybeans, ""Yuba"" (film formed on surface of warmed soy milk), fresh",15.8,9.0,15.4
+329,"Soybeans, ""Yuba"" (film formed on surface of warmed soy milk), dried, uncooked",20.8,1.6,61.8
+330,"Soybeans, ""Yuba"" (film formed on surface of boiling soy milk), dried, rehydrated with hot water",9.7,1.0,27.5
+331,"Soybeans, ""Kinzanji-miso"" (fermented roasted soybeans, barley or wheat, vegetable and salt with koji mold)",20.0,5.2,61.5
+332,"Soybeans, ""Hishio-miso"" (fermented soybeans, barley or wheat, and vegetable with koji mold)",9.5,2.5,27.4
+333,"Soybeans, Tempeh (fermented soybeans with Rhizopus oligospore)",18.8,10.4,62.6
+334,"Rice beans, mature seeds, whole, raw",17.2,1.7,61.2
+335,"Rice beans, mature seeds, whole, boiled",6.2,0.6,22.3
+336,"""Chickpeas*, mature seeds, whole, raw",21.9,1.8,60.8
+337,"［*Syn. Garbanzo beans］""",9.6,0.9,26.0
+338,"""Chickpeas*, mature seeds, whole, boiled",25.1,1.5,59.1
+339,"［*Syn. Garbanzo beans］""",10.2,0.6,22.5
+340,"""Chickpeas*, mature seeds, whole, oil-roasted and salted",23.2,1.5,60.7
+341,"［*Syn. Garbanzo beans］""",11.2,0.8,29.1
+342,"Scarlet runner beans, mature seeds, whole, raw",19.6,51.8,20.9
+343,"Scarlet runner beans, mature seeds, whole, boiled",19.2,53.6,22.3
+344,"""Lima beans*, mature seeds, whole, raw",20.3,54.1,20.7
+345,"［*Syn. Sieva beans］""",29.5,27.9,31.3
+346,"""Lima beans*, mature seeds, whole, boiled",21.9,43.5,30.5
+347,"［*Syn. Sieva beans］""",17.7,43.4,29.4
+348,"Mung beans, mature seeds, whole, raw",19.8,47.6,26.7
+349,"Mung beans, mature seeds, whole, boiled",26.5,51.8,12.0
+350,"Lentils, mature seeds, whole, raw",8.7,64.9,22.6
+351,"Lentils, mature seeds, whole, boiled",4.7,1.6,34.8
+352,"Almonds, raw",4.6,1.5,35.8
+353,"Almonds, oil-roasted and salted",2.8,0.5,36.9
+354,"Almonds, roasted, without salt",3.5,0.6,36.7
+355,"Hemp seeds, dried",1.8,0.4,56.8
+356,"Flax seeds, roasted",4.9,0.9,48.5
+357,"Perilla, ""Egoma"", seeds, dried",14.6,68.8,11.7
+358,"Cashew nuts, oil-roasted and salted",19.3,49.1,21.8
+359,"Pumpkin seeds, roasted and salted",6.1,65.8,23.7
+360,"Japanese torreya seeds, roasted",19.8,51.9,18.4
+361,"Ginkgo nuts, raw",20.3,54.2,18.5
+362,"Ginkgo nuts, shelled and skinned, boiled",19.3,54.9,18.8
+363,"Chestnuts, Japanese chestnuts, raw",20.5,54.7,18.7
+364,"Chestnuts, Japanese chestnuts, boiled",3.2,0.8,57.6
+365,"Chestnuts, Japanese chestnuts, Kanroni (boiled and sweetened), drained ",29.6,46.4,13.4
+366,"Chestnuts, Chinese chestnuts, roasted",1.7,1.9,34.2
+367,"Walnuts, roasted ",5.9,0.5,14.9
+368,"Poppy seeds, dried",18.3,2.3,64.3
+369,"Coconut, powder",7.3,0.8,25.0
+370,"Sesame seeds, whole, dried",5.8,0.5,40.6
+371,"Sesame seeds, whole, dried and roasted",17.4,56.1,20.9
+372,"Sesame seeds, dried and hulled",20.1,56.3,17.2
+373,"Sesame seeds, paste",14.9,69.1,9.6
+374,"Sweet acorns, raw",13.6,69.3,13.9
+375,"Watermelon seeds, roasted and salted",9.6,73.4,13.3
+376,"Japanese horse chestnuts, steamed",8.3,76.7,12.2
+377,"Lotus seeds, immature, raw",15.8,68.2,10.6
+378,"Lotus seeds, mature, dried, shelled and skinned, raw",14.6,72.5,8.1
+379,"Lotus seeds, mature, dried, shelled and skinned, boiled",25.4,47.5,18.8
+380,"Japanese water chestnuts, raw",25.4,47.5,18.8
+381,"Pistachio nuts, roasted and salted",26.5,49.4,19.6
+382,"Sunflower seeds, oil-roasted and salted",26.5,49.4,19.6
+383,"Brazil nuts, oil-roasted and salted",25.5,51.3,18.2
+384,"""Hazel nuts*, skinned, oil-roasted and salted",25.4,50.7,20.5
+385,"［*Syn. European filberts］""",2.3,0.2,11.3
+386,"Pecan nuts, oil-roasted and salted",2.1,0.1,10.8
+387,"Macadamia nuts, roasted and salted",4.2,0.3,5.6
+388,"Pine nuts, raw",4.2,0.3,7.3
+389,"Pine nuts, roasted",3.3,0.1,6.7
+390,"Peanuts, mature seeds, Virginia type, raw",2.9,0.1,6.6
+391,"Peanuts, mature seeds, Spanish type, raw",2.6,0.2,3.9
+392,"Peanuts, mature seeds, Virginia type, roasted",2.6,0.1,4.6
+393,"Peanuts, mature seeds, Spanish type, roasted",2.9,3.9,4.1
+394,"Peanuts, mature seeds, oil-roasted and salted",2.4,0.1,4.3
+395,"Peanuts, peanut butter",0,0.1,0.7
+396,"Globe artichoke, flower bud, raw",1.8,0.1,5.1
+397,"Globe artichoke, flower bud, boiled",1.8,0.2,5.5
+398,"Chive, ""Asatsuki"", leaves, raw",0.8,0.1,4.3
+399,"Chive, ""Asatsuki"", leaves, boiled",0.6,0,3.4
+400,"Angelica, ""Ashitaba"", stems and leaves, raw",1.1,0.1,4.3
+401,"Angelica, ""Ashitaba"", stems and leaves, boiled",11.7,6.2,8.8
+402,"Asparagus, green, shoots, raw",11.5,6.1,8.9
+403,"Asparagus, green, shoots, boiled",13.0,7.6,10.6
+404,"Asparagus, green, shoots, sautéed",1.2,0.2,2.9
+405,"Asparagus, white, canned in brine",3.8,0.4,4.0
+406,"Aloe, leaves, raw",3.8,0.4,3.2
+407,"Kidney beans, ""Sayaingen"", immature pods, raw",3.6,0.6,3.8
+408,"Kidney beans, ""Sayaingen"", immature pods, boiled",5.0,5.9,4.3
+409,"Japanese spikenard, ""Udo"", blanching cultivation, stem, raw",3.1,0.2,7.5
+410,"Japanese spikenard, ""Udo"", blanching cultivation, stem, bleached in water",3.2,0.2,7.0
+411,"Japanese spikenard, ""Udo"", outdoor cultivation, stem, raw",2.9,0.1,9.9
+412,"""Soybeans, immature*, raw",6.9,0.4,15.3
+413,"［*Syn. Green soybeans］""",8.3,0.2,18.5
+414,"""Soybeans, immature*, boiled",5.6,0.7,17.2
+415,"［*Syn. Green soybeans］""",3.6,0.4,19.7
+416,"""Soybeans, immature*, frozen ",1.4,0.2,2.2
+417,"［*Syn. Green soybeans］""",1.6,0.3,3.1
+418,"Endive, leaves, raw",1.3,0.3,4.5
+419,"Peas, stem and leaves, raw",1.4,0.2,3.4
+420,"Peas, sprouts, raw",1.2,0.1,3.8
+421,"Peas, sprouts, boiled",2.1,0.2,6.6
+422,"Peas, sprouts, sautéed",2.1,0.1,7.6
+423,"Peas, snow peas, immature pods, raw",2.3,0.1,3.9
+424,"Peas, snow peas, immature pods, boiled",2.3,0.1,4.4
+425,"Peas, snap peas, immature pods, raw",0.7,0.1,4.6
+426,"Peas, green peas, raw",0.7,0.1,4.7
+427,"Peas, green peas, boiled",0.6,0.1,4.8
+428,"Peas, green peas, frozen",0.6,0.1,5.0
+429,"Peas, green peas, canned in brine",2.3,0.2,6.0
+430,"Non-heading Chinese cabbage, ""Osaka-shirona"", leaves, raw",1.0,0.2,4.9
+431,"Non-heading Chinese cabbage, ""Osaka-shirona"", leaves, boiled",0.8,0.1,4.7
+432,"Non-heading Chinese cabbage, ""Osaka-shirona"", leaves, salted pickles",3.3,0.1,7.1
+433,"Japanese saltwort, stems and leaves, raw",1.5,0.1,5.9
+434,"Japanese saltwort, stems and leaves, boiled",1.4,0.1,6.9
+435,"Okra, pods, raw",1.6,0.1,10.9
+436,"Okra, pods, boiled",1.9,0.1,13.3
+437,"Turnip, leaves, raw",1.9,0.3,20.6
+438,"Turnip, leaves, boiled",1.6,0.3,21.3
+439,"Turnip, root, with skin, raw",2.5,0.4,27.7
+440,"Turnip, root, with skin, boiled",2.2,0.3,18.5
+441,"Turnip, root, without skin, raw",0.7,0.1,6.1
+442,"Turnip, root, without skin, boiled",3.3,0.1,4.7
+443,"Turnip, pickles, salted pickles, leaves",4.0,0.1,7.2
+444,"Turnip, pickles, salted pickles, root with skin",3.0,0.1,5.2
+445,"Turnip, pickles, salted pickles, root without skin",2.7,0.1,5.1
+446,"Turnip, pickles, ""Nukamiso-zuke"" (pickled in salty rice bran paste), leaves",6.3,0.2,68.1
+447,"Turnip, pickles, ""Nukamiso-zuke"" (pickled in salty rice bran paste), root with skin",0.7,0,7.2
+448,"Turnip, pickles, ""Nukamiso-zuke"" (pickled in salty rice bran paste), root without skin",1.4,0,6.5
+449,"""Pumpkin and squash, Japanese squash*, fruit, raw",1.0,0,5.7
+450,"［*Syn. Pumpkin］""",11.6,0.2,73.5
+451,"Pumpkin and squash, Japanese squash*, fruit, boiled ［*Syn. Pumpkin］",1.3,0.2,5.2
+452,"""Pumpkin and squash, winter squash*, fruit, raw",0.9,0.2,4.6
+453,"［*Syn. Pumpkin］""",1.6,6.0,5.9
+454,"""Pumpkin and squash, winter squash*, fruit, boiled",1.4,0.1,4.3
+455,"［*Syn. Pumpkin］""",2.0,0.1,6.7
+456,"""Pumpkin and squash, winter squash*, fruit, baked",1.0,0.1,3.0
+457,"［*Syn. Pumpkin］""",1.0,0.1,3.7
+458,"""Pumpkin and squash, winter squash*, fruit, frozen",3.2,0.4,10.8
+459,"［*Syn. Pumpkin］""",1.5,0.1,6.2
+460,"""Pumpkin and squash, spaghetti squash*, fruit, raw",0.3,0.1,18.3
+461,"［*Syn. Summer squash, field pumpkin］""",1.4,0,2.5
+462,"Leaf mustard, ""Karashina"", leaves, raw",3.5,0.2,6.6
+463,"Leaf mustard, ""Karashina"", leaves, salted pickles",1.1,0.4,3.5
+464,"Cauliflower, inflorescence, raw",1.1,0.4,3.5
+465,"Cauliflower, inflorescence, boiled",2.1,0.1,2.5
+466,"Gourd, ""Kanpyo"" (dried gourd s0ips), raw",6.3,0.1,26.6
+467,"Gourd, ""Kanpyo"" (dried gourd s0ips), boiled",6.2,0.1,27.2
+468,"Chrysanthemum, petals, raw",2.1,0.4,5.6
+469,"Chrysanthemum, petals, boiled",1.0,0,5.1
+470,"Chrysanthemum, ""Kikunori"" (sheet of dried chrysanthemum petals)",1.0,0,5.2
+471,"Cabbage, common, head, raw",3.0,0.2,5.3
+472,"Cabbage, common, head, boiled",1.8,0.1,15.4
+473,"Cabbage, common, head, sautéed",1.5,0.2,13.7
+474,"Cabbage, green ball, head raw",1.5,0.2,2.4
+475,"Cabbage, red cabbage, head raw",1.6,0.1,3.0
+476,"Cucumber, fruit, raw",2.5,0.1,4.6
+477,"Cucumber, fruit, pickles, salted pickles",1.0,0.2,2.7
+478,"Cucumber, fruit, pickles, pickled in soy sauce",1.4,0.3,2.9
+479,"Cucumber, fruit, pickles, ""Nukamiso-zuke"" (pickled in salty rice bran paste)",1.5,0.3,4.0
+480,"Cucumber, fruit, pickles, sweet type (pickled with seasoned vinegar) ",2.4,0.1,3.8
+481,"Cucumber, fruit, pickles, sour type (processed by lactic acid fermentation)",1.9,0.3,5.7
+482,"Japanese victory onion, leaves, raw",1.9,3.2,5.8
+483,"Leaf celery, stems and leaves, raw",3.9,0.1,7.5
+484,"Leaf celery, stems and leaves, boiled",3.4,0.1,8.9
+485,"Watercress, stems and leaves, raw",2.5,0.1,4.8
+486,"Arrowhead, tuber, raw",2.8,0.1,6.2
+487,"Arrowhead, tuber, boiled",2.3,0.3,3.9
+488,"Kale, leaves, raw",2.7,0.5,4.5
+489,"Kohlrabi, enlarged stems, raw",0.4,0,1.0
+490,"Kohlrabi, enlarged stems, boiled",0.5,0.2,2.1
+491,"Os0ich-feather fern, fiddlehead, raw",0.9,0.3,6.6
+492,"Edible burdock, root, raw",0.2,0.4,4.0
+493,"Edible burdock, root, boiled",0.2,0.3,12.5
+494,"Spinach mustard, ""Komatsuna"", leaves, raw",0.9,0.1,3.3
+495,"Spinach mustard, ""Komatsuna"", leaves, boiled",1.0,0.1,3.7
+496,"Stem mustard,  pickles",4.5,0.1,40.8
+497,"Non-heading Chinese cabbage, ""Santosai"", leaves, raw",0.5,0,4.1
+498,"Non-heading Chinese cabbage, ""Santosai"", leaves, boiled",0.4,0,3.1
+499,"Non-heading Chinese cabbage, ""Santosai"", leaves, salted pickles",6.6,0.4,63.5
+500,"Winged beans, immature pods, raw",0.5,0,3.4
+501,"Sweet peppers, ""Shishito"", fruit, raw",1.9,0.2,5.4
+502,"Sweet peppers, ""Shishito"", fruit, sautéed",0.6,0.1,4.7
+503,"Perilla, ""Shiso"", leaves, raw",2.6,0.7,6.1
+504,"Perilla, ""Shiso"", immature seeds, raw",1.3,0.1,2.8
+505,"Yandlong beans, immature pods, raw",2.0,0.1,3.3
+506,"Yandlong beans, immature pods, boiled",2.1,0.1,3.4
+507,"Garland chrysanthemum, leaves, raw",0.4,0.1,3.6
+508,"Garland chrysanthemum, leaves, boiled",1.7,0.1,6.6
+509,"Water shield, young leaves, bottled in water",1.1,0.4,4.1
+510,"Ginger, immature rhizome with stem, raw",14.6,0.6,70.8
+511,"Ginger, mature rhizome, raw",1.7,0.1,6.8
+512,"Ginger, mature rhizome, pickles",10.9,0.2,15.5
+513,"Ginger, mature rhizome, pickles, sweetened",10.5,0.2,16.9
+514,"Oriental pickling melon, fruit, raw",1.3,0.2,2.2
+515,"Oriental pickling melon, fruits, pickles, salted pickles",1.1,0.2,2.3
+516,"Oriental pickling melon, fruits, pickles, ""Nara-zuke"" (pickled with Sake lees)",2.1,0.5,3.3
+517,"Taro, petiole, fresh, raw",2.0,0.2,3.3
+518,"Taro, petiole, fresh, boiled",2.2,0.1,5.3
+519,"Taro, petiole, dried, raw",2.2,0.1,5.4
+520,"Taro, petiole, dried and boiled",0.5,0.1,4.1
+521,"Turnip, ""Sugukina"", leaves, raw",0.4,0,4.5
+522,"Turnip, ""Sugukina"", root, raw",0.4,0.1,4.1
+523,"Turnip, ""Sugukina"", leaves and root, pickles",0.5,0.1,4.0
+524,"Zucchini, fruit, raw",9.7,0.8,69.7
+525,"Water dropwort, stems and leaves, raw",0.9,0.1,4.1
+526,"Water dropwort, stems and leaves, boiled",1.5,6.0,7.6
+527,"Celery, petiole, raw",1.3,0.1,6.7
+528,"Japanese royal fern, fiddleheads, fresh, raw",1.2,0.3,15.2
+529,"Japanese royal fern, fiddleheads, fresh, boiled",1.9,0.1,5.5
+530,"Japanese royal fern, fiddleheads, dried, raw",5.3,0.2,44.3
+531,"Japanese royal fern, fiddleheads, dried, boiled",0.9,0.1,14.0
+532,"Broad beans, immature beans, raw",4.5,0.3,16.3
+533,"Broad beans, immature beans, boiled",2.7,0.1,33.3
+534,"Tatsoi, leaves, raw",1.9,0.3,3.6
+535,"Tatsoi, leaves, boiled",0.9,0.1,3.5
+536,"Japanese radishes, Daikon, sprouts, raw",1.6,0.1,4.3
+537,"Japanese radishes, Daikon, cultivar for leaf use, leaves, raw",1.8,0.2,4.2
+538,"Japanese radishes, Daikon, leaves, raw",2.8,0.2,7.0
+539,"Japanese radishes, Daikon, leaves, boiled",3.6,0.2,4.3
+540,"Japanese radishes, Daikon, root with skin, raw",3.5,0.2,5.5
+541,"Japanese radishes, Daikon, root with skin, boiled",2.7,0.2,4.0
+542,"Japanese radishes, Daikon, root without skin, raw",1.0,0.5,3.6
+543,"Japanese radishes, Daikon, root without skin, boiled",1.0,0.1,8.8
+544,"Japanese radishes, Daikon, ""Kiriboshi-daikon"" (cut and dried Daikon root), raw",0.6,0.1,6.1
+545,"Japanese radishes, Daikon, ""Kiriboshi-daikon"" (cut and dried Daikon root), rehydrated and boiled",0.8,0.1,7.3
+546,"Japanese radishes, Daikon, ""Kiriboshi-daikon"" (cut and dried Daikon root), rehydrated and sautéed",1.4,5.9,12.0
+547,"Japanese radishes, Daikon, root, pickles, ""Nukamiso-zuke"" (pickled in salty rice bran paste)",0.9,0.1,9.0
+548,"Japanese radishes, Daikon, root, pickles, ""Takuan-zuke"" (pickled with rice bran and salt), made of salted Daikon ",1.8,0.4,7.6
+549,"Japanese radishes, Daikon,  root, pickles, ""Takuan-zuke"" (pickled with rice bran and salt), made of sun-dried Daikon",4.2,0.2,4.3
+550,"Japanese radishes, Daikon, root, pickles, ""Moriguchi-zuke"" (slender root cultivar pickled with Sake lees)",4.0,0.2,4.1
+551,"Japanese radishes, Daikon, root, pickles, ""Bettara-zuke"" (pickled with rice koji)",1.0,0,3.9
+552,"Japanese radishes, Daikon, root, pickles, ""Miso-zuke"" (pickled with miso)",0.6,0.1,2.0
+553,"Japanese radishes, Daikon, root, pickles, ""Fukujin-zuke"" (pickled with Daikon, eggplant, immature sword pods and east Indian lotus rhizome)",0.9,0.1,2.4
+554,"Chinese mustard, ""Taisai"", young leaves, raw ",0.8,3.2,2.2
+555,"Chinese mustard, ""Taisai"", leaves, raw ",3.5,0.1,8.1
+556,"Chinese mustard, ""Taisai"", leaves, salted pickles",3.4,0.1,6.7
+557,"Leaf mustard, ""Takana"", leaves, raw",1.8,0.1,2.8
+558,"Leaf mustard, ""Takana"", leaves, salted pickles",0.7,0.2,2.6
+559,"Bamboo shoots, raw",0.9,0.2,3.2
+560,"Bamboo shoots, boiled",0.4,0,5.6
+561,"Bamboo shoots, canned in water",0.3,0,4.4
+562,"Bamboo shoots, ""Shinachiku"" (boiled, fermented and salted bamboo shoots), desalted",3.4,0.1,7.2
+563,"Onions, bulb, raw",4.0,4.9,8.5
+564,"Onions, bulb, bleached in water",3.9,3.4,16.3
+565,"Onions, bulb, boiled",14.7,12.0,58.4
+566,"Onions, bulb, sautéed",0.5,0.1,3.8
+567,"Onions, red onions, bulb, raw",0.6,0.1,3.7
+568,"Onions, immature onions, bulb and stem, raw",3.6,1.7,16.8
+569,"Japanese angelica-0ee, spears, raw",3.5,1.7,18.6
+570,"Japanese angelica-0ee, spears, boiled",4.2,2.2,19.1
+571,"Chicory, spears, raw",3.5,1.5,18.7
+572,"Green bok choy, leaves, raw",2.9,1.5,19.4
+573,"Green bok choy, leaves, boiled",1.7,0.5,18.6
+574,"Green bok choy, leaves, sautéed",2.3,0.5,17.8
+575,"Field horsetail, fertile shoot, raw",2.3,0.2,6.0
+576,"Field horsetail, fertile shoot, boiled",0.7,0.1,4.7
+577,"New Zealand spinach, stems and leaves, raw",1.1,0.1,7.2
+578,"Malabar nightshade, stems and leaves, raw",0.9,0.2,4.4
+579,"Malabar nightshade, stems and leaves, boiled",0.7,0.1,4.0
+580,"Leopard plant, petiole, raw",0.7,0.1,4.0
+581,"Leopard plant, petiole, boiled",0.6,0,4.3
+582,"Hot peppers, leaves and fruits, raw",0.6,0,4.3
+583,"Hot peppers, leaves and fruits, sautéed",1.1,0.2,3.9
+584,"Hot peppers, fruit, raw",6.1,3.5,12.9
+585,"Hot peppers, fruit, dried",1.3,0.1,2.6
+586,"Chinese preserving melon, fruit, raw",2.2,0.1,3.4
+587,"Chinese preserving melon, fruit, boiled",1.1,0.1,5.1
+588,"Corn, sweet corn, immature kernels, raw",1.0,0.1,4.5
+589,"Corn, sweet corn, immature kernels, boiled",1.5,5.8,6.3
+590,"Corn, sweet corn, immature kernels, microwaved",1.6,14.0,12.0
+591,"Corn, sweet corn, immature kernels on cob, frozen",1.1,0.1,5.3
+592,"Corn, sweet corn, immature kernels, frozen",1.0,17.0,6.7
+593,"Corn, sweet corn, canned products, cream style",1.4,0.1,5.2
+594,"Corn, sweet corn, canned products, whole kernel style",1.7,0.1,6.1
+595,"Corn, sweet corn, young ear, raw",5.5,0.1,18.2
+596,"Tomatoes, fruit, raw",2.6,0.2,30.7
+597,"Tomatoes, cherry tomatoes, fruit, raw",1.4,0.2,7.0
+598,"Tomatoes, canned products, whole, without salt",4.3,0.1,7.0
+599,"Tomatoes, canned products, juice, with salt",4.4,0.2,5.8
+600,"Tomatoes, canned products, juice, without salt",4.7,0.1,4.3
+601,"Tomatoes, canned products, tomato-based vegetable juice, with salt",4.1,0.4,6.0
+602,"Tomatoes, canned products, tomato-based vegetable juice, without salt",3.6,0.4,5.3
+603,"Red chicory, leaves, raw",1.0,0.1,3.9
+604,"Summer cypress, seeds, boiled",1.2,3.3,4.6
+605,"Semi-heading Chinese cabbage, ""Nagasaki-hakusai"", leaves, raw",1.7,0.3,4.0
+606,"Semi-heading Chinese cabbage, ""Nagasaki-hakusai"", leaves, boiled",2.6,0.5,5.7
+607,"""Eggplant*, Japanese type, fruit, raw",1.9,5.7,4.9
+608,"［*Syn. Aubergine］""",1.9,0.2,5.9
+609,"""Eggplant*, Japanese type, fruit, boiled",2.1,0.1,3.3
+610,"［*Syn. Aubergine］""",1.1,0.2,3.7
+611,"""Eggplant*, Japanese type, fruit, sautéed",0.7,0.2,9.3
+612,"［*Syn. Aubergine］""",0.6,0.2,8.4
+613,"""Eggplant*, Japanese type, fruit, tempura",0.8,0.1,8.7
+614,"［*Syn. Aubergine］""",0.7,0.1,8.5
+615,"""Eggplant*, western type, fruit, raw",1.1,6.4,12.4
+616,"［*Syn. Aubergine］""",1.0,3.5,13.9
+617,"""Eggplant*, western type, fruit, deep-fried",0.7,0.2,7.3
+618,"［*Syn. Aubergine］""",0.8,0.2,8.2
+619,"""Eggplant*, pickles, salted pickles",0.7,1.4,12.7
+620,"［*Syn. Aubergine］""",0.6,0.1,6.7
+621,"""Eggplant*, pickles, """"Nukamiso-zuke"""" (pickled with salty rice bran paste)",1.8,0.2,9.6
+622,"［*Syn. Aubergine］""",1.9,0.2,9.2
+623,"Eggplant*, pickles, ""Koji-zuke"" (pickled small oval type with rice koji) ［*Syn. Aubergine］",1.8,0.3,9.7
+624,"Eggplant*, pickles, ""Karashi-zuke"" (pickled small oval type with mustard) ［*Syn. Aubergine］",1.9,0.4,9.6
+625,"Eggplant*, pickles, ""Shiba-zuke"" (pickled with perilla leaf, cucumber and Myoga, etc.) ［*Syn. Aubergine］",0.7,0.2,7.5
+626,"Shepherd's purse, leaves, raw",6.4,0.9,27.5
+627,"Turnip rape, flower buds and stems, raw",8.2,5.9,30.6
+628,"Turnip rape, flower buds and stems, boiled",1.9,0.3,10.6
+629,"Rape, stems and leaves, raw",1.7,0.2,10.7
+630,"Rape, stems and leaves, boiled",1.4,0.1,8.3
+631,"Bitter melon, fruit, raw",1.3,0.1,6.8
+632,"Bitter melon, fruit, sautéed",1.6,4.4,9.5
+633,"Chinese chive, leaves, raw",1.9,0.3,6.5
+634,"Chinese chive, leaves, boiled",2.1,5.2,7.9
+635,"Chinese chive, leaves, sautéed",2.0,0.3,5.4
+636,"Chinese chive, scape and flower bud, raw",0.9,0.1,3.5
+637,"Chinese chive, blanching culture, leaves, raw",1.2,0.1,4.1
+638,"Carrots, cultivar for leaf use, leaves, raw",1.7,0,5.4
+639,"Carrot, regular (European type), root with skin, raw",3.2,0.2,15.5
+640,"Carrot, regular (European type), root with skin, boiled",0.8,0.1,3.2
+641,"Carrot, regular (European type), root without skin, raw",0.9,0.1,2.9
+642,"Carrot, regular (European type), root without skin, boiled",1.4,0.1,3.4
+643,"Carrot, regular (European type), root without skin, sautéed",2.8,0.3,7.9
+644,"Carrot, regular (European type), root without skin, deep-fried carrot",1.6,0.2,2.7
+645,"Carrot, regular (European type), skin, raw",2.0,0.6,4.0
+646,"Carrot, regular (European type), root, frozen",4.0,0.7,7.8
+647,"Carrot, regular (European type), glazed carrot",0.8,0.1,3.1
+648,"Carrot, regular (European type), juice, canned",0.6,0.1,4.9
+649,"Carrot, ""Kintoki"" (oriental type), root with skin, raw",0.6,0.1,4.9
+650,"Carrot, ""Kintoki"" (oriental type), root with skin, boiled",0.6,0,4.4
+651,"Carrot, ""Kintoki"" (oriental type), root without skin, raw",1.6,0.1,9.3
+652,"Carrot, ""Kintoki"" (oriental type), root without skin, boiled",1.5,0.1,10.2
+653,"Carrot, baby carrot, root, raw",0.9,0.2,5.1
+654,"Garlic, bulb, raw",0.9,4.3,5.4
+655,"Garlic, bulb, sautéed",1.0,0.2,7.2
+656,"Garlic, scape, raw",1.0,4.3,7.6
+657,"Garlic, scape, boiled",0.8,0.2,6.6
+658,"Welsh onions, ""Nebuka-negi"" (large variety, blanching cultivation), leaves, raw",0.8,4.3,6.9
+659,"Welsh onions, ""Nebuka-negi"" (large variety, blanching cultivation), leaves, boiled",1.0,0.2,7.5
+660,"Welsh onions, ""Nebuka-negi"" (large variety, blanching cultivation), leaves, sautéed",1.0,0,4.7
+661,"Welsh onions, ""Ha-negi"" (large variety, green), leaves, raw",1.4,0.5,17.3
+662,"Welsh onions, ""Ha-negi"" (large variety, green), leaves, sautéed",1.5,0.2,4.2
+663,"Welsh onions, ""Konegi"" (small variety), leaves, raw",1.2,0.2,3.3
+664,"Turnip green, ""Nozawana"", leaves, raw",0.3,0,3.0
+665,"Turnip green, ""Nozawana"", leaves, pickles, salted pickles",0.3,0,1.9
+666,"Turnip green, ""Nozawana"", leaves, pickles, seasoned",2.5,0.1,10.0
+667,"Wild onion, ""Nobiru"", bulb and leaves, raw",2.5,0.1,7.0
+668,"Chinese cabbage, head, raw",2.5,0.1,7.4
+669,"Chinese cabbage, head, boiled",2.0,0.1,3.7
+670,"Chinese cabbage, head, pickles, salted pickles",2.8,0.1,5.4
+671,"Chinese cabbage, head, pickles, Kimchi ",4.3,0.5,5.2
+672,"Bok choy, leaves, raw",3.5,0.4,4.3
+673,"Basil, leaves, raw",1.9,0.6,2.6
+674,"Parsley, leaves, raw",0.8,0.1,3.8
+675,"Little radish, root, raw",1.6,0.1,3.7
+676,"Chayote, fruit, white-colored, raw",2.2,0.4,3.1
+677,"Chayote, fruit, green-colored, raw",2.2,0.4,3.1
+678,"Chayote, fruit, white-colored, salted pickles",2.2,0.4,3.1
+679,"""Red beet*, root, raw",2.6,0.5,4.0
+680,"［*Syn. Table beet］""",2.6,0.5,4.0
+681,"""Red beet*, root, boiled",2.6,0.5,4.0
+682,"［*Syn. Table beet］""",3.8,8.1,4.4
+683,"Sweet peppers, fruit, green, raw",3.3,0.2,3.1
+684,"Sweet peppers, fruit, green, sautéed",3.1,0.3,17.7
+685,"Sweet peppers, fruit, red, raw",1.3,0.2,4.4
+686,"Sweet peppers, fruit, red, sautéed",2.9,0.1,4.7
+687,"Sweet peppers, fruit, yellow, raw",4.9,0,5.7
+688,"Sweet peppers, fruit, yellow, sautéed",2.2,0.1,4.8
+689,"Sweet peppers, ""Tomapi"", fruit, raw",2.0,0.1,4.7
+690,"Turnip, ""Hinona"", root with top portion, raw",2.0,0.1,5.9
+691,"Turnip, ""Hinona"", root with top portion, pickles, sweetened",1.0,0.1,4.0
+692,"Non-heading Chinese cabbage, ""Hiroshimana"", leaves, raw",0.9,0.1,3.3
+693,"Non-heading Chinese cabbage, ""Hiroshimana"", leaves, salted pickles",1.9,0.1,4.1
+694,"Japanese butterbur, petiole, raw",2.3,0.1,3.9
+695,"Japanese butterbur, petiole, boiled",0.9,0.1,2.9
+696,"Japanese butterbur, inflorescence, raw",1.1,0,4.0
+697,"Japanese butterbur, inflorescence, boiled",1.1,0.3,2.9
+698,"Hyacinth beans, immature pods, raw",0.9,0.1,2.6
+699,"Swiss chard, leaves, raw",0.4,0.1,1.5
+700,"Swiss chard, leaves, boiled",2.9,0.2,20.6
+701,"Broccoli, inflorescence, raw",5.7,0.1,9.9
+702,"Broccoli, inflorescence, boiled",5.3,0.1,9.8
+703,"Broccoli, sprouts, raw",3.0,0.5,8.8
+704,"Sponge gourd, immature fruit, raw",1.6,0.1,2.0
+705,"Sponge gourd, immature fruit, boiled",3.7,1.5,2.3
+706,"Spinach, leaves, all season, raw",2.9,1.6,2.2
+707,"Spinach, leaves, summer harvest, raw",2.0,0,2.7
+708,"Spinach, leaves, winter harvest, raw",1.3,0,2.7
+709,"Spinach, leaves, all season, boiled",1.7,0.1,2.6
+710,"Spinach, leaves, summer harvest, boiled",1.6,0,2.3
+711,"Spinach, leaves,  winter harvest, boiled",4.8,0.5,6.3
+712,"Spinach, leaves, all season, sautéed",3.0,0.4,4.0
+713,"Spinach, leaves, frozen",4.1,0.1,15.6
+714,"Horseradish, rhizome, raw",3.8,0.1,28.3
+715,"Manchurian wild rice, stem, raw",3.4,0.1,28.7
+716,"Turnip green, ""Mizukakena"", leaves, raw",2.2,0.1,3.1
+717,"Turnip green, ""Mizukakena"", leaves, salted pickles",2.2,0.1,4.1
+718,"Leaf green, ""Mizuna"", leaves, raw",3.4,0.2,10.0
+719,"Leaf green, ""Mizuna"", leaves, boiled",5.2,0.3,8.7
+720,"Leaf green, ""Mizuna"", leaves, salted pickles",4.8,0.1,8.2
+721,"Japanese hornwort, ""Kiri-mitsuba"" (branched in a dark place), leaves, raw",12.0,24.2,12.4
+722,"Japanese hornwort, ""Kiri-mitsuba"" (branched in a dark place), leaves, boiled",11.9,23.5,12.3
+723,"Japanese hornwort, ""Ne-mitsuba"" (branched by covering with soil), leaves, raw",1.4,0.2,29.3
+724,"Japanese hornwort, ""Ne-mitsuba"" (branched by covering with soil), leaves, boiled",0.7,0.2,29.0
+725,"Japanese hornwort, ""Ito-mitsuba"" (young plants), leaves, raw",2.3,0.2,17.8
+726,"Japanese hornwort, ""Ito-mitsuba"" (young plants), leaves, boiled",1.6,0.1,6.9
+727,"Leaf green, ""Mibuna"", leaves, raw",1.3,0.1,6.8
+728,"Japanese ginger, ""Myoga"", spike, raw",1.9,0.4,3.1
+729,"Japanese ginger, ""Myoga"", young stems and leaves, raw",0.7,0.1,6.0
+730,"Yam, bulbil, raw",0.5,0.1,4.6
+731,"Brussels sprouts, head, raw",0.6,0.1,2.8
+732,"Brussels sprouts, head, boiled",0.8,0.2,2.9
+733,"Water pepper sprouts, raw",1.0,0.2,2.7
+734,"Bean sprouts, alfalfa sprouts, raw",1.4,0.1,3.3
+735,"Bean sprouts, soybean sprouts, raw",1.2,0.2,3.2
+736,"Bean sprouts, soybean sprouts, boiled",1.2,0.4,2.5
+737,"Bean sprouts, black gram sprouts, raw",1.2,0.2,3.4
+738,"Bean sprouts, black gram sprouts, boiled",1.9,0.1,15.5
+739,"Bean sprouts, mung bean sprouts, raw",1.3,0.1,16.1
+740,"Bean sprouts, mung bean sprouts, boiled",1.6,0,7.4
+741,"""Nalta jute*, stems and leaves, raw",1.9,0,6.9
+742,"［*Syn. Tossa jute］""",5.6,0.2,18.4
+743,"""Nalta jute*, stems and leaves, boiled",7.1,0.5,28.0
+744,"［*Syn. Tossa jute］""",2.4,0.1,4.0
+745,"Thistle root, ""Yamagobo"", pickled with miso",1.5,0.1,3.0
+746,"Lily, bulb, raw",20.0,0.7,61.4
+747,"Lily, bulb, boiled",0.5,0.1,22.0
+748,"Water convolvulus, stems and leaves, raw",0.3,0.3,8.6
+749,"Water convolvulus, stems and leaves, boiled",0.7,0.1,9.0
+750,"Aster, ""Yomena"", leaves, raw",0.7,0.1,9.0
+751,"Japanese wormwood, leaves, raw",0.1,0,10.5
+752,"Japanese wormwood, leaves, boiled",1.8,0.4,19.4
+753,"Peanuts, immature beans, raw",2.5,18.7,6.2
+754,"Peanuts, immature beans, boiled",1.0,0.3,8.5
+755,"Japanese scallion, ""Rakkyo"", mature bulb, raw",9.2,0.4,70.4
+756,"Japanese scallion, ""Rakkyo"", mature bulb, pickles, sweetened",0.5,0.4,18.9
+757,"Japanese scallion, ""Rakkyo"", immature bulb, raw",0.3,0.1,64.9
+758,"Leeks, bulb and leaves, raw",0.4,0.1,50.5
+759,"Leeks, bulb and leaves, boiled",0.9,0.1,8.5
+760,"Rocket salad, leaves, raw",0.4,0.1,63.3
+761,"Garden rhubarb, petiole, raw",0.5,0.1,48.4
+762,"Garden rhubarb, petiole, boiled",0.5,0.2,82.8
+763,"Lettuce, head lettuce, crisp type, soil culture, head, raw",0.6,0.1,14.3
+764,"Lettuce, head lettuce, crisp type, hydroculture, head, raw",3.0,1.1,75.3
+765,"Lettuce, head lettuce, butter type, leaves, raw",0.5,0.1,19.4
+766,"Lettuce, green leaf lettuce, leaves, raw",0.7,0.5,7.9
+767,"Lettuce, red leaf lettuce, leaves, raw",0.7,0.4,6.7
+768,"Lettuce, Sang-chu lettuce, leaves, raw",1.5,0.5,10.5
+769,"Lettuce, Romaine lettuce, leaves, raw",0.9,0.2,10.5
+770,"East Indian lotus root, rhizome, raw",1.5,0.6,21.1
+771,"East Indian lotus root, rhizome, boiled",0.7,0.5,48.1
+772,"Green onion, ""Wakegi"", leaves, raw",0,0,12.3
+773,"Green onion, ""Wakegi"", leaves, boiled",1.0,15.0,4.5
+774,"Wasabi, rhizome, raw",0.8,12.3,3.4
+775,"Wasabi, pickled with Sake lees ",0.8,14.3,4.2
+776,"Bracken fern, fiddleheads, raw",0.4,0.2,15.9
+777,"Bracken fern, fiddleheads, boiled",0.5,0.1,16.9
+778,"Bracken fern, fiddleheads, dried, raw",1.5,1.7,71.3
+779,"Akebia, flesh, raw",0.4,0.1,18.3
+780,"Akebia, peel, raw",0.9,0.1,11.8
+781,"Acerola, sour type, raw",0.5,0.1,11.9
+782,"Acerola, sweet type, raw",0.7,0.1,12.0
+783,"Acerola, 10 % fruit juice beverage",0.5,0.1,11.3
+784,"Atemoya, raw",0.7,0.1,11.5
+785,"Avocados, raw",0.5,0.1,10.6
+786,"Apricots, raw",0.5,0.1,9.9
+787,"Apricots, dried",0.2,0,13.0
+788,"Apricots, canned in heavy syrup",0.2,0,14.7
+789,"Apricots, jam, heavily sweetened",0.1,0,12.4
+790,"Apricots, jam, lightly sweetened",0.5,0.1,15.3
+791,"S0awberries, raw",0.3,0.1,15.3
+792,"S0awberries, jam, heavily sweetened",0.9,0.1,11.8
+793,"S0awberries, jam, lightly sweetened",1.0,0.1,9.8
+794,"S0awberries, dried",0.8,0,11.0
+795,"Figs, raw",0.7,0.1,10.7
+796,"Figs, dried",0.4,0.2,10.8
+797,"Figs, canned in heavy syrup",0.2,0,10.0
+798,"""Mume*, raw",0.2,0.1,63.2
+799,"［*Syn. Japanese apricots］""",0.3,0.1,47.7
+800,"""Mume*, salted pickles",1.0,0.1,9.8
+801,"［*Syn. Japanese apricots］""",0.8,0.1,10.1
+802,"""Mume*, pickles, seasoned",0.4,0.1,8.5
+803,"［*Syn. Japanese apricots］""",0.7,0.2,8.8
+804,"""Mume*, """"Umeboshi"""" (pickled and dried mume), salted pickles",0.8,0.2,10.3
+805,"［*Syn. Japanese apricots］""",0.5,0.7,17.5
+806,"""Mume*, """"Umeboshi"""" (pickled and dried mume),  seasoned pickles",0.9,0.1,9.6
+807,"［*Syn. Japanese apricots］""",0.9,0.1,9.6
+808,"""Mume*,""""Umebishio"""" (sweetened puree of pickled mume)",0.6,0.1,10.3
+809,"［*Syn. Japanese apricots］""",0.7,0.1,8.8
+810,"""Mume*, 20 % fruit juice beverage",0.3,0,11.1
+811,"［*Syn. Japanese apricots］""",0.1,0,9.7
+812,"Olives, in brine, green",0.5,0,17.1
+813,"Olives, in brine, ripe",0.7,0.3,10.9
+814,"Olives, in brine, stuffed olives",0.8,0.1,7.9
+815,"""Japanese persimmons*, nonas0ingent, raw ",0.1,0,11.8
+816,"［*Syn. Kaki］""",0.8,0.2,12.9
+817,"""Japanese persimmons*, as0ingency removed, raw",1.8,0.3,16.4
+818,"［*Syn. Kaki］""",0.5,0.1,6.6
+819,"""Japanese persimmons*, dried",0.8,0.2,11.7
+820,"［*Syn. Kaki］""",1.1,0.1,12.4
+821,"Chinese quinces, raw",0.3,0.2,8.0
+822,"Ci0us, ""Iyo"", juice sacs",0.9,0.1,10.0
+823,"Satsuma mandarins, segments, early ripening type, raw",0.5,0.1,19.4
+824,"Satsuma mandarins, segments, normal ripening type, raw",0.8,0.1,11.5
+825,"Satsuma mandarins, juice sacs, early ripening type, raw",0.9,0.2,12.1
+826,"Satsuma mandarins, juice sacs, normal ripening type, raw",0.6,0.1,11.7
+827,"Satsuma mandarins, s0aight fruit juice",0.6,0.1,8.3
+828,"Satsuma mandarins, reconstituted fruit juice ",0.7,0.1,9.8
+829,"Satsuma mandarins, juice with juice sacs ",0.2,0.1,85.5
+830,"Satsuma mandarins, 50 % fruit juice beverage",0.9,0.1,9.9
+831,"Satsuma mandarins, 20 % fruit juice beverage",1.2,0.5,14.2
+832,"Satsuma mandarins, canned in light syrup, solids",0.5,0.1,7.0
+833,"Satsuma mandarins, canned in light syrup, liquid",0.4,0.1,9.3
+834,"Oranges, navel, juice sacs, raw",0.9,0.7,12.5
+835,"Oranges, Valencia, imported from the U.S.A., juice sacs, raw",0.4,0.2,8.6
+836,"Oranges, Valencia, s0aight fruit juice",1.0,0.1,13.5
+837,"Oranges, Valencia, reconstituted fruit juice ",1.1,0.2,14.9
+838,"Oranges, Valencia, 50 % fruit juice beverage",1.5,0.9,8.0
+839,"Oranges, Valencia, 30 % fruit juice beverage",0.6,0.1,9.9
+840,"Oranges, Valencia, marmalade, heavily sweetened",0.6,0.1,9.9
+841,"Oranges, Valencia, marmalade, lightly sweetened",0.1,0.1,12.3
+842,"Oranges, Fukuhara-orange, juice sacs, raw",0.1,0.1,12.3
+843,"Oroblanco, juice sacs, raw",1.0,0.1,13.2
+844,"Ci0us, ""Kabosu"", juice, fresh",1.3,0.2,17.2
+845,"Ci0us, ""Kawachi-bankan"", juice sacs, raw",0.2,0.1,5.0
+846,"Ci0us, ""Kiyomi"", juice sacs, raw",1.9,16.0,2.8
+847,"Kumquats, whole, raw",0,0,20.2
+848,"Grapefruit, white flesh type, juice sacs, raw",1.0,0.2,15.2
+849,"Grapefruit, red flesh type,  juice sacs, raw",1.2,0.1,17.1
+850,"Grapefruit, s0aight fruit juice",0.6,0.1,17.6
+851,"Grapefruit, reconstituted fruit juice",0.2,0,15.5
+852,"Grapefruit, 50 % fruit juice beverage",0.6,0.1,9.5
+853,"Grapefruit, 20 % fruit juice beverage",0.6,0.1,9.5
+854,"Grapefruit, canned in light syrup",0.7,0.1,7.5
+855,"Ci0us, ""Sanbokan"", juice sacs, raw",0.6,1.0,9.4
+856,"Ci0us, ""Shiikuwasha"", juice, fresh",0.7,0.1,12.6
+857,"Ci0us, ""Shiikuwasha"", 10 % fruit juice beverage",2.5,0.2,62.4
+858,"Ci0us, ""Shiranuhi"", juice sacs, raw",1.3,0.3,19.8
+859,"Ci0us, ""Sudachi"", peel, raw",1.4,0.3,11.8
+860,"Ci0us, ""Sudachi"", juice, fresh",2.3,3.3,27.1
+861,"Ci0us, ""Setoka"", juice sacs, raw",0.3,0.1,11.3
+862,"Ci0us, Seminole, juice sacs, raw",0.1,0.1,19.1
+863,"Ci0us, sour oranges, juice, fresh",0.2,0.1,12.7
+864,"Ci0us, ""Natsudaidai"", juice sacs, raw",0.3,0.1,14.4
+865,"Ci0us, ""Natsudaidai"", canned in heavy syrup",0.2,0.1,20.7
+866,"Ci0us, ""Hassaku"", juice sacs, raw",3.9,2.0,71.4
+867,"Ci0us, ""Harumi"", juice sacs, raw",2.2,0.2,71.3
+868,"Ci0us, ""Hyuga-natsu"", segments and albedo, raw",0.6,0.1,13.4
+869,"Ci0us, ""Hyuga-natsu"", juice sacs, raw",0.3,0.1,11.0
+870,"Pummelo, juice sacs, raw",0.1,0.1,11.1
+871,"Pummelo, candied peel",0.3,0.1,12.1
+872,"Ponkan mandarins, juice sacs, raw",0,0,12.4
+873,"Ci0us, ""Yuzu"", peel, raw",0.4,0.1,20.3
+874,"Ci0us, ""Yuzu"", juice, fresh",0.5,0.2,86.8
+875,"Limes, juice, fresh",0.7,0.6,12.8
+876,"Lemons, whole, raw",0.8,0.4,16.2
+877,"Lemons, juice, fresh",1.1,0.2,22.5
+878,"Kiwifruit, green flesh type, raw",3.8,0.4,78.5
+879,"Kiwifruit, yellow flesh type, raw",0.5,0.2,9.5
+880,"Kiwano, raw",1.3,0.1,9.4
+881,"Guava, red flesh type, raw",0.3,0.1,10.6
+882,"Guava, white flesh type, raw",0.3,0.1,19.8
+883,"Guava, fruit juice, 20 % fruit juice beverage (nectar)",0.4,0.1,15.7
+884,"Guava, fruit juices, 10 % fruit juice beverage",2.7,0.2,80.7
+885,"Gooseberries, raw",0.3,0.2,14.5
+886,"Oleasters, raw",0.3,0.3,12.1
+887,"Coconut, coconut water",0.2,0,12.9
+888,"Coconut, coconut milk",0,0,13.1
+889,"Coconut, Nata de coco in syrup",0.4,0.1,20.4
+890,"Sweet cherries, domestic, raw",0.5,0.1,47.5
+891,"Sweet cherries, imported from the U.S.A., raw",0.5,0.1,12.9
+892,"Sweet cherries, canned in heavy syrup",0.7,0.3,43.8
+893,"Pomegranates, raw",2.7,1.9,72.5
+894,"Watermelon, red flesh type, raw",1.5,0.1,18.9
+895,"Watermelon, yellow flesh type, raw",0.8,0.1,7.8
+896,"Carambola, raw",0.8,0.1,7.8
+897,"Plums, Japanese plums, raw",0.3,0.1,15.1
+898,"Plums, European plums, raw",0.6,0.1,16.9
+899,"Plums, European plums, dried",0.6,0.2,17.5
+900,"Cherimoya, raw",1.1,0.1,10.3
+901,"Pitaya, raw",1.0,0.1,10.4
+902,"Durian, raw",1.0,0.1,10.4
+903,"""Pears, sand pears*, raw",0.6,0.1,10.2
+904,"［Syn. Nashi pears］""",0.2,0.1,11.6
+905,"""Pears, sand pears*, canned in heavy syrup",0.5,0.1,20.6
+906,"［*Syn. Nashi pears］""",0.5,0.1,20.6
+907,"Pears, Chinese white pears, raw",0.3,0.1,19.8
+908,"Pears, European pears, raw",0.7,0.3,10.7
+909,"Pears, European pears, canned in heavy syrup",0.5,0.2,11.3
+910,"Jujube, dried",1.0,0.1,16.4
+911,"Dates, dried",1.1,0.1,10.2
+912,"Pineapple, raw",5.1,0.4,72.9
+913,"Pineapple, s0aight fruit juice ",0.1,0.2,15.5
+914,"Pineapple, reconstituted fruit juice ",0.2,0.3,16.2
+915,"Pineapple, 50 % fruit juice beverage",0.2,0.1,11.8
+916,"Pineapple, 10 % fruit juice beverage",0.1,0.2,11.4
+917,"Pineapple, canned in heavy syrup",0.1,0,11.5
+918,"Pineapple, candied ",0,0,11.4
+919,"Blue berried honeysuckle, raw",0.3,0.1,20.1
+920,"Passion fruit, juice, fresh",0.2,0.1,52.7
+921,"Bananas, raw",2.7,0.2,7.6
+922,"Bananas, dried",2.8,0.1,7.8
+923,"Papaya, ripe, raw",3.0,3.9,8.8
+924,"Papaya, unripe, raw",3.6,0.3,16.9
+925,"Loquats, raw",6.9,0.7,77.0
+926,"Loquats, Raw, canned in heavy syrup",1.2,0.1,16.1
+927,"Grapes, raw",2.3,5.2,27.8
+928,"Grapes, raisins",7.9,2.1,71.1
+929,"Grapes, s0aight fruit juice ",0.6,0.2,5.2
+930,"Grapes, reconstituted fruit juice ",4.9,0.7,74.5
+931,"Grapes, 70 % fruit juice beverage",0.4,0,6.7
+932,"Grapes, 10 % fruit juice beverage",3.7,0.4,4.9
+933,"Grapes, canned in heavy syrup",3.0,0.3,5.7
+934,"Grapes, jam",2.5,0.4,5.1
+935,"Blueberries, raw",3.3,4.1,7.3
+936,"Blueberries, jam",3.1,0.4,7.6
+937,"Blueberries, dried",2.4,0.4,5.9
+938,"White sapote, raw",3.8,5.4,8.8
+939,"Oriental melon, yellow flesh type, raw",19.3,3.7,63.4
+940,"Oriental melon, white flesh type, raw",3.2,0.5,16.7
+941,"Common quinces, raw",2.6,0.3,4.5
+942,"Mangoes, raw",2.6,0.3,5.1
+943,"Mangosteen, raw",2.7,0.6,5.0
+944,"Muskmelon, greenhouse culture, raw",3.3,0.3,6.5
+945,"Muskmelon, open culture, green flesh type, raw",2.9,4.4,5.0
+946,"Muskmelon, open culture, orange flesh type, raw",2.5,0.4,2.8
+947,"Peaches, raw",2.8,0.6,4.1
+948,"Peaches, 30 % fruit juice beverage (nectar)",3.6,0.3,3.7
+949,"Peaches, white flesh type, canned in heavy syrup, solids",1.7,0.2,5.2
+950,"Peaches, yellow flesh type, canned in heavy syrup, solids",1.6,0.1,5.1
+951,"Peaches, canned in heavy syrup, liquid",1.0,0.1,3.2
+952,"Nectarines, raw ",2.3,0.4,4.1
+953,"Red bayberries, raw",6.1,0.2,4.8
+954,"""Lychees*, raw",2.8,0.4,6.0
+955,"［*Syn. Litchi］""",3.2,0.5,6.5
+956,"Red raspberries, raw",4.2,0.5,9.1
+957,"Longans, dried",3.2,3.7,8.1
+958,"Apples, without skin, raw",3.3,0.3,6.2
+959,"Apples, with skin, raw",3.4,0.2,6.6
+960,"Apples, s0aight fruit juice ",2.0,0.5,4.4
+961,"Apples, reconstituted fruit juice",1.6,0.5,6.4
+962,"Apples, 50 % fruit juice beverage",2.6,4.4,6.8
+963,"Apples, 30 % fruit juice beverage",21.9,3.9,59.9
+964,"Apples, canned in heavy syrup",2.9,0.3,2.1
+965,"Apples, jam",3.8,0.2,3.7
+966,"""Mushrooms, winter mushrooms*, raw",3.6,4.5,4.5
+967,"［*Syn. Enokitake, Enoki］""",3.4,0.2,3.3
+968,"""Mushrooms, winter mushrooms*, boiled",2.0,0.6,8.2
+969,"［*Syn. Enokitake, Enoki］""",2.4,0.1,4.0
+970,"""Mushrooms, winter mushrooms*, sautéed",22.1,0.6,41.7
+971,"［*Syn. Enokitake, Enoki］""",29.4,5.2,41.0
+972,"""Mushrooms, winter mushrooms*, bottled in seasoning",39.4,3.7,38.7
+973,"［*Syn. Enokitake, Enoki］""",41.4,3.7,44.3
+974,"Mushrooms, 0ee ears, Cloud ear fungus, dried, raw",40.0,3.5,41.8
+975,"Mushrooms, 0ee ears, Cloud ear fungus, dried, boiled",12.4,0.7,56.2
+976,"Mushrooms, 0ee ears, Cloud ear fungus, dried, rehydrated and sautéed",34.8,0.7,39.1
+977,"Mushrooms, 0ee ears, Cloud ear, dried, raw",0.5,0.1,1.2
+978,"Mushrooms, 0ee ears, Cloud ear, dried, boiled",9.0,0.1,62.2
+979,"Mushrooms, 0ee ears, white jelly fungus, dried, raw",0.3,0.1,2.5
+980,"Mushrooms, 0ee ears, white jelly fungus, dried, boiled",1.3,0.1,8.8
+981,"Mushrooms, abalone mushrooms, raw",38.1,1.6,41.7
+982,"Mushrooms, ""Shiitake"", bed-log cultivation, fresh, raw　",11.0,1.0,55.7
+983,"Mushrooms, ""Shiitake"", bed-log cultivation, fresh, boiled",7.9,0.5,62.1
+984,"Mushrooms, ""Shiitake"", bed-log cultivation, fresh, sautéed",8.3,1.5,58.5
+985,"Mushrooms, ""Shiitake"", wood-log cultivation, fresh, raw　",6.9,1.7,62.9
+986,"Mushrooms, ""Shiitake"", wood-log cultivation, fresh, boiled",8.2,1.2,61.5
+987,"Mushrooms, ""Shiitake"", wood-log cultivation, fresh, sautéed",7.7,1.9,64.7
+988,"Mushrooms, ""Shiitake"", dried, raw",8.0,2.0,56.5
+989,"Mushrooms, ""Shiitake"", dried, boiled",5.4,0.5,46.0
+990,"Mushrooms, ""Hatakeshimeji"", raw",6.5,0.9,50.2
+991,"Mushrooms, ""Hatakeshimeji"", boiled",16.9,0.4,37.0
+992,"Mushrooms, beech mushrooms, raw",6.0,1.0,33.3
+993,"Mushrooms, beech mushrooms, boiled",1.5,0,2.1
+994,"Mushrooms, beech mushrooms, sautéed",16.1,1.0,53.8
+995,"Mushrooms, ""Honshimeji"", raw",0.2,0,0.6
+996,"Mushrooms, ""Honshimeji"", boiled",2.4,0.2,74.1
+997,"Mushrooms, golden oyster mushrooms, raw",0,0,1.5
+998,"Mushrooms, ""Nameko"", raw",0.2,0.3,81.7
+999,"Mushrooms, ""Nameko"", boiled",1.5,0.1,5.1
+1000,"Mushrooms, ""Nameko"", canned in brine",0.9,0.2,4.9
+1001,"Mushrooms, ""Numerisugitake"", raw",9.2,3.2,58.4
+1002,"Mushrooms, phoenix mushrooms, raw",0.7,0.3,3.4
+1003,"Mushrooms, king oyster mushrooms, raw",0.8,4.7,4.1
+1004,"Mushrooms, king oyster mushrooms, boiled",9.2,3.2,56.0
+1005,"Mushrooms, king oyster mushrooms, baked",0.7,0.3,3.4
+1006,"Mushrooms, king oyster mushrooms, sautéed",0.8,4.7,4.1
+1007,"Mushrooms, oyster mushrooms, raw",16.6,1.0,46.3
+1008,"Mushrooms, oyster mushrooms, boiled",14.4,1.3,21.1
+1009,"Mushrooms, ""Maitake"", raw",13.8,1.0,57.8
+1010,"Mushrooms, ""Maitake"", boiled",27.9,4.9,40.8
+1011,"Mushrooms, ""Maitake"", sautéed",0.6,0.1,4.2
+1012,"Mushrooms, ""Maitake"", dried, raw",0.3,0.2,2.0
+1013,"Mushrooms, button mushrooms, fresh, raw",0.2,0.1,1.4
+1014,"Mushrooms, button mushrooms, fresh, boiled",1.9,0.2,5.6
+1015,"Mushrooms, button mushrooms, fresh, sautéed",13.6,1.6,41.3
+1016,"Mushrooms, button mushrooms, canned in brine, solids",2.0,0.3,5.9
+1017,"Mushrooms, ""Matsutake"", raw",16.7,1.2,47.4
+1018,"Mushrooms, black poplar mushrooms, raw",1.1,0.1,2.2
+1019,"Algae, Sea lettuce, dried",18.0,4.0,41.8
+1020,"Algae, green laver, dried",1.7,0.4,3.1
+1021,"Algae, purple laver, dried",1.1,0.3,5.5
+1022,"Algae, purple laver, dried, toasted",0.9,0.6,3.4
+1023,"Algae, purple laver, dried, seasoned and toasted",19.1,3.4,0.1
+1024,"Algae, ""Arame"", steamed and dried",16.8,2.3,0.1
+1025,"Algae, ""Iwa-nori"", dried",19.7,4.5,0.1
+1026,"Algae, Green caviar, raw",19.7,4.1,0.2
+1027,"Algae, ""Ego-nori"", dried",22.4,5.9,0.1
+1028,"Algae, ""Ego-nori"", ""Okyuto"" (algae jelly)",25.9,6.4,0.1
+1029,"Algae, ""Ogo-nori"", salted products, desalted",20.1,18.2,7.9
+1030,"Algae, ""Kawa-nori"", dried",20.2,8.8,0.1
+1031,"Algae, kombu, ""Enaga-oni-kombu"", dried",24.6,12.3,0.1
+1032,"Algae, kombu, ""Gagome-kombu"", dried",17.8,5.0,0.1
+1033,"Algae, kombu, ""Naga-kombu"", dried",24.0,18.6,3.5
+1034,"Algae, kombu, ""Hosome-kombu"", dried",22.1,5.6,0.2
+1035,－,28.7,7.7,0.2
+1036,"Algae, kombu, ""Mitsuishi-kombu"", dried",19.6,9.1,0.1
+1037,"Algae, kombu, ""Rishiri-kombu"", dried",21.7,8.8,0.1
+1038,"Algae, kombu, ""Kizami-kombu"" (dried and cut into thin s0ips)",24.7,10.4,0.1
+1039,"Algae, kombu, ""Kezuri-kombu"" (dried and thinly shaved) ",23.6,6.9,0.4
+1040,"Algae, kombu, ""Shio-kombu""  (seasoned and dried) ",29.7,6.2,0.6
+1041,"Algae, kombu, ""Tsukudani"" (simmered in soy sauce and sugar)",22.9,6.2,0.1
+1042,"Algae, ""Suizenji-nori"", dried, soaked in water",49.9,3.0,0.3
+1043,"Algae, ""Tengusa"", dried",17.3,9.3,0
+1044,"Algae, ""Tengusa"", ""Tokoroten"" (Gelidium jelly)  ",17.6,12.7,0
+1045,"Algae, ""Tengusa"", agar-agar",18.3,3.6,0.1
+1046,"Algae, ""Tengusa"", agar jelly",18.8,3.6,0
+1047,"Algae, ""Tengusa"", agar-agar powder",20.7,4.0,0
+1048,"Algae, ""Tosaka-nori"", red, salted products, desalted",22.5,2.6,0
+1049,"Algae, ""Tosaka-nori"", green, salted products, desalted",18.3,2.4,0.1
+1050,"Algae, ""Hijiki"", boiled and dried, stainless steel pot process, raw",26.6,6.8,0.1
+1051,"Algae, ""Hijiki"", boiled and dried, stainless steel pot process, rehydrated and boiled",9.5,17.5,0.3
+1052,"Algae, ""Hijiki"", boiled and dried, stainless steel pot process, rehydrated and sautéed",23.0,10.1,0.4
+1053,"Algae, ""Hijiki"", boiled and dried, steel pot process, raw",17.8,7.9,0.6
+1054,"Algae, ""Hijiki"", boiled and dried, steel pot process, rehydrated and boiled",22.6,15.1,0.8
+1055,"Algae, ""Hijiki"", boiled and dried, steel pot process, rehydrated and sautéed",7.4,55.0,0.3
+1056,"Algae, ""Hitoegusa"", dried",15.2,52.3,0.4
+1057,"Algae, ""Hitoegusa"", ""Tsukudani"" (simmered in soy sauce and sugar)",11.4,13.1,1.8
+1058,"Algae, ""Fu-nori"", dried",17.2,3.4,0.1
+1059,"Algae, ""Matsumo"", dried",13.0,0.2,0.3
+1060,"Algae, ""Mukade-nori"", salted products, desalted",10.0,41.9,2.2
+1061,"Algae, ""Okinawa-mozuku"", salted products, desalted",17.2,5.5,0.1
+1062,"Algae, ""Mozuku"", salted products, desalted",43.1,6.1,1.5
+1063,"Algae, ""Wakame"", raw",29.4,4.6,30.7
+1064,"Algae, ""Wakame"", dried",25.6,3.7,35.8
+1065,"Algae, ""Wakame"", dried, soaked in water",17.2,5.7,0.1
+1066,"Algae, ""Wakame"", dried, ""Ita-wakame"" (made into sheets and dried)",19.5,7.8,0
+1067,"Algae, ""Wakame"", ""Haiboshi"" (coated with ash and dried), soaked in water",18.1,1.7,0.1
+1068,"Algae, ""Wakame"", cut and dried",16.7,0.4,5.1
+1069,"Algae,  ""Wakame"", blanched and salted products, desalted",16.4,8.5,0
+1070,"Algae, ""Wakame"", stipe and center vein, blanched and salted products, desalted",21.3,4.8,0.3
+1071,"Algae, ""Wakame"", fruit-bearing leaves, raw",45.0,5.1,0.3
+1072,"Fish, fat greenling, raw",18.2,12.1,0.3
+1073,"Fish, Matsubara's red rockfish, raw",64.5,6.2,0.3
+1074,"""Fish, horse mackerel, Japanese Jack mackerel＊, with integument, raw",66.6,5.7,0.3
+1075,"［*Syn. horse mackerel］""",19.2,9.2,0.2
+1076,"""Fish, horse mackerel, Japanese Jack mackerel*, sashimi",22.4,8.7,0.2
+1077,"［*Syn. horse mackerel］""",25.3,9.4,0.2
+1078,"""Fish, horse mackerel, Japanese Jack mackerel＊, with integument, boiled",20.0,30.3,10.7
+1079,"［*Syn. horse mackerel］""",16.8,9.6,0.4
+1080,"""Fish, horse mackerel, Japanese Jack mackerel＊, with integument, baked",20.6,16.0,1.1
+1081," ［*Syn. horse mackerel］""",32.8,5.5,0.7
+1082,"""Fish, horse mackerel, Japanese Jack mackerel*, with integument, breaded and fried",18.2,18.9,0.5
+1083,"［*Syn. horse mackerel］""",23.7,15.0,0.7
+1084,"""Fish, horse mackerel, Japanese Jack mackerel＊, """"Hirakiboshi"""" (salted and semi-dried split), raw",15.0,1.3,0.1
+1085,"［*Syn. horse mackerel］""",23.1,1.6,0.2
+1086,"""Fish, horse mackerel, Japanese Jack mackerel＊, """"Hirakiboshi"""" (salted and semi-dried split), baked",40.5,3.5,0.5
+1087,"［*Syn. horse mackerel］""",75.1,5.6,0.7
+1088,"""Fish, horse mackerel, Japanese Jack mackerel*, small fish, with bones, raw",44.3,7.0,25.0
+1089,"［*Syn. horse mackerel］""",31.4,15.7,16.3
+1090,"""Fish, horse mackerel, Japanese Jack mackerel*, small fish, with bones, floured and deep-fried",20.7,10.6,0.1
+1091,"［*Syn. horse mackerel］""",20.4,11.9,5.7
+1092,"Fish, horse mackerel, blue mackerel, raw",17.5,10.8,1.3
+1093,"Fish, horse mackerel, blue mackerel, baked",20.3,30.7,0.3
+1094,"Fish, horse mackerel, Atlantic horse mackerel, raw",16.2,15.6,9.3
+1095,"Fish, horse mackerel, Atlantic horse mackerel, boiled",24.2,6.8,0.1
+1096,"Fish, horse mackerel, Atlantic horse mackerel, baked",19.0,3.6,0.1
+1097,"Fish, horse mackerel, browns0iped mackerel scad, raw",20.1,1.5,0.2
+1098,"Fish, horse mackerel, browns0iped mackerel scad, baked",17.1,19.3,0.3
+1099,"Fish, horse mackerel, browns0iped mackerel scad, ""Hirakiboshi"" (salted and semi-dried split)",13.0,5.3,3.5
+1100,"Fish, horse mackerel, browns0iped mackerel scad, ""Kusaya"" (brine-soaked and dried scad)",20.7,25.8,0.1
+1101,"Fish, common Japanese conger, raw",23.0,21.0,3.1
+1102,"Fish, common Japanese conger, steamed",18.2,0.3,0
+1103,"Fish, Amago salmon, cultured, raw",58.9,1.6,10.4
+1104,"Fish, tile fish, raw",19.1,0.3,0.1
+1105,"Fish, tile fish, boiled",20.1,0.8,0.1
+1106,"Fish, tile fish, baked",19.2,5.8,0.1
+1107,"Fish, Ayu, wild, raw",16.3,8.0,0.1
+1108,"Fish, Ayu, wild, baked",19.6,0.2,0.2
+1109,"Fish, Ayu, wild, viscera, raw",19.9,1.7,0.1
+1110,"Fish, Ayu, wild, viscera, baked",19.3,0.3,0.1
+1111,"Fish, Ayu, cultured, raw",15.0,5.0,0.2
+1112,"Fish, Ayu, cultured, baked",15.8,5.8,0.2
+1113,"Fish, Ayu, cultured, viscera, raw",29.4,5.5,33.8
+1114,"Fish, Ayu, cultured, viscera, baked",22.9,0.2,0.1
+1115,"Fish, Ayu, ""Uruka"" (salted and fermented viscera) ",23.1,1.8,0.1
+1116,"Fish, Pacific ocean perch, raw",19.2,7.6,0.1
+1117,"Fish, anglerfish, raw",27.5,11.1,0
+1118,"Fish, anglerfish, liver, raw",25.8,0.5,0.1
+1119,"Fish, Japanese sand lance, raw",25.0,6.2,0.2
+1120,"Fish, Japanese sand lance, ""Niboshi"" (boiled and dried whole)",25.7,2.8,0.3
+1121,"Fish, Japanese sand lance, ""Tsukudani"" (simmered whole in soy sauce and sugar)",29.8,0.7,0.4
+1122,"Fish, Japanese sand lance, ""Ameni"" (simmered whole in glucose syrup and soy sauce)",38.0,1.1,0.5
+1123,"Fish, three-line grunt, raw",77.1,2.9,0.8
+1124,"Fish, Japanese parrot fish, raw",75.7,3.2,0.4
+1125,"Fish, golden-thread, raw",19.5,3.3,32.3
+1126,"Fish, golden-thread, Surimi",31.0,1.6,21.4
+1127,"""Fish, Japanese butterfish*, raw",12.0,1.5,0
+1128,"［*Syn. butterfish］""",18.4,2.7,10.7
+1129,"""Fish, sardine, Pacific round herring*, raw",18.8,24.2,0.1
+1130,"［*Syn. red-eye round herring］""",18.9,7.2,0.1
+1131,"""Fish, sardine, Pacific round herring*, """"Maruboshi"""" (salted and dried whole), raw",23.3,4.9,0.1
+1132,"［*Syn. red-eye round herring］""",19.6,1.3,0.1
+1133,"Fish, sardine, Japanese anchovy, raw",21.4,1.7,0.1
+1134,"Fish, sardine, Japanese anchovy, ""Niboshi"" (boiled and dried whole)",23.4,1.2,0.1
+1135,"Fish, sardine, Japanese anchovy, ""Tazukuri"" (dried young anchovy)",18.0,1.8,0.1
+1136,"Fish, sardine, Japanese pilchard, raw",28.5,2.8,0.2
+1137,"Fish, sardine, Japanese pilchard, boiled",19.9,6.2,0.1
+1138,"Fish, sardine, Japanese pilchard, baked",22.3,7.2,0.1
+1139,"Fish, sardine, Japanese pilchard, breaded and fried",20.2,3.4,0
+1140,"Fish, sardine, Japanese pilchard, ""Shioiwashi"" (salted pilchard), raw",18.8,0.1,0
+1141,"Fish, sardine, Japanese pilchard,  ""Namaboshi"" (mild salted and semi-dried whole), raw",21.0,4.2,0.1
+1142,"Fish, sardine, Japanese pilchard, ""Maruboshi"" (salted and dried whole), raw",18.5,0.2,0
+1143,"Fish, sardine, ""Mezashi"" (skewered, salted and semi-dried whole), raw",18.4,15.2,7.8
+1144,"Fish, sardine, ""Mezashi"" (skewered, salted and semi-dried whole), baked",13.6,21.7,0
+1145,"Fish, sardine, whitebait, raw",18.8,1.4,0.1
+1146,"Fish, sardine, ""Shirasuboshi"" (boiled and dried whitebait), mild dried",47.9,7.4,0.5
+1147,"Fish, sardine, ""Shirasuboshi"" (boiled and dried whitebait), semi-dried",26.2,17.1,1.1
+1148,"Fish, sardine, ""Tatamiiwashi"" (sheet of dried whitebait)",18.2,0.1,0
+1149,"Fish, sardine, Japanese anchovy, ""Mirinboshi"" (split seasoned with Mirin and dried)",13.6,18.6,0
+1150,"Fish, sardine, Japanese pilchard,  ""Mirinboshi"" (split seasoned with Mirin and dried)",14.9,23.8,0
+1151,"Fish, sardine, Japanese pilchard, canned products, in brine ",17.8,9.0,0.1
+1152,"Fish, sardine,  Japanese pilchard, canned products, with seasoning ",18.0,0.8,0
+1153,"Fish, sardine,  Japanese pilchard, canned products, in tomato sauce",23.4,0.8,0
+1154,"Fish, sardine,  Japanese pilchard, canned products, in oil",17.7,10.2,0.2
+1155,"Fish, sardine,  Japanese pilchard, ""Kabayaki"" (baked and seasoned fillet), canned products",19.2,13.4,0.2
+1156,"Fish, sardine, anchovy, canned products, in oil",9.0,25.9,1.3
+1157,"""Fish, white-spotted char*, cultured, raw",22.5,0.5,0.2
+1158,"［*Syn. char, Japanese char］""",17.5,0.1,0.1
+1159,"Fish, Japanese dace, raw",19.0,8.3,0.4
+1160,"Fish, eel, cultured, raw",19.1,10.1,6.4
+1161,"Fish, eel, viscera, raw",21.7,6.6,0.1
+1162,"Fish,  eel, ""Shirayaki"" (mild-baked and steamed fillet)",28.1,7.7,0.1
+1163,"Fish,  eel, ""Kabayaki"" (seasoned and baked fillet)",20.9,7.4,0.6
+1164,"""Fish, black scraper*, raw",20.7,7.2,0.1
+1165,"［*Syn. filefish］""",19.6,12.8,0.3
+1166,"Fish, black scraper*, ""Ajitsuke-hirakiboshi"" (seasoned and dried fillet)  ［*Syn. filefish］",25.2,15.8,0.4
+1167,"Fish, ray, raw",20.9,7.7,0.1
+1168,"Fish, lizardfish, raw",28.4,12.0,0.1
+1169,"Fish, pale chub, raw",22.3,4.1,0.1
+1170,"Fish, angry rockfish, raw",25.5,4.7,0.1
+1171,"Fish, devil stinger, raw",29.1,5.1,0.1
+1172,"Fish, Pacific halibut, raw",22.8,6.1,0.1
+1173,"""Fish, marbled rockfish*, raw",29.3,7.9,0.1
+1174,"［*Syn. scorpionfish］""",22.4,11.1,0.1
+1175,"""Fish, Japanese sculpin*, raw",32.6,15.6,0.2
+1176,"［*Syn. Japanese fluvial sculpin］ """,30.5,17.4,0.9
+1177,"""Fish, Japanese sculpin*, boiled",16.9,0.9,0.4
+1178,"［*Syn. Japanese fluvial sculpin］ """,21.2,8.5,0.1
+1179,"""Fish, Japanese sculpin*, """"Tsukudani"""" (simmered whole fish in soy sauce and sugar)",20.1,16.1,0.1
+1180,"［*Syn. Japanese fluvial sculpin］ """,25.1,20.0,0.1
+1181,"""Fish, Pacific blue marlin*, raw",21.4,14.2,0.1
+1182,"［*Syn. blue marlin, black marlin］ """,20.5,10.8,0.2
+1183,"Fish, s0iped marlin, raw",27.2,15.8,0.4
+1184,"Fish, swordfish, raw",19.7,4.6,0.1
+1185,"Fish, swordfish, baked",22.5,4.5,0.1
+1186,"""Fish, skipjack tuna*, caught in spring, raw",28.5,6.0,0.1
+1187,"［*Syn. bonito, skipjack］ """,25.7,5.5,0.1
+1188,"""Fish, skipjack tuna*, caught in autumn, raw",19.5,12.5,0
+1189,"［*Syn. bonito, skipjack］ """,26.4,16.7,0
+1190,"Fish, frigate mackerel, raw",20.6,16.8,0.3
+1191,"Fish, skipjack tuna, processed products, ""Namari"" (boiled meat)",22.6,22.6,0.3
+1192,"Fish, skipjack tuna, processed products, ""Namari-bushi"" (boiled and semi-dried fillet)",25.2,22.4,0.4
+1193,"Fish, skipjack tuna, processed products, ""Katsuo-bushi"" (boiled, smoke-dried and fermented skipjack tuna fillet)",20.0,25.1,6.5
+1194,"Fish, skipjack tuna and frigate mackerel, processed products, ""Kezuri-bushi"" (shaved ""Katsuo-bushi""), uncooked  (cf. 10091""Katsuo-bushi"")",23.0,5.1,0.3
+1195,"Fish, skipjack tuna and frigate mackerel, processed products, ""Kezuri-bushi"" (shaved ""Katsuo-bushi""), simmered in soy sauce and sugar (cf. 10091""Katsuo-bushi"")",24.8,5.2,0.2
+1196,"Fish, skipjack tuna and frigate mackerel, processed products, ""Kakuni"" (meat cube boiled in soy sauce and sugar)",31.1,6.6,0.3
+1197,"Fish, skipjack tuna, processed products, ""Shiokara"" (salted and fermented viscera) ",73.9,5.1,0
+1198,"Fish, skipjack tuna and frigate mackerel, canned products, flaked meat with seasoning ",17.2,26.8,0.4
+1199,"Fish, skipjack tuna and frigate mackerel, canned products, flaked meat in oil",18.6,28.5,0.4
+1200,"Fish, barracuda, raw",21.8,29.3,0.5
+1201,"Fish, barracuda, baked",26.2,19.1,0.1
+1202,"Fish, righteye flounder, brown sole, raw",18.7,28.5,0.2
+1203,"Fish, righteye flounder, brown sole, boiled",18.6,26.9,1.7
+1204,"Fish, righteye flounder, brown sole, baked",20.9,10.7,0.2
+1205,"Fish, righteye flounder, marbled sole, raw",16.3,13.9,6.6
+1206,"Fish, righteye flounder, marbled sole, baked",21.4,12.6,4.0
+1207,"Fish, righteye flounder, with ovary, raw ",16.8,9.4,0
+1208,"Fish, righteye flounder, with ovary, boiled",18.9,0.6,0
+1209,"Fish, righteye flounder, dried",83.9,1.6,0
+1210,"""Fish, leatherfish*, raw",19.6,1.3,0
+1211,"［*Syn. 0iggerfish, threadsail filefish］""",20.1,9.7,0.1
+1212,"""Fish, greater amberjack*, raw",23.6,10.8,0.1
+1213,"［*Syn. amberjack］""",17.6,23.6,0.1
+1214,"Fish, Japanese whiting, raw",16.9,28.0,0.2
+1215,"Fish, Japanese whiting, tempura",23.9,17.9,0.2
+1216,"""Fish, Kichiji rockfish*, raw",19.3,19.0,0.1
+1217,"［*Syn. thornyhead; broadbanded thornyhead］ """,23.9,25.8,20.4
+1218,"Fish, blue sprat, raw",18.9,18.9,5.6
+1219,"Fish, blue sprat, seasoned and dried",17.4,13.0,9.7
+1220,"Fish, caviar, salted product",21.3,1.9,0
+1221,"Fish, kingclip, raw",21.0,8.1,0.2
+1222,"Fish, sablefish, raw",24.3,7.8,0.2
+1223,"Fish, sablefish, boiled",15.6,11.6,0.5
+1224,"""Fish, splendid alfonsino*, raw",18.2,11.3,0.6
+1225,"［*Syn. alfonsino］""",19.2,1.6,0
+1226,"Fish, croaker, raw",21.9,8.0,0.1
+1227,"Fish, croaker, baked",13.6,2.0,0.1
+1228,"Fish, common carp, cultured, raw",18.6,7.9,0
+1229,"Fish, common carp, cultured, boiled",19.8,4.2,0
+1230,"Fish, common carp, cultured, viscera, raw",18.6,3.1,0.2
+1231,"Fish, flathead, bar-tailed flathead, raw",20.4,6.7,0.3
+1232,"Fish, flathead, big-eyed flathead, raw",19.4,2.4,0.1
+1233,"""Fish, dotted gizzard shad*, raw",20.6,5.8,0.1
+1234,"［*Syn. gizzard shad］""",20.9,9.4,0.1
+1235,"Fish, dotted gizzard shad*, ""Amazu-zuke"" (marinated in vinegar and sugar)  ［*Syn. gizzard shad］",21.2,5.9,0.2
+1236,"Fish, salmon and 0out, pink salmon, raw",22.2,11.9,0.1
+1237,"Fish, salmon and 0out, pink salmon, baked",22.7,12.0,0.1
+1238,"Fish, salmon and 0out, pink salmon, salted",20.2,1.5,0.1
+1239,"Fish, salmon and 0out, pink salmon, canned in brine",18.7,9.0,0
+1240,"Fish, salmon and 0out, Coho salmon, cultured, raw",16.5,20.9,0
+1241,"Fish, salmon and 0out, Coho salmon, cultured, baked",17.4,0.3,0
+1242,"Fish, salmon and 0out, cherry salmon, raw",19.2,11.9,5.7
+1243,"Fish, salmon and 0out, cherry salmon, baked",17.5,0.2,6.6
+1244,"Fish, salmon and 0out, chum salmon, raw",40.5,0.3,0.1
+1245,"Fish, salmon and 0out, chum salmon, boiled",24.0,4.7,0.4
+1246,"Fish, salmon and 0out, chum salmon, baked",28.3,6.1,0.5
+1247,"Fish, salmon and 0out, chum salmon, ""Aramaki"" (salted whole body), raw",21.0,3.3,3.0
+1248,"Fish, salmon and 0out,  chum salmon, ""Aramaki"" (salted whole body), baked",17.6,0.2,0.1
+1249,"Fish, salmon and 0out, chum salmon, ""Shiozake"" (salted salmon), raw",25.2,0.2,0.2
+1250,"Fish, salmon and 0out, chum salmon, ""Ikura"" (salted roe) ",13.4,0.8,0.2
+1251,"Fish, salmon and 0out, chum salmon, ""Sujiko"" (salted ovary)",15.2,0.1,0
+1252,"Fish, salmon and 0out, chum salmon, ""Mefun"" (salted and fermented kidney)",73.2,0.8,0.1
+1253,"Fish, salmon and 0out, chum salmon, canned in brine",25.5,1.1,41.5
+1254,"Fish, salmon and 0out, Atlantic salmon, cultured, raw",19.5,0.6,0
+1255,"Fish, salmon and 0out, Atlantic salmon, cultured, baked",16.1,1.2,0
+1256,"Fish, salmon and 0out, rainbow 0out, cultured in the sea, with integument, raw",17.1,1.2,0
+1257,"Fish, salmon and 0out, rainbow 0out, cultured in the sea, sashimi",21.0,0.7,0.1
+1258,"Fish, salmon and 0out, rainbow 0out, cultured in the sea, with integument, baked",19.8,5.3,0.2
+1259,"Fish, salmon and 0out, rainbow 0out, cultured in freshwater, with integument, raw",18.4,8.6,0
+1260,"Fish, salmon and 0out, sockeye salmon, raw",18.7,1.2,0.1
+1261,"Fish, salmon and 0out, sockeye salmon, baked",17.4,15.1,0.1
+1262,"Fish, salmon and 0out, sockeye salmon, smoked",20.9,16.7,0.2
+1263,"Fish, salmon and 0out, chinook salmon, raw",18.5,19.7,0.2
+1264,"Fish, salmon and 0out, chinook salmon, baked",23.1,22.1,0
+1265,"""Fish, mackerel, chub mackerel*,  raw",25.2,6.7,0.2
+1266,"［*Syn. mackerel］""",65.2,13.6,0.5
+1267,"""Fish, mackerel, chub mackerel*, boiled",15.0,3.0,0.6
+1268,"［*Syn. mackerel］""",19.1,0.2,0.1
+1269,"""Fish, mackerel, chub mackerel*, baked",24.3,3.0,39.9
+1270,"［*Syn. mackerel］""",21.1,2.2,40.3
+1271,"Fish, mackerel, chub mackerel*, breaded and fried ［*Syn. mackerel］",14.1,5.7,0
+1272,"Fish, mackerel, spotted mackerel, raw",16.7,10.3,0
+1273,"Fish, mackerel, spotted mackerel, boiled",20.5,0.3,0.1
+1274,"Fish, mackerel, spotted mackerel, baked",22.3,5.3,0
+1275,"""Fish, mackerel, spotted mackerel*, """"Saba-bushi"""" (boiled,  smoke-dried and fermented mackerel fillet)",22.6,4.9,0.1
+1276,"［*Syn. mackerel］""",20.0,2.0,0
+1277,"Fish, mackerel, Atlantic mackerel, raw",21.6,3.7,0
+1278,"Fish, mackerel, Atlantic mackerel, boiled",21.2,2.5,0.1
+1279,"Fish, mackerel, Atlantic mackerel, baked",19.3,0.3,0.2
+1280,"Fish, mackerel, processed products, ""Shiosaba"" (plain salted fillet) ",18.9,0.4,0
+1281,"Fish, mackerel, processed products, ""Hirakiboshi"" (mild salted and semi-dried split) ",18.2,2.5,0.1
+1282,"Fish, mackerels, processed products, ""Shimesaba"" (vinegar marinated fillet)",20.3,2.8,0.1
+1283,"Fish, mackerel, canned products, boiled in brine",15.5,3.6,44.4
+1284,"Fish, mackerel, canned products, boiled with miso",21.4,17.6,0.3
+1285,"Fish, mackerel, canned products, boiled with seasoning",26.2,20.4,0.3
+1286,"Fish, shark, dogfish, raw",20.7,17.2,0.3
+1287,"Fish, shark, blue shark, raw",21.0,12.0,0.3
+1288,"Fish, shark, dried shark fin",19.6,4.2,0
+1289,"Fish, halfbeak, raw",17.0,1.3,0
+1290,"""Fish, Japanese Spanish mackerel*, raw",17.3,4.4,0.1
+1291,"［*Syn. Spanish mackerel］""",18.1,4.9,0.1
+1292,"""Japanese Spanish mackerel*, baked",20.6,9.4,0.1
+1293,"［*Syn. Spanish mackerel］""",23.1,10.9,0.2
+1294,"Fish, Pacific saury, with integument, raw",19.2,5.0,0.1
+1295,"Fish, Pacific saury, sashimi",40.4,28.9,0.3
+1296,"Fish, Pacific saury, with integument, baked",17.5,4.1,0.1
+1297,"Fish, Pacific saury, ""Hirakiboshi"" (mild salted and semi-dried split)",24.3,0.4,0
+1298,"Fish, Pacific saury, ""Mirinboshi"" (seasoned with Mirin and dried fillet)",26.4,1.4,0.1
+1299,"Fish, Pacific saury, canned products, boiled with seasoning",20.1,27.5,0.1
+1300,"Fish, Pacific saury, canned products, ""Kabayaki"" (baked and seasoned fillet)",26.0,0.7,0.2
+1301,"Fish, dolphinfish, raw",21.6,0.1,0.1
+1302,"Fish, Shishamo smelt, semi-dried, raw",20.3,28.3,0.1
+1303,"Fish, Shishamo smelt, semi-dried, baked",25.2,4.8,0.1
+1304,"Fish, Atlantic capelin, semi-dried, raw",22.8,1.2,0.2
+1305,"Fish, Atlantic capelin, semi-dried, baked",16.0,0.7,0.2
+1306,"Fish, sole, raw",18.3,2.5,0.4
+1307,"""Fish, s0iped jack*, cultured, raw",19.0,2.3,9.9
+1308,"［*Syn. white 0evally］""",17.7,21.7,0.1
+1309,"Fish, Japanese icefish, raw",18.8,23.6,0.1
+1310,"Fish, silver warehou, raw",13.3,22.9,0.1
+1311,"Fish, Japanese sea bass, raw",17.1,10.9,0
+1312,"Fish, sea bream, yellow sea bream, raw",21.7,3.0,0.1
+1313,"Fish, sea bream, black sea bream, raw",16.4,0.3,0
+1314,"Fish, sea bream, crimson sea bream, raw",16.7,12.6,0
+1315,"Fish, sea bream, red sea bream, wild, raw",22.2,8.4,0
+1316,"Fish, sea bream, red sea bream, cultured, with integument, raw",19.4,4.5,0.1
+1317,"Fish, sea bream, red sea bream, cultured, sashimi",18.1,3.5,0
+1318,"Fish, sea bream, red sea bream, cultured, with integument, boiled",17.0,0.6,0
+1319,"Fish, sea bream, red sea bream, cultured, with integument, baked",15.8,21.8,0.2
+1320,"Fish, double-lined fusilier, raw",50.3,31.2,0.5
+1321,"Fish, yellows0iped butterfish, raw",18.4,4.3,0.3
+1322,"""Fish, Atlantic cutlassfish*, raw",14.4,1.7,0.1
+1323,"［*Syn. Hairtail, cutlass fish］     """,28.7,5.5,38.2
+1324,"""Fish, cod, walleye pollock*, raw",26.3,5.1,40.4
+1325,"［*Syn. Alaska pollock］ """,13.5,0.3,3.5
+1326,"Fish, cod, walleye pollock*, breaded and fried ［*Syn. Alaska pollock］ ",8.1,0.6,2.0
+1327,"""Fish, cod, walleye pollock*, surimi",6.0,0.3,0.4
+1328,"［*Syn. Alaska pollock］ """,20.8,2.4,30.1
+1329,"""Fish, cod, walleye pollock*, """"Sukimidara"""" (skinned, salted and dried fillet)　",20.3,2.2,1.9
+1330,"［*Syn. Alaska pollock］ """,16.6,1.9,11.5
+1331,"Fish, cod, walleye pollock*, ""Tarako"" (salted roe), raw ［*Syn. Alaska pollock］ ",12.7,0.3,4.0
+1332,"Fish, cod, walleye pollock*, ""Tarako"" (salted roe), baked ［*Syn. Alaska pollock］ ",38.0,1.6,23.8
+1333,"Fish, cod, walleye pollock*, ""Karashi-mentaiko"" (salted roe with red hot pepper powder) ［*Syn. Alaska pollock］ ",14.8,3.9,1.4
+1334,"Fish, cod, Pacific cod, raw",19.4,0.4,1.0
+1335,"Fish, cod, Pacific cod, baked",10.3,1.4,3.2
+1336,"Fish, cod, Pacific cod, milt, raw",10.8,0.8,1.5
+1337,"Fish, cod, Pacific cod, salted fillet",16.5,1.0,0.8
+1338,"Fish, cod, Pacific cod, dried split",6.6,1.4,4.7
+1339,"Fish, cod, Pacific cod, ""Denbu"" (mashed and seasoned meat)",9.5,2.2,7.4
+1340,"Fish, Japanese Surf smelt, raw",12.5,22.6,11.2
+1341,"""Fish, Asian pond loach*, raw",19.4,0.4,0.8
+1342,"［*Syn. loach, pond loach］""",21.3,0.4,0.9
+1343,"""Fish, Asian pond loach*, boiled",15.9,2.2,12.9
+1344,"［*Syn. loach, pond loach］""",7.5,1.4,4.5
+1345,"Fish, flying fish, raw",15.4,2.7,5.5
+1346,"Fish, Nile tilapia, raw",21.8,0.2,1.5
+1347,"Fish, catfish, raw",13.0,1.1,3.6
+1348,"Fish, Japanese argentine, raw",17.8,0.2,2.3
+1349,"Fish, Pacific herring, raw",16.0,0.4,3.0
+1350,"Fish, Pacific herring, ""Migaki-nishin"" (dried fillet)",12.9,0.3,6.9
+1351,"Fish, Pacific herring, ""Hirakiboshi"" (dried split)",16.3,0.6,3.1
+1352,"Fish, Pacific herring, smoked",10.9,0.5,2.4
+1353,"Fish, Pacific herring, roe, raw",6.1,0.6,1.8
+1354,"Fish, Pacific herring, roe, dried",14.9,1.5,2.9
+1355,"Fish, Pacific herring, roe, salt-cured products, desalted",13.3,1.0,2.8
+1356,"Fish, yellowfin goby, raw",27.0,2.8,21.4
+1357,"Fish, yellowfin goby, ""Tsukudani"" (boiled whole in soy sauce)",6.5,0.4,2.7
+1358,"Fish, yellowfin goby, ""Kanroni"" (simmered whole in soy sauce and sugar) ",13.5,0.9,1.5
+1359,"""Fish, sailfin sandfish*, raw",17.6,1.9,1.9
+1360,"［*Syn. sandfish］""",16.9,0.3,3.5
+1361,"Fish, sailfin sandfish*, ""Namaboshi"" (salted and semi-dried whole)  ［*Syn. sandfish］",23.8,0.3,4.6
+1362,"Fish, spangled emperor, raw",65.7,1.4,7.6
+1363,"Fish, conger pike, raw",19.5,0.6,1.5
+1364,"Fish, golds0iped amberjack, raw",11.1,1.1,3.8
+1365,"""Fish, olive flounder*, wild, raw",18.3,0.4,0.3
+1366,"［*Syn. bastard halibut, Japanese flounder］""",19.8,0.3,0.1
+1367,"""Fish, olive flounder*, cultured, with integument, raw",20.9,0.4,0
+1368,"［*Syn. bastard halibut, Japanese flounder］""",21.6,0.6,0
+1369,"""Fish, olive flounder*, cultured, sashimi",28.2,0.5,0
+1370,"［*Syn. bastard halibut, Japanese flounder］""",23.5,0.4,0
+1371,"Fish, puffer, ocellate puffer, cultured, raw",18.2,1.5,0
+1372,"Fish, puffer, purple puffer, cultured, raw",64.9,4.0,0.1
+1373,"Fish, crucian carp, raw",59.1,2.5,0.1
+1374,"Fish, crucian carp, boiled",21.7,0.3,0.1
+1375,"Fish, crucian carp, ""Kanroni"" (simmered whole in soy sauce, sugar and glucose syrup)",18.7,0.4,0.1
+1376,"""Fish, yellowtail*, mature, raw",19.6,0.6,0.7
+1377,"［*Syn. five-ray yellowtail］""",20.0,10.3,6.5
+1378,"""Fish, yellowtail*, mature, baked",18.4,0.3,0.3
+1379,"［*Syn. five-ray yellowtail］""",48.6,2.8,0.3
+1380,"""Fish, yellowtail*, young, cultured, with integument, raw",25.9,2.2,30.1
+1381,"［*Syn. five-ray yellowtail］""",14.4,0.3,0.3
+1382,"""Fish, yellowtail*, young, cultured, sashimi",15.8,0.5,0.2
+1383,"［*Syn. five-ray yellowtail］""",18.4,0.5,0.2
+1384,"""Fish, red gurnard*, raw",13.9,0.4,0.1
+1385,"［*Syn. sea robin, gurnard, gurnet］""",15.0,0.6,0.1
+1386,"Fish, hoki, raw",16.3,0.4,0.2
+1387,"""Fish, Atka mackerel*, raw",13.0,0.3,0.2
+1388,"［*Syn. Arabesque greenling］""",17.5,0.5,0.3
+1389,"""Fish, Atka mackerel*, salted",20.6,0.3,0.1
+1390,"［*Syn. Arabesque greenling］""",8.4,0.4,5.4
+1391,"""Fish, Atka mackerel*, """"Hirakiboshi"""" (mild salted and semi-dried split), raw",17.9,1.4,0
+1392,"［*Syn. Arabesque greenling］""",17.5,1.0,0.1
+1393,"""Fish, Atka mackerel*, """"Hirakiboshi"""" (mild salted and semi-dried split), baked",14.9,0.3,0.1
+1394,"［*Syn. Arabesque greenling］""",17.9,0.8,0.1
+1395,"Fish, s0iped mullet, raw",21.9,0.9,0.1
+1396,"Fish, s0iped mullet, ""Karasumi"" (salted and dried roe)",23.6,1.0,0.1
+1397,"Fish, willow shiner, raw",18.6,0.7,0.1
+1398,"Fish, tuna, yellowfin tuna, raw",18.6,0.6,0.1
+1399,"Fish, tuna, bluefin tuna, lean meat, raw",16.7,10.8,6.3
+1400,"Fish, tuna, bluefin tuna, fatty meat, raw",16.9,0.9,0
+1401,"Fish, tuna, albacore, raw",11.8,3.5,0.2
+1402,"Fish, tuna, southern bluefin tuna, lean meat, raw",17.7,2.9,0.4
+1403,"Fish, tuna, southern bluefin tuna, fatty meat, raw",43.1,7.5,21.3
+1404,"Fish, tuna, young bluefin tuna, raw",27.0,6.7,22.9
+1405,"Fish, tuna, big-eye tuna, raw",17.6,1.0,0.4
+1406,"Fish, tuna, canned products, flaked light meat in brine",69.2,4.3,0.4
+1407,"Fish, tuna, canned products, flaked white meat in brine",45.5,3.1,17.3
+1408,"Fish, tuna, canned products, flaked meat with seasoning ",35.2,1.5,12.8
+1409,"Fish, tuna, canned products, flaked light meat in oil",22.7,4.7,46.1
+1410,"Fish, tuna, canned products, flaked white meat in oil",20.0,1.8,49.1
+1411,"Fish, Patagonian toothfish, raw",15.2,3.4,6.5
+1412,"Fish, silver pomfret, raw",21.4,1.8,7.7
+1413,"Fish, barracouta, raw",14.6,0.8,0.1
+1414,"Fish, southern blue whiting, raw",16.4,0.7,0.1
+1415,"Fish, gnomefish, raw",21.7,0.7,0.1
+1416,"Fish, gnomefish, boiled",19.1,1.8,35.1
+1417,"Fish, Girella, raw",12.9,1.1,0.8
+1418,"Fish, Japanese stingfish, raw",16.0,4.8,3.3
+1419,"Fish, hake, raw",17.2,5.8,15.6
+1420,"Fish, lamprey, raw",13.5,2.9,22.4
+1421,"Fish, lamprey, dried",15.0,3.2,0.2
+1422,"Fish, seema, cultured, raw",13.8,3.0,0
+1423,"""Fish, Japanese smelt*, raw",5.2,0.1,0
+1424,"［*Syn. Pond smelt］""",19.2,1.7,0.2
+1425,"""Fish, Japanese smelt*, """"Tsukudani"""" (simmered whole in soy sauce and sugar)",4.6,0.3,0.5
+1426,"［*Syn. Pond smelt］""",11.4,1.8,0.5
+1427,"""Fish, Japanese smelt*, """"Ameni"""" (simmered whole in glucose syrup and soy sauce)",5.0,0.8,0.8
+1428,"［*Syn. Pond smelt］""",11.6,1.1,3.8
+1429,"Mollusks, bloody clam, raw",12.1,0.5,9.2
+1430,"Mollusks, jackknife clam, raw",8.9,0.5,11.0
+1431,"""Mollusks, short-necked clam*, raw",12.0,0.8,8.7
+1432,"［*Syn. baby-neck clam, Manila clam, Japanese littleneck］""",12.0,0.9,9.7
+1433,"""Mollusks, short-necked clam*, """"Tsukudani"""" (simmered meat in soy sauce and sugar)",16.2,1.0,7.4
+1434,"［*Syn. baby-neck clam, Manila clam, Japanese littleneck］""",12.2,2.0,13.5
+1435,"""Mollusks, short-necked clam*, canned products, boiled in brine",14.6,7.5,17.6
+1436,"［*Syn. baby-neck clam, Manila clam, Japanese littleneck］""",12.0,4.3,6.5
+1437,"""Mollusks, short-necked clam*, canned products, boiled with seasoning ",7.6,0.4,11.6
+1438,"［*Syn. baby-neck clam, Manila clam, Japanese littleneck］""",9.9,1.0,11.4
+1439,"Mollusks, abalone, raw",12.5,3.7,13.9
+1440,"Mollusks, abalone, steamed and dried ",13.4,6.7,11.1
+1441,"Mollusks, abalone, ""Shiokara"" (salted and fermented)",11.5,7.2,12.6
+1442,"Mollusks, abalone, canned in brine",18.8,19.8,0.5
+1443,"Mollusks, Mediterranean mussel, raw",18.1,24.1,0.3
+1444,"Mollusks, Japanese baking scallop, cultured, raw",20.5,6.3,0
+1445,"Mollusks, Escargot Apple snails, canned in brine",17.7,22.3,0.3
+1446,"Mollusks, Pacific oyster, cultured, raw",18.3,19.8,0.3
+1447,"Mollusks, Pacific oyster, cultured, boiled",20.2,12.2,0.3
+1448,"Mollusks, Pacific oyster, canned in oil, smoked",4.0,78.0,0
+1449,"Mollusks, turban shell, raw",13.8,37.4,0.2
+1450,"Mollusks, turban shell, baked",14.0,36.5,0.2
+1451,"""Mollusks, ark shell*, canned with seasoning",16.5,26.1,0.2
+1452,"［*Syn. Mogai clam］""",9.7,56.5,0.1
+1453,"Mollusks, Japanese corbicula clam*, raw",14.6,56.8,0.2
+1454,"Mollusks, Japanese corbicula clam*, boiled",12.6,58.2,0.1
+1455,"""Mollusks, pen shell*, adductor muscle, raw",10.3,54.4,0.1
+1456,"［*Syn. comb pen shell］""",14.0,40.0,0.2
+1457,"Mollusks, pond snail, raw",4.2,78.0,0
+1458,"Mollusks, whelk, raw",11.7,47.5,0.3
+1459,"Mollusks, tokobushi abalone, raw",12.9,42.5,0.3
+1460,"Mollusks, cockle,  foot, raw",17.1,25.8,0.4
+1461,"Mollusks, whelk and Ivory shell, raw",11.0,50.0,0.1
+1462,"""Mollusks, hen clam*, raw",19.2,18.7,0.5
+1463,"［*Syn. Chinese surf clam］""",20.2,15.5,0.6
+1464,"Mollusks, hard clam, raw",27.7,22.7,0.5
+1465,"Mollusks, hard clam, boiled",25.7,23.3,0.2
+1466,"Mollusks, hard clam, baked",21.3,10.7,0.6
+1467,"Mollusks, hard clam, ""Tsukudani"" (simmered meat in soy sauce and sugar)",4.4,75.4,0
+1468,"Mollusks, common shield-clam, raw",17.8,20.0,0.5
+1469,"""Mollusks, giant ezo-scallop*, raw",18.7,16.6,0.5
+1470,"［*Syn. common scallop, Japanese scallop］""",20.7,8.7,0.6
+1471,"""Mollusks, giant ezo-scallop*, boiled",15.1,29.9,0.4
+1472,"［*Syn. common scallop, Japanese scallop］""",16.0,26.4,0.4
+1473,"""Mollusks, giant ezo-scallop*, adductor muscle, raw",19.2,13.6,0.5
+1474,"［*Syn. common scallop, Japanese scallop］""",19.1,15.0,0.3
+1475,"Mollusks, giant ezo-scallop*, adductor muscle, baked ［*Syn. common scallop, Japanese scallop］",16.8,19.6,0.4
+1476,"Mollusks, giant ezo-scallop*, adductor muscle,  ""Niboshi"" (boiled and dried) ［*Syn. common scallop, Japanese scallop］",17.9,14.9,0.4
+1477,"Mollusks, giant ezo-scallop*, adductor muscle,  canned products, boiled in brine ［*Syn. common scallop, Japanese scallop］",19.9,6.1,0.5
+1478,"""Mollusks, Sakhalin surf clam*, raw",4.5,73.3,0
+1479,"［*Syn. surf clam］""",16.2,26.4,0.2
+1480,"Mollusks, keen's gaper, siphon, raw",16.5,25.2,0.2
+1481,"""Crustacean, northern shrimp*, raw",19.1,13.9,0.2
+1482,"［*Syn. pink shrimp］""",14.1,37.1,0.2
+1483,"Crustacean, Japanese spiny lobster, raw",20.4,45.0,0.3
+1484,"Crustacean, Kuruma prawn, cultured, raw",17.2,43.0,0.3
+1485,"Crustacean, Kuruma prawn, cultured, boiled",15.0,33.4,0.2
+1486,"Crustacean, Kuruma prawn, cultured, baked",18.8,17.8,0.3
+1487,"Crustacean, Sakura shrimp, boiled",3.7,80.5,0
+1488,"Crustacean, Sakura shrimp, dried",16.5,27.9,0.4
+1489,"Crustacean, Sakura shrimp, ""Niboshi"" (boiled and dried)",18.4,20.2,0.5
+1490,"""Crustacean, Chinese prawn*, raw",21.1,9.1,0.6
+1491,"［*Syn. fleshy prawn］""",12.8,39.4,0.3
+1492,"Crustacean, Shiba shrimp, raw",15.9,44.2,0.3
+1493,"Crustacean, whiteleg shrimp, raw",19.5,13.3,0.4
+1494,"Crustacean, whiteleg shrimp, tempura",20.5,9.9,0.4
+1495,"Crustacean, giant tiger prawn, cultured, raw",28.0,13.2,0.6
+1496,"Crustacean, processed shrimp, boiled and dried shrimp",28.4,13.8,0.6
+1497,"Crustacean, processed shrimp, ""Tsukudani"" (simmered whole in soy sauce and sugar)",21.9,4.9,0.4
+1498,"""Crustacean, blue crab*, raw",5.1,64.1,0.2
+1499,"［*Syn. swimming crab, oriental blue crab］ """,18.2,16.3,0.6
+1500,"Crustacean, horsehair crab, raw",19.6,11.1,0.6
+1501,"Crustacean, horsehair crab, boiled",21.3,5.0,0.7
+1502,"""Crustacean, snow crab*, raw",18.6,17.8,0.6
+1503,"［*Syn. tanner crab］""",19.7,13.9,0.6
+1504,"""Crustacean, snow crab*, boiled",22.0,6.1,0.7
+1505,"［*Syn. tanner crab］""",20.8,11.2,0.5
+1506,"Crustacean, snow crab*, canned products, boiled in brine ［*Syn. tanner crab］",27.2,15.2,0.4
+1507,"""Crustacean, red king crab*, raw",12.0,51.8,0.3
+1508,"［*Syn. king crab］""",14.5,60.1,0.2
+1509,"""Crustacean, red king crab*, boiled",13.2,56.5,0.1
+1510,"［*Syn. king crab］""",13.6,45.2,0.3
+1511,"Crustacean, red king crab*, canned products, boiled in brine  ［*Syn. king crab］",16.7,32.3,0.4
+1512,"Crustacean, processed crab, ""Ganzuke"" (salted and fermented fiddler crabs)",3.6,86.7,0
+1513,"Mollusks, neon flying squid, raw",12.2,44.4,0.3
+1514,"Mollusks, swordtip squid, raw",16.4,28.9,0.4
+1515,"""Mollusks, golden cuttlefish*, raw",18.3,21.6,0.4
+1516,"［*Syn. cuttlefish］""",25.0,27.6,0.5
+1517,"""Mollusks, Japanese common squid*, raw",25.7,28.2,0.2
+1518,"［*Syn. short-finned squid］""",19.3,17.5,0.5
+1519,"""Mollusks, Japanese common squid*, baked",4.8,75.8,0.1
+1520,"［*Syn. short-finned squid］""",19.0,18.0,0.4
+1521,"""Mollusks, Japanese common squid*, baked",19.0,10.6,0.1
+1522,"［*Syn. short-finned squid］""",19.6,7.8,0.1
+1523,"""Mollusks, Japanese common squid*, mantle, with integument, raw",20.4,4.6,0.1
+1524,"［*Syn. short-finned squid］""",7.1,60.5,0
+1525,"Mollusks, Japanese common squid*, mantle, sashimi  ［*Syn. short-finned squid］",17.9,17.4,0.1
+1526,"""Mollusks, Japanese common squid*, mantle, tempera",18.0,17.1,0.1
+1527,"［*Syn. short-finned squid］""",19.7,9.5,0.1
+1528,"""Mollusks, Japanese common squid*, arms, tentacles and fins, raw",20.1,15.4,0.4
+1529,"［*Syn. short-finned squid］""",25.0,23.9,0.3
+1530,"Mollusks, firefly squid, raw",25.8,23.9,0.1
+1531,"Mollusks, firefly squid, boiled",20.3,14.4,0.4
+1532,"Mollusks, firefly squid, seasoned and smoked",21.7,9.1,0.4
+1533,"Mollusks, firefly squid, ""Tsukudani"" (simmered whole in soy sauce and sugar)",5.7,73.1,0.1
+1534,"Mollusks, spear squid, raw",17.4,23.7,0.4
+1535,"Mollusks, processed squid,  ""Surume"" (dried squid)",19.1,16.5,0.4
+1536,"Mollusks, processed squid,  ""Saki-ika"" (dried, seasoned and shredded squid)",22.0,4.4,0.5
+1537,"Mollusks, processed squid,  seasoned and smoked",14.4,32.9,0.2
+1538,"Mollusks, processed squid,  ""Kiriika-ameni"" (dried shredded squid, simmered in glucose syrup and soy sauce)",19.6,8.6,0.4
+1539,"Mollusks, processed squid,  ""Ika-arare"" (dried squid flakes, simmered in glucose syrup and soy sauce)",20.0,6.7,0.4
+1540,"Mollusks, processed squid,  ""Shiokara"" (salted and fermented meat and liver) ",28.0,14.1,0.4
+1541,"Mollusks, processed squid, canned with seasoning",30.0,11.0,0.2
+1542,"Mollusks, ocellated octopus, raw",21.2,4.3,0.4
+1543,"Mollusks, common octopus, raw",6.3,64.4,0.2
+1544,"Mollusks, common octopus, boiled",18.7,14.3,0.3
+1545,"""Crustacean, opossum shrimp*, """"Tsukudani"""" (simmered whole in soy sauce and sugar)",19.3,11.9,0.3
+1546,"［*Syn. Mysids］""",21.2,3.9,0.3
+1547,"""Crustacean, opossum shrimp, """"Shiokara"""" (salted and fermented)",18.4,16.4,0.4
+1548,"［*Syn. Mysids］""",19.7,11.1,0.5
+1549,"Sea urchin, raw gonads",21.6,3.0,0.5
+1550,"Sea urchin, ""Tsubu-uni"" (salted whole gonads)",20.5,4.8,0.3
+1551,"Sea urchin, ""Neri-uni"" (salted whole gonad paste)",21.7,0.9,0.3
+1552,"Crustacean, Antarctic krill, raw",20.9,3.6,0
+1553,"Crustacean, Antarctic krill, boiled",21.2,2.7,0.2
+1554,"Jellyfish, Salted, desalted",17.1,21.1,0.3
+1555,"Crustacean, mantis shrimp, boiled",25.9,21.3,0.4
+1556,"Sea cucumber, raw",13.3,31.8,0.2
+1557,"Sea cucumber, ""Konowata"" (salted and fermented viscera)",20.2,37.1,0.2
+1558,"""Sea squirt*, raw",16.5,7.6,0.1
+1559,"［*Syn. Ascidian］""",19.6,3.7,3.7
+1560,"""Sea squirt*, """"Shiokara"""" (salted and fermented meat and viscera)",16.7,6.4,0.2
+1561,"［*Syn. Ascidian］""",24.5,8.4,0
+1562,"Surimi products, ""Kanifumi-kamaboko"" (imitation crab meat made from surimi) ",12.4,15.7,0
+1563,"Surimi products, ""Kobumaki-kamaboko"" (surimi rolled in kombu, steamed)",11.7,1.3,0
+1564,"Surimi products, ""Sumaki-kamaboko"" (steamed kamaboko covered with s0aw) ",11.1,30.0,0
+1565,"Surimi products, ""Mushi-kamaboko"" (steamed kamaboko)",9.9,26.1,0
+1566,"Surimi products, ""Yakinuki-kamaboko"" (baked kamaboko)",9.3,13.0,0
+1567,"Surimi products, ""Yaki-chikuwa"" (baked tubular kamaboko)",11.6,7.0,0
+1568,"Surimi products, ""Datemaki"" (sweet rolled omelet made of egg and surimi)",28.3,4.9,0
+1569,"Surimi products, ""Tsumire"" (boiled red meat fish paste) ",18.4,3.0,0
+1570,"Surimi products, ""Naruto"" (boiled stick kamaboko with cross section of red swirl)",11.6,47.1,0
+1571,"Surimi products, ""Hanpen"" (boiled fishcake made of surimi, yam paste and starch)",14.9,25.2,0.3
+1572,"Surimi products, ""Satsuma-age"" (fried surimi)",21.7,11.7,0.9
+1573,"Surimi products, fish ham",19.8,13.0,1.7
+1574,"Surimi products, fish sausage",19.2,4.4,9.9
+1575,"Wild boar, meat, lean and fat, raw",54.8,7.8,6.4
+1576,"""Inobuta"" (Pig-wild boar crossbred), meat, lean and fat, raw",18.1,23.0,0.9
+1577,"Rabbit, meat, lean, raw",20.1,2.5,0.3
+1578,"Beef, Japanese beef cattle, chuck, lean and fat, raw",24.1,0.4,0.2
+1579,"Beef, Japanese beef cattle, chuck, without subcutaneous fat, raw",18.8,31.4,0.2
+1580,"Beef, Japanese beef cattle, chuck, lean, raw",9.7,68.8,0.2
+1581,"Beef, Japanese beef cattle, chuck, fat, raw",5.3,0.9,0
+1582,"Beef, Japanese beef cattle, chuck roll, Lean and fat, raw",22.3,1.5,0.5
+1583,"Beef, Japanese beef cattle, chuck roll, without subcutaneous fat, raw",22.6,5.2,0.6
+1584,"Beef, Japanese beef cattle, chuck roll, lean, raw",18.5,14.6,0.2
+1585,"Beef, Japanese beef cattle, rib loin, lean and fat, raw ",19.7,9.3,0.2
+1586,"Beef, Japanese beef cattle, rib loin, lean and fat, roasted",20.9,3.8,0.2
+1587,"Beef, Japanese beef cattle, rib-loin, lean and fat, boiled",5.3,72.4,0
+1588,"Beef, Japanese beef cattle, rib loin, without subcutaneous fat, raw ",17.1,19.2,0.1
+1589,"Beef, Japanese beef cattle, rib loin, lean, raw ",17.8,16.0,0.1
+1590,"Beef, Japanese beef cattle, rib loin, fat, raw",19.7,7.8,0.1
+1591,"Beef, Japanese beef cattle, sirloin, lean and fat, raw",5.4,70.7,0
+1592,"Beef, Japanese beef cattle, sirloin, without subcutaneous fat, raw",19.3,19.2,0.2
+1593,"Beef, Japanese beef cattle, sirloin, lean, raw",26.7,22.7,0.3
+1594,"Beef, Japanese beef cattle, flank or short plate, lean and fat, raw",23.9,24.1,0.3
+1595,"Beef, Japanese beef cattle, inside round, lean and fat, raw",22.0,35.9,9.8
+1596,"Beef, Japanese beef cattle, inside round, without subcutaneous fat, raw",21.1,11.9,0.3
+1597,"Beef, Japanese beef cattle, inside round, without subcutaneous fat, roasted",22.7,5.6,0.3
+1598,"Beef, Japanese beef cattle, inside round, without subcutaneous fat, boiled",5.1,76.3,0
+1599,"Beef, Japanese beef cattle, inside round, lean, raw",14.4,35.4,0.1
+1600,"Beef, Japanese beef cattle, inside round, fat, raw",19.6,43.9,0.1
+1601,"Beef, Japanese beef cattle, silver side, lean and fat, raw",20.5,10.2,0.2
+1602,"Beef, Japanese beef cattle, silver side, without subcutaneous fat, raw",21.5,6.0,0.2
+1603,"Beef, Japanese beef cattle, silver side, lean, raw",30.2,7.6,0.3
+1604,"Beef, Japanese beef cattle, rump, lean and fat, raw ",28.9,8.1,0.3
+1605,"Beef, Japanese beef cattle, rump, without subcutaneous fat, raw ",22.1,3.6,0.2
+1606,"Beef, Japanese beef cattle, rump, lean, raw ",6.5,67.6,0
+1607,"Beef, Japanese beef cattle, fillet, lean, raw",18.8,16.5,0.2
+1608,"Beef, dairy fattened steer, chuck, lean and fat, raw",20.2,10.7,0.2
+1609,"Beef, dairy fattened steer chuck, without subcutaneous fat, raw",21.4,5.5,0.2
+1610,"Beef, dairy fattened steer, chuck, lean, raw",6.6,68.1,0
+1611,"Beef, dairy fattened steer chuck, fat, raw",22.2,3.7,0.3
+1612,"Beef, dairy fattened steer, chuck roll, lean and fat, raw ",39.3,5.9,0.4
+1613,"Beef, dairy fattened steer, chuck roll, without subcutaneous fat, raw ",25.1,25.3,14.9
+1614,"Beef, dairy fattened steer, chuck roll, lean, raw ",18.3,17.2,0
+1615,"Beef, dairy fattened steer, rib loin, lean and fat, raw",19.7,10.8,0
+1616,"Beef, dairy fattened steer, rib loin, lean and fat, roasted",21.4,3.5,0
+1617,"Beef, dairy fattened steer, rib loin, lean and fat, boiled",4.9,75.7,0
+1618,"Beef, dairy steer, rib loin, without subcutaneous fat, raw",17.7,19.3,0
+1619,"Beef, dairy fattened steer, rib loin, lean, raw ",18.5,15.7,0
+1620,"Beef, dairy fattened steer, rib loin, fat, raw",20.6,6.8,0
+1621,"Beef, dairy fattened steer, sirloin, lean and fat, raw ",5.4,71.9,0
+1622,"Beef, dairy fattened steer, sirloin, without subcutaneous fat, raw ",18.3,22.6,0.2
+1623,"Beef, dairy fattened steer, sirloin, lean, raw ",20.6,13.6,0.2
+1624,"Beef, dairy fattened steer, flank or short plate, lean and fat, raw",22.9,4.6,0.2
+1625,"Beef, dairy fattened steer, flank or short plate, lean and fat, roasted",4.1,78.3,0
+1626,"Beef, dairy fattened steer, inside round, lean and fat, raw",13.4,40.1,0
+1627,"Beef, dairy fattened steer, inside round, without subcutaneous fat, raw",19.5,15.1,0.2
+1628,"Beef, dairy fattened steer, inside round, without subcutaneous fat, roasted",21.3,7.8,0.2
+1629,"Beef, dairy fattened steer, inside round, without subcutaneous fat, boiled",21.9,5.3,0.2
+1630,"Beef, dairy fattened steer, inside round, lean, raw",5.2,73.8,0
+1631,"Beef, dairy fattened steer, inside round, fat, raw ",18.0,20.3,0.2
+1632,"Beef, dairy fattened steer, silver side, lean and fat, raw",21.0,8.5,0.2
+1633,"Beef, dairy fattened steer, silver side, without subcutaneous fat, raw",21.9,4.8,0.2
+1634,"Beef, dairy fattened steer, silver side, lean, raw",4.9,72.5,0
+1635,"Beef, dairy fattened steer, rump, lean and fat, raw",22.7,1.7,0.1
+1636,"Beef, dairy fattened steer, rump, without subcutaneous fat, raw ",17.7,17.2,0.1
+1637,"Beef, dairy fattened steer, rump, lean, raw",25.7,21.5,0.1
+1638,"Beef, dairy fattened steer, fillet, lean, raw",15.9,16.3,0.1
+1639,"Beef, dairy fattened steer, fillet, lean, roasted",16.2,7.0,0.1
+1640,"Beef, crossbred (Holstein×Japanese black) steer, rib loin, lean and fat, raw",20.4,3.4,2.5
+1641,"Beef, crossbred (Holstein×Japanese black) steer, rib loin, lean and fat, roasted ",14.1,5.8,0
+1642,"Beef, crossbred (Holstein×Japanese black) steer, rib loin, lean and fat, boiled",17.4,5.1,0
+1643,"Beef, crossbred (Holstein×Japanese black) steer, rib loin, without subcutaneous fat, raw ",14.0,11.9,0
+1644,"Beef, crossbred (Holstein×Japanese black) steer, rib loin, lean, raw ",11.7,13.8,0
+1645,"Beef, crossbred (Holstein×Japanese black) steer, rib loin, fat, raw ",14.6,0.9,0
+1646,"Beef, crossbred (Holstein×Japanese black) steer,  flank or short plate, lean and fat, boiled",20.1,16.8,0
+1647,"Beef, crossbred (Holstein×Japanese black) steer,  inside round, lean and fat, raw",17.8,17.9,0
+1648,"Beef, crossbred (Holstein×Japanese black) steer,  inside round, without subcutaneous fat, raw",16.7,16.6,0.8
+1649,"Beef, crossbred (Holstein×Japanese black) steer,  inside round, without subcutaneous fat, roasted",18.7,4.0,1.8
+1650,"Beef, crossbred (Holstein×Japanese black) steer,  inside round, without subcutaneous fat, boiled",16.5,13.9,1.3
+1651,"Beef, crossbred (Holstein×Japanese black) steer,  inside round, lean, raw",16.1,18.2,0.6
+1652,"Beef, crossbred (Holstein×Japanese black) steer,  inside round, fat, raw",24.0,16.6,0.5
+1653,"Beef, crossbred (Holstein×Japanese black) steer, fillet, without subcutaneous fat, boiled",25.7,18.4,0
+1654,"Beef, imported beef, chuck, lean and fat, raw",15.4,4.5,3.9
+1655,"Beef, imported beef, chuck, without subcutaneous fat, raw",11.7,4.2,12.7
+1656,"Beef, imported beef, chuck, lean, raw",12.9,39.1,0.3
+1657,"Beef, imported beef, chuck, fat, raw",16.8,14.6,3.2
+1658,"Beef, imported beef, chuck roll, lean and fat, raw ",17.2,11.9,2.5
+1659,"Beef, imported beef, chuck roll, without subcutaneous fat, raw ",13.2,28.5,3.0
+1660,"Beef, imported beef, chuck roll, lean, raw ",15.4,29.7,2.6
+1661,"Beef, imported beef, rib loin, lean and fat, raw",25.4,43.0,2.1
+1662,"Beef, imported beef, rib loin, lean and fat, roasted",12.7,24.7,6.2
+1663,"Beef, imported beef, rib loin, lean and fat, boiled",12.5,21.0,2.9
+1664,"Beef, imported beef, rib loin, without subcutaneous fat, raw",14.9,13.1,3.7
+1665,"Beef, imported beef, rib loin, lean, raw",14.7,33.5,1.9
+1666,"Beef, imported beef, rib loin, fat, raw",11.8,22.7,4.7
+1667,"Beef, imported beef, sirloin, lean and fat, raw ",14.0,24.4,0.8
+1668,"Beef, imported beef, sirloin, without subcutaneous fat, raw",19.4,8.2,5.1
+1669,"Beef, imported beef, sirloin, lean, raw",12.9,34.7,3.6
+1670,"Beef, imported beef, flank or short plate, lean and fat, raw",29.6,7.7,2.6
+1671,"Beef, imported beef, inside round, lean and fat, raw",87.6,0.3,0
+1672,"Beef, imported beef, inside round, without subcutaneous fat, raw",19.8,15.0,0.2
+1673,"Beef, imported beef, inside round, without subcutaneous fat, roasted",28.9,24.9,0.2
+1674,"Beef, imported beef, inside round, without subcutaneous fat, boiled",18.8,15.3,0.1
+1675,"Beef, imported beef, inside round, lean, raw",17.1,17.1,0.1
+1676,"Beef, imported beef, inside round, fat, raw",15.6,25.9,0.2
+1677,"Beef, imported beef, silverside, lean and fat, raw",21.8,31.4,0.2
+1678,"Beef, imported beef, silverside, without subcutaneous fat, raw",20.0,12.0,0.3
+1679,"Beef, imported beef, silverside, lean, raw",28.6,20.3,0.3
+1680,"Beef, imported beef, rump, lean and fat, raw",14.4,4.1,3.0
+1681,"Beef, imported beef, rump, without subcutaneous fat, raw",21.9,1.5,0.2
+1682,"Beef, imported beef, rump, lean, raw",20.5,12.9,0.1
+1683,"Beef, imported beef, fillet, lean, raw",8.3,49.9,1.5
+1684,"Veal, rib loin, without subcutaneous fat, raw",23.6,3.0,0.1
+1685,"Veal, flank or short plate, without subcutaneous fat, raw",14.2,29.0,0.1
+1686,"Veal, inside round, without subcutaneous fat, raw",14.9,19.8,0.1
+1687,"Beef, ground meat, raw",20.1,2.2,0.2
+1688,"Beef, ground meat, stir-fried",7.3,45.8,0
+1689,"Beef, offal and by-products, tongue, raw",23.0,1.1,0.1
+1690,"Beef, offal and by-products, tongue, roasted",23.5,0.7,0.1
+1691,"Beef, offal and by-products, heart, raw",18.1,5.9,0.1
+1692,"Beef, offal and by-products, liver, raw",23.0,10.4,0
+1693,"Beef, offal and by-products, kidney, raw",19.5,17.2,0
+1694,"Beef, offal and by-products, rumen, boiled",24.4,1.9,0
+1695,"Beef, offal and by-products, reticulum, boiled",17.3,19.1,0
+1696,"Beef, offal and by-products, omasum, raw",22.0,4.8,0
+1697,"Beef, offal and by-products, abomasum, boiled",24.6,1.1,0
+1698,"Beef, offal and by-products, small intestine, raw",17.8,14.3,0
+1699,"Beef, offal and by-products, large intestine, raw",17.4,16.2,0
+1700,"Beef, offal and by-products, rectum, raw",18.2,12.8,0
+1701,"Beef, offal and by-products, sinew, boiled",21.3,5.9,0.1
+1702,"Beef, offal and by-products, uterus, boiled",34.7,9.1,0.1
+1703,"Beef, offal and by-products, tail, raw",23.3,1.9,0.1
+1704,"Beef, offal and by-products, outside skirt, raw",38.8,3.3,0.1
+1705,"Beef products, roast beef",16.6,14.2,0
+1706,"Beef products, corned beef, canned",26.3,13.9,0
+1707,"Beef products, canned with seasoning",22.3,15.2,0
+1708,"Beef products, beef jerky",24.2,18.1,13.3
+1709,"Beef products, smoked tongue",19.0,5.0,0
+1710,"Horse, meat, lean, raw",25.5,5.7,0
+1711,"Whale, meat, lean, raw",25.1,5.2,0
+1712,"Whale, meat, ven0al groove meat, raw",25.4,11.4,12.7
+1713,"Whale, blubber, raw",23.0,0.8,0
+1714,"Whale, ""Sarashi-kujira""(salted, sliced and boiled tail fluke)",27.3,1.3,0
+1715,"Deer, red deer, meat, lean, raw",27.3,1.0,0
+1716,"Deer, Japanese sika deer, meat, lean, raw",17.5,12.0,0
+1717,"Pork, large type breed, picnic shoulder, lean and fat, raw",27.5,14.8,0
+1718,"Pork, large type breed, picnic shoulder, without subcutaneous fat, raw",14.5,15.5,0
+1719,"Pork, large type breed, picnic shoulder, lean, raw",18.9,3.1,0.6
+1720,"Pork, large type breed, picnic shoulder, fat, raw",18.3,1.8,0
+1721,"Pork, large type breed, Boston butt, lean and fat, raw",9.4,48.1,0
+1722,"Pork, large type breed, Boston butt, without subcutaneous fat, raw",6.6,51.6,0
+1723,"Pork, large type breed, Boston butt, lean, raw",12.5,0.4,0.4
+1724,"Pork, large type breed, Boston butt, fat, raw",18.4,7.8,8.2
+1725,"Pork, large type breed, loin, lean and fat, raw",15.5,13.7,14.9
+1726,"Pork, large type breed, loin, lean and fat, roasted",15.2,15.2,9.3
+1727,"Pork, large type breed, loin, lean and fat, boiled",21.8,5.1,0.3
+1728,"Pork, large type breed, loin, lean and fat, ""Tonkatsu""(breaded and fried pork)",22.5,1.0,0.2
+1729,"Pork, large type breed, loin, without subcutaneous fat, raw",26.3,1.4,32.3
+1730,"Pork, large type breed, loin, lean, raw",22.3,0.4,0.3
+1731,"Pork, large type breed, loin, fat, raw",16.4,13.4,0.5
+1732,"Pork, large type breed, belly, lean and fat, raw",16.2,7.2,30.2
+1733,"Pork, large type breed, belly, lean and fat, roasted",13.7,16.5,0
+1734,"Pork, large type breed, inside ham, lean and fat, raw",12.0,13.0,0.4
+1735,"Pork, large type breed, inside ham, without subcutaneous fat, raw ",12.6,13.1,0.3
+1736,"Pork, large type breed, inside ham, without subcutaneous fat, roasted",11.0,14.1,0.6
+1737,"Pork, large type breed, inside ham, without subcutaneous fat, boiled",12.3,10.3,0.3
+1738,"Pork, large type breed, inside ham, lean, raw",12.9,10.0,0.3
+1739,"Pork, large type breed, inside ham, fat, raw",12.3,11.7,0.2
+1740,"Pork, large type breed, outside ham, lean and fat, raw",10.8,10.6,0
+1741,"Pork, large type breed, outside ham, without subcutaneous fat, raw",9.8,10.6,20.7
+1742,"Pork, large type breed, outside ham, lean, raw",49.1,42.0,0.2
+1743,"Pork, large type breed, outside ham, fat, raw",16.5,33.5,0.1
+1744,"Pork, large type breed, fillet, lean, raw",16.7,33.3,0.2
+1745,"Pork, large type breed, fillet, lean, roasted",12.1,23.9,20.7
+1746,"Pork, large type breed, fillet, lean, ""Tonkatsu""(breaded and fried pork)",30.3,62.9,0.2
+1747,"Pork, medium type breed, picnic shoulder, lean and fat, raw",10.5,0,0.4
+1748,"Pork, medium type breed, picnic shoulder, without subcutaneous fat, raw",11.3,0.1,0.4
+1749,"Pork, medium type breed, picnic shoulder, lean, raw",86.5,0.4,0.2
+1750,"Pork, medium type breed, picnic shoulder, fat, raw",6.4,5.0,2.0
+1751,"Pork, medium type breed, Boston butt, lean and fat, raw",10.8,9.1,6.4
+1752,"Pork, medium type breed, Boston butt, without subcutaneous fat, raw",11.2,9.0,0.5
+1753,"Pork, medium type breed, Boston butt, lean, raw",3.6,5.1,4.7
+1754,"Pork, medium type breed, Boston butt, fat, raw",3.2,3.7,4.7
+1755,"Pork, medium type breed, loin, lean and fat, raw",3.3,3.8,4.8
+1756,"Pork, medium type breed, loin, without subcutaneous fat, raw",3.5,4.2,5.2
+1757,"Pork, medium type breed, loin, lean, raw",3.8,1.0,5.5
+1758,"Pork, medium type breed, loin, fat, raw",3.4,0.1,4.7
+1759,"Pork, medium type breed, belly, lean and fat, raw",2.2,2.0,7.2
+1760,"Pork, medium type breed, inside ham, lean and fat, raw",1.2,0.2,9.9
+1761,"Pork, medium type breed, inside ham, without subcutaneous fat, raw",25.5,26.2,39.3
+1762,"Pork, medium type breed, inside ham, lean, raw",34.0,1.0,53.3
+1763,"Pork, medium type breed, inside ham, fat, raw",12.4,26.8,55.9
+1764,"Pork, medium type breed, outside ham, lean and fat, raw",6.8,7.9,11.2
+1765,"Pork, medium type breed, outside ham, without subcutaneous fat, raw",7.7,8.5,56.0
+1766,"Pork, medium type breed, outside ham, lean, raw",2.0,45.0,3.1
+1767,"Pork, medium type breed, outside ham, fat, raw",4.4,42.1,3.0
+1768,"Pork, medium type breed, fillet, lean, raw",6.8,39.2,2.9
+1769,"Pork, ground meat, raw",1.8,40.7,12.9
+1770,"Pork, ground meat, stir-fried",4.0,38.4,12.9
+1771,"Pork, offal and by-products, tongue, raw",6.3,36.1,12.9
+1772,"Pork, offal and by-products, heart, raw",5.2,18.3,5.5
+1773,"Pork, offal and by-products, liver, raw",4.8,21.6,3.7
+1774,"Pork, offal and by-products, kidney, raw",4.3,24.8,1.8
+1775,"Pork, offal and by-products, stomach, boiled",7.7,27.6,60.1
+1776,"Pork, offal and by-products, small intestine, boiled",2.8,38.3,53.1
+1777,"Pork, offal and by-products, large intestine, boiled",3.6,3.0,4.9
+1778,"Pork, offal and by-products, uterus, raw",3.7,1.0,5.2
+1779,"Pork, offal and by-products, feet, boiled",4.0,0.3,5.7
+1780,"Pork, offal and by-products, cartilage, boiled",4.3,0.2,11.9
+1781,"Pork, ham, bone-in",2.9,0.5,12.2
+1782,"Pork, ham, boneless",1.1,0.1,16.4
+1783,"Pork, ham, loin",1.5,0.1,52.6
+1784,"Pork, ham, shoulder",0.4,0,14.0
+1785,"Pork, ham, uncooked ham, fresh",28.9,25.0,1.4
+1786,"Pork, ham, uncooked ham, ripened",27.3,33.6,1.6
+1787,"Pork, ham, pressed",13.3,4.5,1.9
+1788,"Pork, ham, chopped",19.1,24.7,0.9
+1789,"Pork, bacon",8.2,33.0,2.3
+1790,"Pork, bacon loin",25.8,29.0,1.4
+1791,"Pork, shoulder bacon",25.7,33.8,1.4
+1792,"Pork, sausage, Vienna",44.0,30.8,1.9
+1793,"Pork, sausage, semi-dry",18.8,29.0,1.0
+1794,"Pork, sausage, dry",4.4,28.2,4.3
+1795,"Pork, sausage, Frankfurter",18.4,19.9,4.2
+1796,"Pork, sausage, Bologna",20.6,21.7,2.7
+1797,"Pork, sausage, Lyoner",7.1,11.5,6.7
+1798,"Pork, sausage, liver",22.7,26.0,1.3
+1799,"Pork, sausage, mixed with fish meat",15.9,25.7,0.6
+1800,"Pork, sausage, fresh sausage",3.5,12.0,22.4
+1801,"Pork, roast pork",3.9,8.0,23.2
+1802,"Pork, liver paste",3.4,6.4,23.9
+1803,"Pork, smoked liver",3.1,13.6,22.2
+1804,"Pork, gelatin",1.8,2.0,20.6
+1805,"Mutton, loin, lean and fat, raw",3.8,5.6,20.1
+1806,"Mutton, loin, lean and fat, roasted",86.2,1.5,0
+1807,"Mutton, leg, lean and fat, raw",0.9,1.0,28.7
+1808,"Lamb, shoulder, lean and fat, raw",12.5,1.2,77.0
+1809,"Lamb, loin, lean and fat, raw",1.1,3.5,7.2
+1810,"Lamb, loin, lean and fat, roasted",3.1,3.6,4.5
+1811,"Lamb, leg, lean and fat, raw",0,100.0,0
+1812,"Lamb, leg, lean and fat, roasted",0,100.0,0
+1813,"Mutton, ham, pressed, mixed with fish meat",0,100.0,0
+1814,"Goat, meat, lean, raw",0,100.0,0
+1815,"Japanese quail, meat with skin, raw",0,100.0,0
+1816,"Goose, foie gras, boiled ",0,100.0,0
+1817,"Duck, wild, meat without skin, raw",0,100.0,0
+1818,"Duck, ""Aigamo"" (crossbred duck), meat with skin, raw",0,100.0,0
+1819,"Duck, domesticated, meat with skin, raw",0,100.0,0
+1820,"Duck, domesticated, meat without skin, raw",0,100.0,0
+1821,"Duck, domesticated, skin, raw",0,100.0,0
+1822,"Common pheasant, meat without skin, raw　",0,100.0,0
+1823,"Turkey, meat without skin, raw　",0,100.0,0
+1824,"Sparrow, meat with bones and skin, raw",0,100.0,0
+1825,"Chicken, culled, wing, meat with skin, raw",0,100.0,0
+1826,"Chicken, culled, breast, meat with skin, raw",0,100.0,0
+1827,"Chicken, culled, breast, meat without skin, raw",0,100.0,0
+1828,"Chicken, culled, thigh, meat with skin, raw",0,100.0,0
+1829,"Chicken, culled, thigh, meat without skin, raw",0,100.0,0
+1830,"Chicken, culled, tender, raw",0,100.0,0
+1831,"Chicken, broiler, wing, meat with skin, raw",0.2,99.8,0
+1832,"Chicken, broiler, wing tip, meat with skin, raw",0,100.0,0
+1833,"Chicken, broiler, wing stick, meat with skin, raw",0.6,81.0,0.2
+1834,"Chicken, broiler, breast, meat with skin, raw",0.5,83.0,0.2
+1835,"Chicken, broiler, breast, meat with skin, roasted",0.6,80.0,4.4
+1836,"Chicken, broiler, breast, meat without skin, raw",0.4,83.1,0.4
+1837,"Chicken, broiler, breast, meat without skin, roasted",0.3,84.3,0.1
+1838,"Chicken, broiler, thigh, meat with skin, raw",0.2,69.1,0
+1839,"Chicken, broiler, thigh, meat with skin, roasted",0,99.9,0
+1840,"Chicken, broiler, thigh, meat with skin, boiled",0,99.9,0
+1841,"Chicken, broiler, thigh, meat with skin, ""Karaage""(floured and deep-fried chicken)",0,99.9,0
+1842,"Chicken, broiler, thigh, meat without skin, raw",5.6,0.6,67.1
+1843,"Chicken, broiler, thigh, meat without skin, roasted",5.5,1.1,67.6
+1844,"Chicken, broiler, thigh, meat without skin, boiled",5.2,1.0,70.1
+1845,"Chicken, broiler, thigh, meat without skin, ""Karaage""(floured and deep-fried chicken)",4.5,1.0,48.5
+1846,"Chicken, broiler, tender, raw",1.1,0.2,44.1
+1847,"Chicken, broiler, tender, roasted",3.6,0.4,55.7
+1848,"Chicken, broiler, tender, boiled",4.0,0.4,46.7
+1849,"Chicken, ground meat, raw",6.2,4.6,63.2
+1850,"Chicken, ground meat, stir-fried",4.8,0.4,60.4
+1851,"Chicken, offal and by-products, heart, raw",2.1,0.3,54.7
+1852,"Chicken, offal and by-products, liver, raw",1.7,0.3,73.5
+1853,"Chicken, offal and by-products, gizzard, raw",1.3,0.2,62.5
+1854,"Chicken, offal and by-products, skin, breast, raw",2.1,0.3,59.3
+1855,"Chicken, offal and by-products, skin, thigh, raw",0,0,72.0
+1856,"Chicken, offal and by-products, cartilage bone, raw",6.0,0.7,58.6
+1857,"Chicken, canned products, roast meat with seasoning",4.2,0.4,52.1
+1858,"Chicken, nuggets ",3.8,0.4,45.5
+1859,"Chicken, ""Tsukune"" (Japanese chicken meatball)",3.1,0.4,45.2
+1860,"Pigeon, meat without skin, raw　",0.1,0.1,22.5
+1861,"Guinea fowl, meat without skin, raw",0.1,0.1,22.4
+1862,"Rice hopper, Tsukudani (simmered whole without wings and legs in soy sauce and sugar)",5.2,8.7,64.5
+1863,"Bullfrog, meat, raw",3.0,0.5,41.0
+1864,"Chinese softshell turtle, meat, raw",4.5,0.4,54.3
+1865,"Wasp, broods, canned with seasoning",3.4,0.2,46.1
+1866,"Eggs, domesticated duck, century egg (Pidan)",3.9,0.5,54.7
+1867,"Eggs, silky fowl, whole, raw",4.8,0.5,52.8
+1868,"Eggs, Japanese quail, whole, raw",5.9,2.9,60.8
+1869,"Eggs, Japanese quail, boiled, canned in brine",1.3,0.2,36.4
+1870,"Eggs, hen, whole, raw",6.2,4.1,66.5
+1871,"Eggs, hen, whole, boiled",6.6,2.5,58.7
+1872,"Eggs, hen, whole, poached egg",4.5,0.4,64.3
+1873,"Eggs, hen,  boiled and canned in brine ",5.3,0.3,60.1
+1874,"Eggs, hen, whole, sugared",6.6,1.6,63.4
+1875,"Eggs, hen,  whole, dried",3.1,0.2,51.4
+1876,"Eggs, hen, yolk, raw",6.0,1.3,68.2
+1877,"Eggs, hen, yolk, boiled",6.2,2.1,63.4
+1878,"Eggs, hen, yolk, sugared",4.9,0.4,59.2
+1879,"Eggs, hen, yolk, dried",6.1,5.7,51.1
+1880,"Eggs, hen, white, raw",10.0,5.1,43.5
+1881,"Eggs, hen, white, boiled",4.8,0.4,65.6
+1882,"Eggs, hen, white, dried",2.4,3.5,71.2
+1883,"Eggs, hen, Tamago-dofu (cold savory egg custard)",3.6,0.2,70.0
+1884,"Eggs, hen, Tamago-yaki (Rolled omelet), Atsuyaki-tamago (sweet rolled omelet with Katsuo-bushi and kombu dashi)",2.6,0.1,40.0
+1885,"Eggs, hen, Tamago-yaki (Rolled omelet), Dashimaki-tamago (rolled omelet with Katsuo-bushi and kombu dashi)",4.4,0.3,55.4
+1886,"Liquid milk, raw milk, Jersey",0,0,97.5
+1887,"Liquid milk, raw milk, Holstein",1.4,20.5,71.3
+1888,"Liquid milk, whole milk",3.8,0.8,90.1
+1889,"Liquid milk, containing recombined milk, high fat",11.7,13.5,69.8
+1890,"Liquid milk, containing recombined milk, low fat",7.6,11.6,76.3
+1891,"Liquid milk, skimmed milk",9.7,11.2,76.2
+1892,"Milk beverages, coffee flavored",10.7,6.4,71.6
+1893,"Milk beverages, fruit flavored",4.3,0.8,89.3
+1894,"Milk powder, whole milk powder",7.5,3.5,84.0
+1895,"Milk powder, skimmed milk powder",4.3,1.4,90.3
+1896,"Milk powder, infant formula",11.2,10.8,72.3
+1897,Evaporated whole milk,11.7,9.6,73.8
+1898,"Condensed whole milk, sweetened",2.7,0.3,85.4
+1899,"Cream, milk fat",5.1,4.3,85.3
+1900,"Cream substitute, milk and vegetable fats",7.7,3.1,84.6
+1901,"Cream substitute, vegetable fat",5.7,17.5,71.2
+1902,"Whipping cream, milk fat, with added sugar",6.7,0.9,86.3
+1903,"Whipping cream substitute, milk and vegetable fats, with added sugar",7.9,1.4,84.2
+1904,"Whipping cream substitute, vegetable fat, with added sugar",7.8,1.0,83.1
+1905,"Coffee whitener, liquid, milk fat",2.5,2.2,90.4
+1906,"Coffee whitener, liquid, milk and vegetable fats",7.7,3.4,86.1
+1907,"Coffee whitener, liquid, vegetable fat",4.0,0.7,89.7
+1908,"Coffee whitener, powder, milk fat",12.4,8.7,75.6
+1909,"Coffee whitener, powder, vegetable fat",3.3,0.5,94.2
+1910,"Yogurt, whole milk, unsweetened",2.4,0.2,94.3
+1911,"Yogurt, low fat, unsweetened",4.7,1.8,90.4
+1912,"Yogurt, fat free, unsweetened",7.3,0.3,89.3
+1913,"Yogurt, skimmed, sweetened",8.7,18.7,43.5
+1914,"Yogurt, liquid, sweetened",7.9,5.3,50.2
+1915,"Lactic acid bacteria beverages, not pasteurized after fermentation, milk solids-nonfat ≥ 3.0%",6.6,2.4,52.8
+1916,"Lactic acid bacteria beverages, pasteurized after fermentation, milk solids-nonfat ≥ 3.0%",6.6,18.3,32.3
+1917,"Lactic acid bacteria beverages, milk solids-nonfat < 3.0%",7.2,22.4,38.4
+1918,"Cheese, Edam",5.3,9.3,18.8
+1919,"Cheese, Emmental",10.3,10.9,41.4
+1920,"Cheese, cottage",6.6,8.0,32.3
+1921,"Cheese, Camembert",6.6,5.8,54.5
+1922,"Cheese, cream",7.1,15.3,42.8
+1923,"Cheese, Gouda",5.5,18.7,39.5
+1924,"Cheese, Cheddar",8.0,10.5,59.9
+1925,"Cheese, Parmesan",6.0,11.3,25.6
+1926,"Cheese, blue",8.1,5.6,53.8
+1927,"Cheese, Mascarpone",7.1,13.8,43.6
+1928,"Cheese, mozzarella",4.2,13.2,31.4
+1929,"Cheese, goat milk ",8.5,21.2,23.3
+1930,"Cheese, Ricotta",5.8,28.0,22.1
+1931,"Cheeses, processed",7.0,24.7,41.7
+1932,"Cheeses, spreadable",7.2,20.2,43.9
+1933,"Ice cream, high fat (milk solids ≥ 15%, milk fat ≥12%)",7.2,11.7,60.2
+1934,"Ice cream, regular (milk solids ≥ 15%, milk fat =8%)",7.7,33.7,25.2
+1935,"Ice cream, ice milk (milk solids ≥ 10%, milk fat≥  3%, including vegetable fat)",4.0,17.5,32.7
+1936,"Ice cream, lacto-ice, regular (milk solids ≥ 3%, main lipid : vegetable fat)",9.9,29.9,22.0
+1937,"Ice cream, lacto-ice, low fat (milk solids ≥ 3% main lipid : vegetable fat)",5.8,25.4,47.9
+1938,"Ice cream, soft-serve",7.7,5.4,45.2
+1939,Casein,7.3,7.9,38.1
+1940,"""Sherbet",4.8,4.2,57.3
+1941,"［*Syn. Sorbet］""",5.5,5.0,14.7
+1942,Cheese whey powder,1.1,1.3,12.2
+1943,"Other milk, human milk, mature",2.1,0.1,19.8
+1944,"Other milk, goat milk",1.6,0,10.4
+1945,"""Linseed oil",4.3,3.7,14.4
+1946,"［*Syn. Flaxseed oil］""",1.7,0,13.3
+1947,Perilla oil,5.6,12.8,20.0
+1948,Olive oil,7.6,13.6,75.3
+1949,Sesame oil,5.9,22.0,69.4
+1950,Rice bran oil,8.5,22.5,63.9
+1951,"Safflower oil, high oleic",10.4,9.8,74.4
+1952,"Safflower oil, high linoleic",6.1,16.5,73.0
+1953,Soybean oil,5.1,29.5,61.9
+1954,"Vegetable oil, blend       ",7.6,10.0,77.8
+1955,Corn oil,5.7,27.6,62.6
+1956,Rapeseed oil,9.9,18.6,68.2
+1957,Palm oil,5.8,35.6,55.8
+1958,Palm kernel oil,5.7,23.6,65.7
+1959,"Sunflower oil, high linoleic ",7.6,19.5,68.8
+1960,"Sunflower oil, mid-oleic",5.2,27.1,65.3
+1961,"Sunflower oil, high oleic",4.7,35.2,54.7
+1962,Grape seed oil,5.8,32.0,57.3
+1963,Cottonseed oil,0,0,99.5
+1964,Coconut oil,4.0,11.7,77.9
+1965,Peanut oil,0,0,84.0
+1966,Beef tallow,0.1,0,90.3
+1967,Lard,0,0,98.0
+1968,"Butter, salted butter",0,6.5,91.1
+1969,"Butter, unsalted butter",13.3,26.5,57.3
+1970,"Butter, cultured butter",2.2,0,79.3
+1971,"Margarine, soft type, home use",0,0.5,92.2
+1972,"Margarine, soft type, commercial use",11.4,40.4,43.3
+1973,Fat spread,7.0,25.4,63.4
+1974,"Shortening, home use",7.2,39.5,50.9
+1975,"Shortening, commercial use for confectionery",6.9,34.1,55.8
+1976,"Shortening, commercial use for frying",1.1,0.3,77.4
+1977,"0aditional confectionery, ""Amanatto, Adzuki beans"" (candied Adzuki beans)",0,0,96.9
+1978,"0aditional confectionery, ""Amanatto, kidney beans"" (candied kidney beans)",0,0,97.6
+1979,"0aditional confectionery, ""Amanatto, peas"" (candied green peas) ",0,0,96.7
+1980,"0aditional confectionery, ""Imagawayaki"" (Japanese waffle stuffed with red bean paste)",5.1,7.5,24.9
+1981,"0aditional confectionery, ""Uiro"" (steamed sweet rice dough)",4.7,0.3,48.7
+1982,"0aditional confectionery, ""Uguisu-mochi"" (sweet rice cake,  filled with red bean paste, coated by roasted green soy flour)",4.2,0.5,40.5
+1983,"0aditional confectionery, ""Kashiwa-mochi"" (Leaf-wrapped rice cake with red bean paste filling)",0.4,0,4.9
+1984,"0aditional confectionery, ""Kasutera"" (rectangle sponge cake)",0.4,0,3.6
+1985,"0aditional confectionery, ""Kanoko"" (red bean jelly wrapped with red bean paste, red bean compote and agar)",0.4,0,4.5
+1986,"0aditional confectionery, ""Karukan"" (white steamed cake made from rice flour, grated yam and sugar)",0.3,0,3.6
+1987,"0aditional confectionery, ""Kibi-dango"" (sweet dumpling made from rice and proso millet flour)",0.4,0,4.1
+1988,"0aditional confectionery, ""Gyuhi"" (kneaded glutinous rice flour with sugar, steamed)",0.3,0,3.1
+1989,"0aditional confectionery, ""Kirizansho"" (Sweet rice cake flavored by Japanese pepper ""Sansho"")",0.4,0,3.6
+1990,"0aditional confectionery, ""Kingyokuto"" (Sweet agar jelly) ",0.5,0,4.9
+1991,"0aditional confectionery, ""Kintsuba"" (red bean paste covered with dough, baked)",0.1,0,3.6
+1992,"0aditional confectionery, ""Kusa-mochi"" (green rice cake, stuffed with red bean paste, flavored by Japanese wormwood ""Yomogi"")",0.1,0,2.0
+1993,"0aditional confectionery, ""Kushi-dango, An"" (skewered rice dumplings, steamed, coated by red bean paste)",0.2,0,1.5
+1994,"0aditional confectionery, ""Kushi-dango, mitarashi"" (skewered rice dumplings, steamed, seasoned with sweet soy glaze)",0.1,0,4.0
+1995,"0aditional confectionery, ""Kudzu-mochi"" (sweetened gelatin made from Kuszu starch, with roasted soybean flour and brown sugar syrup)",1.7,0,5.1
+1996,"0aditional confectionery, ""Kudzu-mochi"" (sweetened gelatin made from Wheat starch, with roasted soybean flour and brown sugar syrup)",0,0,0
+1997,"0aditional confectionery,  Moon cake (Yue bing), stuffed with red bean paste",0,0,0
+1998,"""Gohei-mochi"" (rice cake, grilled with soy sauce, miso, sugar and sesame paste) ",0,0,0
+1999,"0aditional confectionery, ""Sakura-mochi, Kanto style"" (pink small pancake roll with red bean paste filling, wrapped by a salted cherry leaf. Dough is made from wheat and rice flour.)",0,0,0
+2000,"0aditional confectionery, ""Sakura-mochi, Kansai style"" (pink rice cake stuffed with red bean paste, wrapped with a salted cherry leaf. Dough is made from glutinous rice flour.)",0,0,0
+2001,"0aditional confectionery, ""Sasa-dango"" (sweet rice cake stuffed with red bean paste, wrapped in sasa-bamboo leaves)",0,0,0.1
+2002,"0aditional confectionery, ""Daifuku-mochi"" (sweet rice cake stuffed with red bean paste)",0,0,0.1
+2003,"0aditional confectionery, ""Taruto"" (Swiss roll with red bean paste filling)",0,0,0
+2004,"0aditional confectionery, ""Chimaki"" (bamboo-leaf-wrapped sweet rice dough, steamed)",0.1,0,20.7
+2005,"0aditional confectionery, ""Chatsu"" (red bean paste covered with green tea flavored dough, baked)",0.1,0,5.3
+2006,"0aditional confectionery, ""Dorayaki"" (Japanese pancake sandwich with red bean paste filling)",1.9,0,48.1
+2007,"0aditional confectionery, ""Aniri-nama-yatsuhashi"" (Cinnamon-flavored sweet rice dough, steamed, with red bean paste filling)",0.3,0,43.2
+2008,"0aditional confectionery, ""Nerikiri"" (""Gyuhi"" kneaded with colored bean paste, molded)  (cf. 15013 ""Gyuhi"")",0.1,0,14.4
+2009,"0aditional confectionery, ""Kasutera-manju"" (sponge cake stuffed with red bean paste)",0,0,26.8
+2010,"0aditional confectionery, ""Kudzu-manju"" (sweetened gelatin made from kudzu starch, stuffed with red bean paste)",0,0,26.4
+2011,"0aditional confectionery, ""Kuri-manju"" (baked sweet dough stuffed with red bean paste and candied chestnuts)",0.1,0,13.4
+2012,"0aditional confectionery, ""To-manju"" (baked sweet dough stuffed with red bean paste)",0,0,37.6
+2013,"0aditional confectionery, ""Mushi-manju"" (steamed sweet dough stuffed with red bean paste)",0.1,0,16.4
+2014,"Chinese style steamed bun, stuffed with red bean paste",0.1,0,3.7
+2015,"Chinese style steamed bun, stuffed with meat and vegetable",29.1,4.1,43.9
+2016,"0aditional confectionery, ""Monaka"" (glutinous rice wafers with red bean paste filling)",1.3,0,0
+2017,"0aditional confectionery, ""Yubeshi"" (steamed sweet dough made from rice flour, walnuts, soy sauce and ci0us ""Yuzu"" juice)",29.6,5.3,39.5
+2018,"0aditional confectionery, ""Neri-yokan"" (hardened red bean agar bar)",24.5,4.7,47.7
+2019,"0aditional confectionery, ""Mizu-yokan"" (soft red bean jelly)",0.2,0,0.2
+2020,"0aditional confectionery, ""Mushi-yokan"" (steamed red bean paste bar)",0.1,0,0
+2021,"0aditional confectionery, ""Amedama"" (sugar candy)",0,0,0.1
+2022,"0aditional confectionery, ""Imo-karinto"" (deep fried sweet potato chips, coated with sugar syrup)",0,0,0.1
+2023,"0aditional confectionery, ""Okoshi"" (puffed sweet rice cake)",0,0,0
+2024,"""0aditional confectionery, """"Onoroke-mame"""" ",0,0,0.1
+2025,"(roasted peanuts coated with rice dough, baked)""",20.3,2.5,51.7
+2026,"0aditional confectionery, ""Karinto, black"" (crunchy deep fried wheat flour dough coated with brown sugar""",0.1,0,0.1
+2027,"0aditional confectionery, ""Karinto, white"" (crunchy deep fried wheat flour dough coated with white sugar)",0.2,0,0.7
+2028,"0aditional confectionery, ""Gokabo"" (roasted glutinous rice stick covered with roasted soy powder and sugar)",14.7,0.3,56.5
+2029,"0aditional confectionery, ""Isobe-senbei"" (soft wheat flour cracker made using soda water from Isobe hot spring)",0.7,0.3,8.2
+2030,"0aditional confectionery, ""Kawara senbei"" (hard wheat flour cracker shaped like a Japanese 0aditional roof tile)",18.5,21.6,42.4
+2031,"0aditional confectionery, ""Maki-senbei"" (light wheat cracker roll with sugar confectionary filling)",7.4,6.8,80.4
+2032,"0aditional confectionery, ""Nanbu-Senbei, Sesame"" (round wheat flour cracker, with sesame seeds)",13.8,4.4,70.2
+2033,"0aditional confectionery, ""Nanbu-Senbei, Peanut"" (round wheat flour cracker, with peanuts)",1.7,0.1,18.3
+2034,"0aditional confectionery, ""Shiogama"" (molded confectionary made from sugar, glutinous rice flour and perilla leaf powder)",5.7,0.4,42.3
+2035,"0aditional confectionery, ""Hina-arare, Kanto style"" (roasted and sugared rice dough with candied adzuki beans and roasted soybeans for the Doll's festival)",0,0,5.1
+2036,"0aditional confectionery, ""Hina-arare, Kansai style"" (roasted rice dough for the Doll's festival)",0,0,12.8
+2037,"0aditional confectionery, ""Age-senbei"" (fried and salted rice cracker)",0.1,0,11.4
+2038,"0aditional confectionery, ""Amakara-senbei"" (rice cracker coated with soy sauce and grain sugar)",0,0,10.2
+2039,"0aditional confectionery, ""Arare"" (glutinous rice cracker) ",0.1,0,1.2
+2040,"0aditional confectionery, ""Shoyu-senbei"" (soy sauce flavored rice cracker)",0,0,0.3
+2041,"0aditional confectionery, ""Boro, small"" (Small balls of baked starch dough)",1.0,0.1,26.8
+2042,"0aditional confectionery, ""Soba-boro"" (Baked sweet dough made from buckwheat and wheat flour)",0.8,0.1,30.8
+2043,"0aditional confectionery, ""Matsukaze"" (Baked sweet dough, topped with poppy seeds) ",0.9,0.1,30.9
+2044,"0aditional confectionery, ""Mishima-mame"" (Sugar-coated roasted soybeans) ",1.6,0.1,34.3
+2045,"0aditional confectionery, ""Yatsuhashi"" (Cinnamon-flavored sweet rice dough, baked)",2.0,2.3,7.9
+2046,"0aditional confectionery, ""Rakugan, regular"" (molded dry confectionary made from fine roasted glutinous rice flour and sugar)",0.7,0.5,5.2
+2047,"0aditional confectionery, ""Mugi-rakugan"" (molded dry confectionary made from roasted  barley flour and sugar)",0.1,99.8,0
+2048,"0aditional confectionery, ""Morokoshi-rakugan"" (molded dry confectionary made from powdered adzuki bean paste and sugar)",7.7,0,10.1
+2049,"Bun with filling, fried bun",5.7,0,7.8
+2050,"Bun with filling, baked bun with red bean paste filling, regular",11.8,0,15.9
+2051,"Bun with filling, baked bun with red bean paste filling, thin dough type",9.6,0,15.9
+2052,"Bun with filling, fried bun with curry filling",2.5,0,19.2
+2053,"Bun with filling, fried bun with curry filling, fried bun only",8.1,0,9.0
+2054,"Bun with filling, fried bun with curry filling, curry filling only",4.0,0,5.2
+2055,"Bun with filling, baked bun with custard cream filling, regular",2.4,0,36.3
+2056,"Bun with filling, baked bun with custard cream filling, thin dough type",0,0,0
+2057,"Bun with filling, baked bun with s0awberry jam filling",0,0,0
+2058,"Bun with filling, ""Korone"" (horn-shaped bread), with chocolate cream filling",0,0,0
+2059,"Bun with filling, baked bun with chocolate cream filling, thin dough type",0,0,0
+2060,"Bun with filling, ""Melon-pan"" (sweet bun covered in a thin layer of crisp cookie dough)",1.0,0,9.0
+2061,"Cake and pas0y, custard cream puff",0.1,0,2.4
+2062,"Cake and pas0y, sponge cake",0.2,0,7.4
+2063,"Cake and pas0y, layered cream cake",0.5,0,19.4
+2064,"Cake and pas0y, tart",0.1,0,1.2
+2065,"Cake and pas0y, cheesecake, baked",0.1,0,2.4
+2066,"Cake and pas0y, cheesecake, unbaked",0.5,0.1,0
+2067,"Cake and pas0y, Danish pas0y",0.1,0,0.9
+2068,"Cake and pas0y, doughnuts, yeast-leavened",0.3,0,0.3
+2069,"Cake and pas0y, doughnuts, cake-type",0.1,0,0.9
+2070,"Cake and pas0y, pie pas0y",0.1,0.1,0
+2071,"Cake and pas0y, apple pie",1.1,0.2,0
+2072,"Cake and pas0y, meat pie",0.8,0,0
+2073,"Cake and pas0y, butter cake",1.3,0,0.3
+2074,"Cake and pas0y, thick pancake",7.0,4.3,42.1
+2075,"Cake and pas0y, waffles, with custard cream filling",9.6,0.1,32.2
+2076,"Cake and pas0y, waffles, with s0awberry jam filling",12.6,1.6,36.6
+2077,"Pudding and chilled dessert, caramel custard",24.2,0.3,31.1
+2078,"Pudding and chilled dessert, Milk pudding",2.2,0,8.7
+2079,"Pudding and chilled dessert, orange jelly",4.5,0,20.0
+2080,"Pudding and chilled dessert, coffee jelly",0.1,0,28.4
+2081,"Pudding and chilled dessert, milk jelly",1.2,1.4,9.5
+2082,"Pudding and chilled dessert, wine flavored jelly",7.7,0.3,18.3
+2083,"Pudding and chilled dessert, Bavarian cream",6.5,13.0,20.3
+2084,"Biscuits, wafers ",4.0,8.0,30.2
+2085,"Biscuits, wafers with cream",7.4,14.1,30.1
+2086,"Biscuits, crackers, oil-sprayed",0.9,0,18.1
+2087,"Biscuits, crackers, soda",3.5,0,8.6
+2088,"Biscuits, Sablé shortbread",0.1,0,34.9
+2089,"Biscuits, Chinese cookies containing lard",0.2,0,14.3
+2090,"Biscuits, hard biscuits",0.1,0,23.8
+2091,"Biscuits, soft biscuits",3.0,3.4,25.6
+2092,"Biscuits, hard pretzel",2.9,3.0,11.0
+2093,"Biscuits, puff pas0y biscuits",8.5,7.7,38.1
+2094,"Biscuits, biscuits with jam topping",9.1,0.1,2.7
+2095,"Snacks, wheat flour snack, ex0uded",2.6,1.5,7.5
+2096,"Snacks, corn snack, ex0uded",1.8,6.2,9.2
+2097,"Snacks, potato chips, regular",3.4,0.1,8.2
+2098,"Snacks, potato chips, fabricated",4.2,6.3,10.4
+2099,"Candy, color changing candy",0.1,0,10.9
+2100,"Candy, caramel soft candy",3.8,5.0,10.1
+2101,"Candy, jelly candy",3.2,0,29.6
+2102,"Candy, jelly beans",4.3,2.2,33.1
+2103,"Candy, sugar candy",0.9,0,31.0
+2104,"Candy, butterscotch hard candy",1.3,0.8,9.3
+2105,"Candy, brittles",1.9,0.1,9.9
+2106,"Candy, marshmallows",3.8,0.1,22.0
+2107,"Candy, compressed tablet candy",1.7,0,27.4
+2108,"Chocolate, chocolate with almonds",2.0,0.2,8.5
+2109,"Chocolate, chocolate-covered biscuit",1.8,0.1,26.3
+2110,"Chocolate, white chocolate",3.1,0.1,16.1
+2111,"Chocolate, milk chocolate",0.1,41.9,5.9
+2112,"Candied fruits, Marron glacé (candied chestnuts) ",2.2,18.4,5.1
+2113,"Chewing gum, stick",8.5,26.3,21.2
+2114,"Chewing gum, sugar-coated",1.0,41.4,9.2
+2115,"Chewing gum, bubble gum",1.5,75.3,4.5
+2116,Pas0y cream,2.8,72.3,1.7
+2117,Sweet red bean soup made from s0ained  bean paste,2.9,28.3,3.3
+2118,Sweet red bean soup made from mushed bean paste,9.7,3.0,37.9
+2119,"Fermented alcoholic beverage, ""Sake"", regular",12.5,6.0,21.9
+2120,"Fermented alcoholic beverage, ""Sake"", ""Junmai"" (made with only rice, water and koji) ",13.1,5.5,21.1
+2121,"Fermented alcoholic beverage, ""Sake"", ""Honjozo"" (made with rice, water, koji and distilled alcohol. The rice used must be polished to at least 70%)",9.7,4.3,30.0
+2122,"Fermented alcoholic beverage, ""Sake"", ""Ginjo"" (brewed with labor-intensive steps, using highly polished rice) ",17.2,10.5,14.5
+2123,"Fermented alcoholic beverage, ""Sake"", ""Junmai-ginjo"" (made with only rice, water and koji, brewed with labor-intensive steps, using highly polished rice) ",10.8,5.7,24.5
+2124,"Fermented alcoholic beverage, beer, pale",13.2,5.7,22.4
+2125,"Fermented alcoholic beverage, beer, black",21.9,9.3,43.0
+2126,"Fermented alcoholic beverage, beer, stout",8.9,3.7,15.4
+2127,"Fermented alcoholic beverage, ""Happoshu"" (beer-like beverage with less than 67% malt content)",5.0,2.1,44.6
+2128,"Fermented alcoholic beverage, wine, white",9.4,9.9,32.9
+2129,"Fermented alcoholic beverage, wine, red",4.9,1.5,44.8
+2130,"Fermented alcoholic beverage, wine, rose",5.5,1.7,59.0
+2131,"Fermented alcoholic beverage, Shaoxing wine",6.5,34.1,44.7
+2132,"Distilled alcoholic beverage, ""Shochu"", distilled through a continuous still",5.8,33.2,47.5
+2133,"Distilled alcoholic beverage, ""Shochu"", distilled through a pot still",20.3,3.7,37.4
+2134,"Distilled alcoholic beverage, whisky",14.9,1.5,23.8
+2135,"Distilled alcoholic beverage, brandy",18.1,0.8,30.9
+2136,"Distilled alcoholic beverage, vodka",23.4,21.9,39.9
+2137,"Distilled alcoholic beverage, gin",0.1,0,54.9
+2138,"Distilled alcoholic beverage, rum",5.6,5.6,75.2
+2139,"Distilled alcoholic beverage, Maotai ",8.8,1.1,79.8
+2140,"Compound alcoholic beverage, ""Umeshu"" (plum liquor made from Japanese apricots)",33.0,14.3,43.7
+2141,"Compound alcoholic beverage, synthetic ""Sake""",5.9,14.5,40.1
+2142,"Compound alcoholic beverage, ""Shiro-zake"" (white Sake-like liquor made from steamed rice, rice koji and ""Shochu"")",4.8,10.6,13.1
+2143,"Compound alcoholic beverage, ""Mirin"" (sweet liquor made from rice, rice koji and Shochu or distilled alcohol), regular",7.6,16.0,12.7
+2144,"Compound alcoholic beverage,  ""Honnaoshi"" (sweet liquor made of ""Shochu"" and ""Mirin"")",13.0,12.2,63.3
+2145,"Compound alcoholic beverage,  medicinal liqueur",7.2,13.6,66.4
+2146,"Compound alcoholic beverage,  curacao",11.0,6.0,66.6
+2147,"Compound alcoholic beverage,  fortified wine, sweet type",10.1,6.4,70.1
+2148,"Compound alcoholic beverage,  peppermint liqueur",10.6,6.2,68.3
+2149,"Compound alcoholic beverage,  vermouth, sweet type",10.3,6.2,69.6
+2150,"Compound alcoholic beverage,  vermouth, dry type",3.6,3.5,79.6
+2151,"Green tea, ""Gyokuro"" (high grade tea made from shade-grown leaves), tea",7.8,4.9,72.5
+2152,"Green tea, ""Gyokuro"" (high grade tea made from shade-grown leaves), infusion",0.7,0.6,8.6
+2153,"Green tea, ""Maccha"" (finely ground tea)",6.4,10.1,66.9
+2154,"Green tea, ""Sencha"" (common grade tea), tea",6.5,5.2,69.8
+2155,"Green tea, ""Sencha"" (common grade tea), infusion",15.0,8.2,60.1
+2156,"Green tea, ""Kamairi-cha"" (pan-fried tea), infusion",16.2,9.7,66.8
+2157,"Green tea, ""Ban-cha"" (coarse grade tea), infusion",5.7,38.5,47.5
+2158,"Green tea, ""Hoji-cha"" (roasted tea), infusion",19.9,0.8,73.8
+2159,"Green tea, ""Genmai-cha"" (mixture of tea and roasted brown rice), infusion",19.9,0.8,73.8
+2160,"Fermented tea, Oolong tea, infusion",4.7,0.5,37.0
+2161,"Fermented tea, black tea, tea",21.1,2.2,50.6
+2162,"Fermented tea, black tea, infusion",28.7,2.2,51.6
+2163,"Coffee, infusion",15.5,11.6,55.6
+2164,"Coffee, instant coffee, granules",16.5,4.4,69.7
+2165,"Coffee,  ready-to-drink coffee with milk and sugar, canned",3.3,10.3,39.8
+2166,"Cocoa, pure powder",16.5,1.5,12.1
+2167,"Cocoa, chocolate milk powder",37.1,6.8,43.1
+2168,"Kale juice, powder",3.4,0.5,29.7
+2169,"""Ama-zake"" (sweet beverage made from rice koji)",0,1.2,29.0
+2170,"""Kobu-cha"" (kombu powder for drink)",3.3,7.3,9.8
+2171,Sports drink,7.1,8.1,23.8
+2172,"Carbonated beverage, fruit flavored and colored drink",4.8,6.7,13.3
+2173,"Carbonated beverage, cola",8.1,13.7,67.4
+2174,"Carbonated beverage, clear soda",2.0,4.8,8.6
+2175,"Carbonated beverage, beer-flavored drink, alcohol free",4.7,6.3,20.9
+2176,"""Mugi-cha"" (roasted barley tea), infusion",5.1,16.2,22.5
+2177,"Japanese Worcester sauce, common type",4.6,4.9,25.3
+2178,"Japanese Worcester sauce, semi-thick type",4.6,17.6,25.6
+2179,"Japanese Worcester sauce, thick type",10.6,2.0,21.4
+2180,"Japanese Worcester sauce, sweet thick type for ""Okonomiyaki"" (Japanese-style savory pancake with various ingredients)",12.1,20.3,24.5
+2181,"Hot seasoning, Doubanjiang",10.2,1.9,20.3
+2182,"Hot seasoning, hot pepper sauce",9.1,20.3,18.1
+2183,"Hot seasoning, Chinese chili oil",11.6,2.7,19.3
+2184,"Soy sauce, ""Koikuchi-shoyu"" (common soy sauce)",9.7,21.8,16.2
+2185,"Soy sauce, ""Usukuchi-shoyu"" (light color soy sauce)",6.0,7.2,7.4
+2186,"Soy sauce, ""Tamari-shoyu"" (full-bodied soy sauce)",9.3,11.2,19.3
+2187,"Soy sauce, ""Saishikomi-shoyu"" (refermented soy sauce)",13.3,13.4,12.3
+2188,"Soy sauce, ""Shiro-shoyu"" (ex0a light color soy sauce)",3.8,2.8,30.1
+2189,"Soy sauce, salt reduced",11.7,16.4,12.5
+2190,"Soy sauce, pre-seasoned with soup stock",9.9,7.2,23.0
+2191,"Soy sauce, soy glazed",9.4,20.3,21.8
+2192,"Edible salt, common salt, sodium chloride ≥ 99%",9.9,18.6,68.2
+2193,"Edible salt, common salt, sodium chloride ≥ 95%",5.8,35.5,55.8
+2194,"Edible salt, refined salt, sodium chloride ≥ 99.5%, containing magnesium carbonate",5.8,23.4,65.8
+2195,"Edible salt, refined salt, sodium chloride ≥ 99.5%, not  containing magnesium carbonate",7.6,19.5,68.8
+2196,"Vinegar, black rice vinegar",5.2,27.1,65.3
+2197,"Vinegar, grain vinegar",4.7,35.2,54.7
+2198,"Vinegar, rice vinegar",5.8,32,57.3
+2199,"Vinegar, fruit vinegar, Balsamic vinegar ",0,0,99.5
+2200,"Vinegar, fruit vinegar, wine vinegar",4,11.7,77.9
+2201,"Vinegar, fruit vinegar, cider vinegar",0,0,83.9
+2202,"Soup stock, ""Katsuo-bushi dashi"" (stock of ""Katsuo-bushi"") (cf. 10091 ""Katsuo-bushi"")",0,0,90.4
+2203,"Soup stock, ""kombu dashi"" (stock of dried kombu)",0,0,98
+2204,"Soup stock, ""Katsuo-bushi and kombu dashi"" (stock of ""Katsuo-bushi"" and dried kombu)  (cf. 10091 ""Katsuo-bushi"")",0,6.5,91
+2205,"Soup stock, ""Shiitake dashi"" (stock of dried Shiitake mushroom)",12.6,26.5,58.1
+2206,"Soup stock, ""Niboshi dashi"" (stock of small dried sardine)",2.1,0,79.3
+2207,"Soup stock, chicken bone stock",0,0.5,92.2
+2208,"Soup stock, chicken, pork and vegetable stock",11.4,40.4,43.3
+2209,"Soup stock, beef and vegetable stock",7.1,24.3,64.2
+2210,"Stock cubes, meat and vegetable ",7.2,39.5,50.9
+2211,"Stock powder, for ""Oden"" (Japanese winter hodgepodge)",6.9,34.1,55.8
+2212,"Stock powder, chicken, pork and vegetable",1.1,0.3,77.4
+2213,"Stock powder, ""Katsuo-bushi"" (cf. 10091 ""Katsuo-bushi"")",0,0,96.9
+2214,"Japanese noodle soup, non-concen0ated (soy sauce base)",0,0,97.6
+2215,"Japanese noodle soup, 0iple-concen0ated (soy sauce base)",0,0,96.7
+2216,"Seasoning sauce, sweet vinegar",5.1,7.6,24.8
+2217,"Seasoning sauce, sauce for ""Ebichiri"" (shrimp with chili sauce)",4.7,0.3,48.7
+2218,"Seasoning sauce, oyster sauce",4.2,0.4,40.5
+2219,"Seasoning sauce, ""Kimizu"" (seasoning containing vinegar and egg yolk)",4.6,32,47.3
+2220,"Seasoning sauce, ""Gomasu"" (vinegar mixture containing sesami, soy sauce and sugar)",0.4,0,4.9
+2221,"Seasoning sauce, sesame sauce",0.4,0,3.6
+2222,"Seasoning sauce, ""Sanbaizu"" (vinegar mixture containing sesami, soy sauce and mirin)",0.4,0,4.5
+2223,"Seasoning sauce ""Nihaizu"" (vinegar mixture containing soy sauce)",0.3,0,3.6
+2224,"Seasoning sauce, sweetened vinegar for ""Inarizushi"" (fried tofu pouch filled with sushi rice) ",0.4,0,4.1
+2225,"Seasoning sauce, sweetened vinegar for ""Nigirizushi"" (hand-pressed sushi)",0.3,0,3.1
+2226,"Seasoning sauce, sweetened vinegar for ""Makizushi"" (rolled sushi) and ""Hakozushi""(pressed sushi)",0.4,0,3.6
+2227,"Seasoning sauce, Chinese style vinegar",0.5,0,4.9
+2228,"Seasoning sauce, demi-glace sauce",0.1,0,3.6
+2229,"Seasoning sauce, Tian Mian Jiang (sweet soybean paste)",0.1,0,2
+2230,"Seasoning sauce, Nam pla (fish sauce)",0.2,0,1.5
+2231,"Seasoning sauce, for ""Hiyashi-chuka"" (ramen noodles in a cold sweet soy sauce broth topped with meat and vegetables) ",0.1,0,4
+2232,"Seasoning sauce, white sauce",1.7,0,5.1
+2233,"Seasoning sauce, ponzu vinegar with soy sauce",0,0,0
+2234,"Seasoning sauce, Mapo tofu sauce",0,0,0
+2235,"Seasoning sauce, marinade",0,0,0
+2236,"Seasoning sauce, meat sauce",0,0,0
+2237,"Seasoning sauce, for ""Yakitori"" (grilled chicken skewers)",0,0,0
+2238,"Seasoning sauce, barbecue sauce, soy sauce based",0,0,0
+2239,"Seasoning sauce, for ""Mitarashi"" (skewed rice dumplings in a sweet soy glaze)",0,0,0.1
+2240,"Seasoning sauce, ""Yuzu kosho"" (spicy paste made from chili, yuzu zest and salt)",0,0,0.1
+2241,"Tomato products, puree",0,0,0
+2242,"Tomato products, paste",0.1,0,20.7
+2243,"Tomato products, ketchup",0.1,0,5.3
+2244,"Tomato products, tomato sauce",1.9,0,48.1
+2245,"Tomato products, chili sauce",0.3,0,43.2
+2246,"Dressing, soy sauce based, fat-free",0.1,0,14.4
+2247,"Dressing, French dressing",0,0,26.8
+2248,"Dressing, soy sauce based, with oil",0,0,26.4
+2249,"Dressing, sesame dressing",0.1,0,13.4
+2250,"Dressing, thousand island dressing",0,0,37.6
+2251,"Dressing, mayonnaise, whole egg type",0.1,0,16.4
+2252,"Dressing, mayonnaise, egg yolk type",0.1,0,3.7
+2253,"Dressing, mayonnaise-type, low calorie type",0,0,2.9
+2254,"Miso, rice-koji miso, sweet type",29.1,4.1,43.9
+2255,"Miso, rice-koji miso, light yellow type",1.3,0,0
+2256,"Miso, rice-koji miso, red type",29.6,5.3,39.5
+2257,"Miso, barley-koji miso",24.5,4.7,47.7
+2258,"Miso, soybean-koji miso",0.2,0,0.2
+2259,"Miso, salt reduced",0.1,0,0
+2260,"Miso, pre-seasoned with soup stock",0,0,0.1
+2261,"Miso, instant miso soup, powdered type",0,0,0.1
+2262,"Miso, instant miso soup, Paste type",0,0,0
+2263,"Miso, ""Karashi-miso"" (miso sauce containing mustard, vinegar and sugar)",0,0,0.1
+2264,"Miso, ""Goma-miso"" (miso sauce containing sesami) ",20.3,2.5,51.7
+2265,"Miso, ""Su-miso"" (miso sauce containing vinegar and mustard)",0.1,0,0.1
+2266,"Miso, ""Neri-miso"" (miso sauce containing egg and mirin) ",0.2,0,0.7
+2267,"Roux, Japanese curry roux, instant",14.7,0.3,56.5
+2268,"Roux, hash and rice roux, instant",0.7,0.3,8.2
+2269,"Seasoning mix for ""Ochazuke"" (bowl of rice soaked in dashi broth)",18.5,21.6,42.4
+2270,"""Sakekasu"" (sake lees)",7.4,6.8,80.4
+2271,"Instant soup mix, ""Sumashi-jiru"" (Japanese 0aditional clear-soup)",13.8,4.4,70.2
+2272,"""Furikake"" (Seasoning mix for rice, containing dried seaweed and egg)",1.7,0.1,18.3
+2273,Mirin-like sweet cooking seasoning,5.2,0.2,42
+2274,"Spices, allspice, ground ",0,0,5.1
+2275,"Spices, onion powder",0,0,12.8
+2276,"Spices, mustard, powder ",0.1,0,11.4
+2277,"Spices, mustard, paste ",0,0,10.2
+2278,"Spices, mustard, yellow mustard",0.1,0,1.2
+2279,"Spices, mustard, whole grain mustard",0,0,0
+2280,"Spices, curry powder",0,0,0.3
+2281,"Spices, clove, ground",1,0.1,27.1
+2282,"Spices, pepper, black, ground",0.8,0.1,30.9
+2283,"Spices, pepper, white, ground",0.9,0.1,30.9
+2284,"Spices, pepper, black and white pepper mix, ground",1.6,0.1,33.7
+2285,"Spices, ""Sansho"" (Japanese pepper), ground",2,2.3,7.9
+2286,"Spices, cinnamon, ground",0.7,0.5,12.8
+2287,"Spices, ginger, dried, ground",0.1,99.8,0
+2288,"Spices, ginger, paste",7.7,0,7.9
+2289,"Spice, sage, dried, ground",8.1,0,9
+2290,"Spice, thyme, dried, ground",5.7,0,5.8
+2291,"Spice, chili powder",6.4,0,7.6
+2292,"Spice, red hot pepper, ground",11.8,0,15.9
+2293,"Spice, nutmeg, ground",9.6,0,15.9
+2294,"Spice, garlic, powder, without salt",2.5,0,19.2
+2295,"Spice, garlic, powder, with salt",4,0,4.1
+2296,"Spice, garlic, paste",2.4,0,35.7
+2297,"Spice, basil, dried, ground",0,0,0
+2298,"Spices, parsley, dried",0,0,0
+2299,"Spices, paprika ",0,0,16.7
+2300,"Spices, ""Wasabi"", powder, mixed with mustard powder",0,0,0
+2301,"Spices, ""Wasabi"", paste  ",0,0,0
+2302,"Yeast, baker's yeast, compressed",0,0,0
+2303,"Yeast, baker's yeast, dried",1,0,9
+2304,Tempura batter,0.1,0,2.4
+2305,Baking powder,0.2,0,7.4
+2306,"Japanese curry, beef, retort-pouch",0.5,0,19.4
+2307,"Jiaozi (Chinese dumpling), frozen",0.1,0,1.2
+2308,"Gratin, prawn, frozen",0.1,0,2.4
+2309,"Cream of corn soup, powdered",0.1,0,0
+2310,"Cream of corn soup, retort-pouched",0.4,0,0
+2311,"Croquettes, white sauce-based, pre-fried, frozen",0.5,0,0
+2312,"Croquettes, white sauce-based, fried, frozen",0.1,0,0.9
+2313,"Croquettes, potato-based, pre-fried, frozen",0.1,0,1.3
+2314,"Croquettes, potato-based, fried, frozen",0.3,0,0.3
+2315,"Breaded seafood, cuttlefish, pre-fried, frozen",0.3,0,0.4
+2316,"Breaded seafood, cuttlefish, fried, frozen",0.1,0,0.9
+2317,"Breaded seafood, prawn, pre-fried, frozen",0.1,0.1,0
+2318,"Breaded seafood, prawn, fried, frozen",0.9,0.4,0
+2319,"Breaded seafood, white fish, pre-fried, frozen",0.8,0,0
+2320,"Breaded seafood, white fish, fried, frozen",1.3,0,0.3
+2321,"Stew, beef, retort-pouch",7,4.3,42.1
+2322,"""Shumai"" (pork dumpling), frozen",9.6,0.1,31.7
+2323,"Hamburger steak, frozen",12.6,1.6,36.6
+2324,"Pilaf, frozen",24.2,0.3,31.1
+2325,"Meatball, frozen",1,0,4.1
+2326,"""Menchi-katsu"" (breaded ground meat cutlet), pre-fried, frozen",2.2,0,8.7
+2327,"""Menchi-katsu"" (breaded ground meat cutlet), fried, frozen",3.4,0,14.4
+2328,＜調味料類＞　だし類　めんつゆ　三倍濃縮,4.5,0,20
+2329,＜調味料類＞　だし類　ラーメンスープ　濃縮　しょうゆ味　ストレートしょうゆ味,3.3,11.7,9.9
+2330,＜調味料類＞　だし類　ラーメンスープ　濃縮　みそ味　ストレートみそ味,6.4,11,16.8
+2331,＜調味料類＞　調味ソース類　甘酢,0.1,0,28.4
+2332,＜調味料類＞　調味ソース類　エビチリの素,1.2,1.4,9.5
+2333,＜調味料類＞　調味ソース類　オイスターソース,7.7,0.3,18.3
+2334,＜調味料類＞　調味ソース類　黄身酢,6.3,13.1,20
+2335,＜調味料類＞　調味ソース類　魚醤油　いかなごしょうゆ,13.9,0,2.1
+2336,＜調味料類＞　調味ソース類　魚醤油　いしる　いしり,12.8,0,4.2
+2337,＜調味料類＞　調味ソース類　魚醤油　しょっつる,6.1,0,1.1
+2338,＜調味料類＞　調味ソース類　魚醤油　ナンプラー,9.1,0.1,2.7
+2339,＜調味料類＞　調味ソース類　ごま酢,4,8,29.9
+2340,＜調味料類＞　調味ソース類　ごまだれ,7.2,15.1,29.2
+2341,＜調味料類＞　調味ソース類　三杯酢,0.9,0,17.8
+2342,＜調味料類＞　調味ソース類　二杯酢,3.5,0,7.6
+2343,＜調味料類＞　調味ソース類　すし酢　ちらし・稲荷用,0.1,0,34.9
+2344,＜調味料類＞　調味ソース類　すし酢　にぎり用,0.2,0,14.3
+2345,＜調味料類＞　調味ソース類　すし酢　巻き寿司・箱寿司用,0.1,0,23.8
+2346,＜調味料類＞　調味ソース類　中華風合わせ酢,3,3.4,24.8
+2347,＜調味料類＞　調味ソース類　デミグラスソース,2.9,3,11
+2348,＜調味料類＞　調味ソース類　テンメンジャン,8.5,7.7,38.1
+2349,＜調味料類＞　調味ソース類　冷やし中華のたれ,2.1,1.2,23.1
+2350,＜調味料類＞　調味ソース類　ホワイトソース,1.8,6.2,9.2
+2351,＜調味料類＞　調味ソース類　ぽん酢しょうゆ,3.4,0.1,7.4
+2352,＜調味料類＞　調味ソース類　ぽん酢しょうゆ　市販品,3.7,0,10.8
+2353,＜調味料類＞　調味ソース類　マーボー豆腐の素,4.2,6.3,10.4
+2354,＜調味料類＞　調味ソース類　マリネ液,0.1,0,10.9
+2355,＜調味料類＞　調味ソース類　ミートソース,3.8,5,10.1
+2356,＜調味料類＞　調味ソース類　焼きそば粉末ソース,5.6,0.7,62.4
+2357,＜調味料類＞　調味ソース類　焼き鳥のたれ,3.3,0,28.5
+2358,＜調味料類＞　調味ソース類　焼き肉のたれ,4.3,2.2,32.3
+2359,＜調味料類＞　調味ソース類　みたらしのたれ,0.9,0,30.8
+2360,＜調味料類＞　調味ソース類　ゆずこしょう,1.3,0.8,9.3
+2361,＜調味料類＞　トマト加工品類　トマトピューレー,1.9,0.1,9.9
+2362,＜調味料類＞　トマト加工品類　トマトペースト,3.8,0.1,22
+2363,＜調味料類＞　トマト加工品類　トマトケチャップ,1.6,0.2,27.6
+2364,＜調味料類＞　トマト加工品類　トマトソース,2,0.2,8.5
+2365,＜調味料類＞　トマト加工品類　チリソース,1.8,0.1,26.3
+2366,＜調味料類＞　ドレッシング類　半固形状ドレッシング　マヨネーズ　全卵型,1.4,76,3.6
+2367,＜調味料類＞　ドレッシング類　半固形状ドレッシング　マヨネーズ　卵黄型,2.5,74.7,0.6
+2368,＜調味料類＞　ドレッシング類　半固形状ドレッシング　マヨネーズタイプ調味料　低カロリータイプ,2.9,28.3,3.3
+2369,＜調味料類＞　ドレッシング類　分離液状ドレッシング　フレンチドレッシング　分離液状,0,31.5,12.4
+2370,＜調味料類＞　ドレッシング類　分離液状ドレッシング　和風ドレッシング　分離液状,1.9,14.5,9.3
+2371,＜調味料類＞　ドレッシング類　分離液状ドレッシング　和風ドレッシングタイプ調味料　ノンオイルタイプ,3.1,0.1,16.1
+2372,＜調味料類＞　ドレッシング類　乳化液状ドレッシング　ごまドレッシング,2.7,38.3,15
+2373,＜調味料類＞　ドレッシング類　乳化液状ドレッシング　サウザンアイランドドレッシング,0.3,39.2,12.8
+2374,＜調味料類＞　ドレッシング類　乳化液状ドレッシング　フレンチドレッシング　乳化液状,0.1,38.8,9.3
+2375,＜調味料類＞　みそ類　米みそ　甘みそ,9.7,3,37.9
+2376,＜調味料類＞　みそ類　米みそ　淡色辛みそ,12.5,6,21.9
+2377,＜調味料類＞　みそ類　米みそ　赤色辛みそ,13.1,5.5,21.1
+2378,＜調味料類＞　みそ類　米みそ　だし入りみそ,11,5.6,20.6
+2379,＜調味料類＞　みそ類　米みそ　だし入りみそ　減塩,10.3,5.1,22.2
+2380,＜調味料類＞　みそ類　麦みそ,9.7,4.3,30
+2381,＜調味料類＞　みそ類　豆みそ,17.2,10.5,14.5
+2382,＜調味料類＞　みそ類　減塩みそ,11,5.9,25.7
+2383,＜調味料類＞　みそ類　即席みそ　粉末タイプ,21.9,9.3,43
+2384,＜調味料類＞　みそ類　即席みそ　ペーストタイプ,8.9,3.7,15.4
+2385,＜調味料類＞　みそ類　辛子酢みそ,5,2.1,44.6
+2386,＜調味料類＞　みそ類　ごまみそ,9.4,9.9,32.9
+2387,＜調味料類＞　みそ類　酢みそ,4.9,1.5,44.8
+2388,＜調味料類＞　みそ類　練りみそ,5.5,1.7,59.1
+2389,＜調味料類＞　ルウ類　カレールウ,6.5,34.1,44.7
+2390,＜調味料類＞　ルウ類　ハヤシルウ,5.8,33.2,47.5
+2391,＜調味料類＞　その他　お茶漬けの素　さけ,20.2,3.7,37.1
+2392,＜調味料類＞　その他　キムチの素,5.3,1,26
+2393,＜調味料類＞　その他　酒かす,14.9,1.5,23.8
+2394,＜調味料類＞　その他　即席すまし汁,18.3,0.8,30.5
+2395,＜調味料類＞　その他　ふりかけ　たまご,23.4,21.9,39.7
+2396,＜調味料類＞　その他　みりん風調味料,0.1,0,55.7
+2397,＜調味料類＞　その他　料理酒,0.2,0,4.7
+2398,＜香辛料類＞　オールスパイス　粉,5.6,5.6,75.2
+2399,＜香辛料類＞　オニオンパウダー,8.8,1.1,79.8
+2400,＜香辛料類＞　からし　粉,33,14.3,43.7
+2401,＜香辛料類＞　からし　練り,5.9,14.5,40.1
+2402,＜香辛料類＞　からし　練りマスタード,4.8,10.6,13.1
+2403,＜香辛料類＞　からし　粒入りマスタード,7.6,16,12.7
+2404,＜香辛料類＞　カレー粉,13,12.2,63.3
+2405,＜香辛料類＞　クローブ　粉,7.2,13.6,66.4
+2406,＜香辛料類＞　こしょう　黒　粉,11,6,66.6
+2407,＜香辛料類＞　こしょう　白　粉,10.1,6.4,70.1
+2408,＜香辛料類＞　こしょう　混合　粉,10.6,6.2,68.3
+2409,＜香辛料類＞　さんしょう　粉,10.3,6.2,69.6
+2410,＜香辛料類＞　シナモン　粉,3.6,3.5,79.6
+2411,＜香辛料類＞　しょうが　粉,7.8,4.9,72.5
+2412,＜香辛料類＞　しょうが　おろし,0.7,0.6,8.6
+2413,＜香辛料類＞　セージ　粉,6.4,10.1,66.9
+2414,＜香辛料類＞　タイム　粉,6.5,5.2,69.8
+2415,＜香辛料類＞　チリパウダー,15,8.2,60.1
+2416,＜香辛料類＞　とうがらし　粉,16.2,9.7,66.8
+2417,＜香辛料類＞　ナツメグ　粉,5.7,38.5,47.5
+2418,＜香辛料類＞　にんにく　ガーリックパウダー　食塩無添加,19.9,0.8,73.8
+2419,＜香辛料類＞　にんにく　ガーリックパウダー　食塩添加,19.9,0.8,73.8
+2420,＜香辛料類＞　にんにく　おろし,4.7,0.5,37
+2421,＜香辛料類＞　バジル　粉,21.1,2.2,50.6
+2422,＜香辛料類＞　パセリ　乾,28.7,2.2,51.6
+2423,＜香辛料類＞　パプリカ　粉,15.5,11.6,55.6
+2424,＜香辛料類＞　わさび　粉　からし粉入り,16.5,4.4,69.7
+2425,＜香辛料類＞　わさび　練り,3.3,10.3,39.8
+2426,＜その他＞　酵母　パン酵母　圧搾,16.5,1.5,12.1
+2427,＜その他＞　酵母　パン酵母　乾燥,37.1,6.8,43.1
+2428,＜その他＞　ベーキングパウダー,0,1.2,29
+2429,和風料理　和え物類　青菜の白和え,4.2,3.4,10.5
+2430,和風料理　和え物類　いんげんのごま和え,3.7,3.4,9.1
+2431,和風料理　和え物類　わかめとねぎの酢みそ和え,3.8,0.9,16.3
+2432,和風料理　汁物類　とん汁,1.5,1.5,2
+2433,和風料理　酢の物類　紅白なます,0.6,0.6,7.2
+2434,和風料理　煮物類　卯の花いり,4.4,4.1,10.7
+2435,和風料理　煮物類　親子丼の具,8.4,5.2,5.6
+2436,和風料理　煮物類　牛飯の具,4.1,9.4,6.4
+2437,和風料理　煮物類　切り干し大根の煮物,2.3,2.5,5.7
+2438,和風料理　煮物類　きんぴらごぼう,1.4,4.5,11.3
+2439,和風料理　煮物類　ぜんまいのいため煮,3.4,4.2,8.7
+2440,和風料理　煮物類　筑前煮,4.4,3.5,10.2
+2441,和風料理　煮物類　肉じゃが,4.3,1.3,13
+2442,和風料理　煮物類　ひじきのいため煮,3.1,4,9.9
+2443,和風料理　その他　アジの南蛮漬け,8.1,6.1,6.2
+2444,和風料理　その他　松前漬け　しょうゆ漬,17,1.4,24.7
+2445,洋風料理　カレー類　チキンカレー,5.6,8.8,8.4
+2446,洋風料理　カレー類　ビーフカレー,2.4,9,8.1
+2447,洋風料理　カレー類　ポークカレー,2.8,8.6,7.7
+2448,洋風料理　コロッケ類　カニクリームコロッケ,5.1,17.1,22
+2449,洋風料理　コロッケ類　コーンクリームコロッケ,5.1,16,23.4
+2450,洋風料理　コロッケ類　ポテトコロッケ,5.3,12.6,25.2
+2451,洋風料理　シチュー類　チキンシチュー,6.2,8,7.8
+2452,洋風料理　シチュー類　ビーフシチュー,4.1,12.6,7.1
+2453,洋風料理　素揚げ類　ミートボール,10.2,12.5,13.4
+2454,洋風料理　スープ類　かぼちゃのクリームスープ,1.5,3.9,10.1
+2455,洋風料理　スープ類　コーンクリームスープ　コーンクリームスープ,1.7,2.6,8.5
+2456,洋風料理　スープ類　コーンクリームスープ　粉末タイプ,8.1,13.7,67.4
+2457,洋風料理　ハンバーグステーキ類　合いびきハンバーグ,13.4,12.2,10
+2458,洋風料理　ハンバーグステーキ類　チキンハンバーグ,12.6,10.2,8.5
+2459,洋風料理　ハンバーグステーキ類　豆腐ハンバーグ,9.9,9.2,8.4
+2460,洋風料理　フライ類　いかフライ,13.3,11.3,19.7
+2461,洋風料理　フライ類　えびフライ,15.9,11.6,20.5
+2462,洋風料理　フライ類　白身フライ,9.7,21.8,16.2
+2463,洋風料理　フライ類　メンチカツ,10.7,18.7,18.7
+2464,洋風料理　フライ用冷凍食品　いかフライ　冷凍,10.6,2,21.4
+2465,洋風料理　フライ用冷凍食品　えびフライ　冷凍,10.2,1.9,20.3
+2466,洋風料理　フライ用冷凍食品　コロッケ　クリームコロッケ　冷凍,4.7,6.3,20.9
+2467,洋風料理　フライ用冷凍食品　コロッケ　ポテトコロッケ　冷凍,4.6,4.9,25.3
+2468,洋風料理　フライ用冷凍食品　白身フライ　冷凍,11.6,2.7,19.3
+2469,洋風料理　フライ用冷凍食品　メンチカツ　冷凍,9.9,7.2,23
+2470,洋風料理　その他　えびグラタン,5.5,6.9,12.1
+2471,洋風料理　その他　えびピラフ,3.3,2.3,29.8
+2472,中国料理　点心類　ぎょうざ,6.9,11.3,22.3
+2473,中国料理　点心類　しゅうまい,9.1,9.2,19.5
+2474,中国料理　点心類　中華ちまき,5.9,5.5,27.7
+2475,中国料理　菜類　酢豚,4.6,3.3,7.6
+2476,中国料理　菜類　八宝菜,5.8,3.2,3.8
+2477,中国料理　菜類　麻婆豆腐,7.8,6.8,3.8
+2478,韓国料理　和え物類　もやしのナムル,3.1,4.5,5.7

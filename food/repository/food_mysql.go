@@ -136,7 +136,7 @@ func (sm *foodServerMySQL) ListFoods(stream foodpb.FoodService_ListFoodsServer) 
 		if err != nil {
 			return status.Errorf(
 				codes.Internal,
-				fmt.Sprintf("unexpected error in ListFood(): %v\n", res.Error),
+				fmt.Sprintf("unexpected error in ListFood(): %v\n", err),
 			)
 		}
 	}
