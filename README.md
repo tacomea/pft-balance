@@ -1,8 +1,7 @@
-# pfc-balance 
+# pfc-balance-calcuilator
 
 ### what is this?
-this is a pfc-balance calculator.  
-(Haven't you ever thought about keeping record of your pfc balance? And also how it would be a pain in the ass?)  
+Haven't you ever thought about keeping record of your pfc balance? And also how it would be a pain in the ass?
 This lets you do that easily when you use food delivery service by allowing stores to put the amount of the ingredients in the first place.  
 Supported Tracker App: `None` (I put the code to use MyFitnessPal, but I need to submit a form to use their API... 😢)
 
