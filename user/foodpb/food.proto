@@ -50,6 +50,10 @@ message ListFoodResponse {
   Food food = 1;
 }
 
+/**
+ ** FoodService provides a way to CRUD food nutrient database from MEXT.
+ ** Each RPC may return Internal but it is not listed in the [ERRORS] section for brevity.
+ */
 service FoodService {
   rpc CreateFood (CreateFoodRequest) returns (CreateFoodResponse);
   rpc ReadFood (ReadFoodRequest) returns (ReadFoodResponse);
@@ -57,6 +61,12 @@ service FoodService {
   rpc DeleteFood (DeleteFoodRequest) returns (DeleteFoodResponse);
   rpc ListFoods (stream ListFoodRequest) returns (stream ListFoodResponse){};
 }
+/**
+ ** the returned message may be empty.
+ ** [ERRORS]
+ ** - NotFound:
+ **   - the food specified by its ID is not found in the system
+ */
 
 message Menu {
   string id = 1;
@@ -112,11 +122,23 @@ message ListAllMenusResponse {
   Menu menu = 1;
 }
 
+/**
+ ** MenuService provides a way to CRUD menu database provided by stores.
+ ** Each RPC may return Internal but it is not listed in the [ERRORS] section for brevity.
+ */
 service MenuService {
   rpc CreateMenu (CreateMenuRequest) returns (CreateMenuResponse);
   rpc ReadMenu (ReadMenuRequest) returns (ReadMenuResponse);
   rpc UpdateMenu (UpdateMenuRequest) returns (UpdateMenuResponse);
   rpc DeleteMenu (DeleteMenuRequest) returns (DeleteMenuResponse);
+  // ListMenu only returns menus specified by  requested IDs.
   rpc ListMenu (stream ListMenuRequest) returns (stream ListMenuResponse){};
+  // ListAllMenus returns all the menus created.
   rpc ListAllMenus (ListAllMenusRequest) returns (stream ListAllMenusResponse){};
 }
+/**
+ ** the returned message may be empty.
+ ** [ERRORS]
+ ** - NotFound:
+ **   - the menu specified by its ID is not found in the system
+ */
