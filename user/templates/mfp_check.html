@@ -6,9 +6,16 @@
 </head>
 <body>
 <p><a href="/">Go back home</a></p>
-<h1>Do you wanna add PFT data to My Fitness Pal *you need to first connect with your My Fitness Pal account.</h1>
-<form action="/mfp/add" method="post">
-    <input type="hidden" value={{.}} name="id">
+<p>Thank you for your order!👏</p>
+<p>Do you wanna add PFT data to My Fitness Pal <br>*you need to first connect with your My Fitness Pal account.</p>
+<form action="/oauth/mfp/add" method="post">
+    <input type="hidden" value={{.}} name="menu_id">
+    <label for="diary_meal">which meal is this for you?</label>
+    <select name="diary_meal" id="diary_meal" required>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+    </select>
     <input type="submit" value="追加">
 </form>
 

@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"context"
+	"encoding/json"
 	"fmt"
 	"github.com/google/uuid"
 	"golang.org/x/oauth2"
@@ -35,6 +36,8 @@ var userId string
 
 var oauthClient *http.Client
 
+var oauthOn = false
+
 var tpl *template.Template
 
 type serviceClient struct {
@@ -49,17 +52,23 @@ type Menu struct {
 	Carbs   float64
 }
 
+// My Fitness Pal API
+
+type NutritionalContents struct {
+	Carbohydrates float64 `json:"carbohydrates"`
+	Fat           float64 `json:"fat"`
+	Protein       float64 `json:"protein"`
+}
+
+type Items struct {
+	Type                string              `json:"type"`
+	Date                string              `json:"date"`
+	DiaryMeal           string              `json:"diary_meal"`
+	NutritionalContents NutritionalContents `json:"nutritional_contents"`
+}
+
 type Diary struct {
-	Items []struct {
-		Type                string `json:"type"`
-		Date                string `json:"date"`
-		DiaryMeal           string `json:"diary_meal"`
-		NutritionalContents struct {
-			Carbohydrates float64 `json:"carbohydrates"`
-			Fat           float64 `json:"fat"`
-			Protein       int     `json:"protein"`
-		} `json:"nutritional_contents"`
-	} `json:"items"`
+	Items []Items `json:"items"`
 }
 
 func init() {
@@ -87,8 +96,10 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", indexHandler)
 	mux.HandleFunc("/order", c.orderHandler)
-	mux.HandleFunc("/oauth/mfp/add", c.oauthMFPAddHandler)
 	mux.HandleFunc("/oauth/mfp/check", c.oauthMFPCheckHandler)
+
+	// processing
+	mux.HandleFunc("/oauth/mfp/add", c.oauthMFPAddHandler)
 	mux.HandleFunc("/oauth/mfp/grant", oauthMFPGrantHandler)
 	mux.HandleFunc("/oauth/mfp/receive", oauthMFPReceiveHandler)
 
@@ -172,7 +183,6 @@ func (c *serviceClient) oauthMFPAddHandler(w http.ResponseWriter, r *http.Reques
 		return
 	}
 
-	userId := r.FormValue("user_id")
 	menuId := r.FormValue("menu_id")
 
 	res, err := c.mc.ReadMenu(context.Background(), &foodpb.ReadMenuRequest{MenuId: menuId})
@@ -180,33 +190,58 @@ func (c *serviceClient) oauthMFPAddHandler(w http.ResponseWriter, r *http.Reques
 		log.Println(err)
 	}
 	protein := res.GetMenu().GetProtein()
-	protein := res.GetMenu().GetProtein()
-	protein := res.GetMenu().GetProtein()
+	fat := res.GetMenu().GetProtein()
+	carbs := res.GetMenu().GetProtein()
 
-	var diary Diary
-	diary.Items[0].Type = "diary_meal"
-	diary.Items[0].Date = time.Now().Format("2006-1-2")
-	// todo
-	diary.Items[0].DiaryMeal = r.FormValue("diary_meal")
-	diary.Items[0].NutritionalContents.Protein = protein
-	diary.Items[0].NutritionalContents.Fat =
-	diary.Items[0].NutritionalContents.Carbohydrates =
-
-	req, err := http.NewRequest("POST", "https://api.myfitnesspal.com/diary", bytes.NewBuffer())
-
-	res, err := oauthClient.Do(req)
-	if err != nil {
-		msg := url.QueryEscape(err.Error())
-		http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
-		return
+	diary := Diary{
+		Items: []Items{
+			{
+				Type:      "diary_meal",
+				Date:      time.Now().Format("2006-1-2"),
+				DiaryMeal: r.FormValue("diary_meal"),
+				NutritionalContents: NutritionalContents{
+					Protein:       protein,
+					Fat:           fat,
+					Carbohydrates: carbs,
+				},
+			},
+		},
 	}
-	if res.StatusCode < 200 || res.StatusCode > 299 {
-		msg := url.QueryEscape(strconv.Itoa(res.StatusCode))
-		http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
-		return
+
+	fmt.Println(diary)
+
+	if oauthOn {
+		marshal, err := json.Marshal(diary)
+		if err != nil {
+			msg := url.QueryEscape(err.Error())
+			http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+			return
+		}
+
+		req, err := http.NewRequest("POST", "https://api.myfitnesspal.com/diary", bytes.NewBuffer(marshal))
+		if err != nil {
+			msg := url.QueryEscape(err.Error())
+			http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+			return
+		}
+
+		req.Header.Set("mfp-user-id", userId)
+
+		resp, err := oauthClient.Do(req)
+		if err != nil {
+			msg := url.QueryEscape(err.Error())
+			http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+			return
+		}
+		if resp.StatusCode < 200 || resp.StatusCode > 299 {
+			msg := url.QueryEscape(strconv.Itoa(resp.StatusCode))
+			http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+			return
+		}
+		defer resp.Body.Close()
 	}
-	defer res.Body.Close()
-	msg := url.QueryEscape("data added to your my fitness pal account!")
+
+	msg := url.QueryEscape("data added to your My Fitness Pal account!")
 	http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
 }
 
@@ -219,7 +254,12 @@ func oauthMFPGrantHandler(w http.ResponseWriter, r *http.Request) {
 	state := uuid.NewString()
 	stateDb[state] = time.Now().Add(time.Hour)
 
-	http.Redirect(w, r, myFitnessPalConfig.AuthCodeURL(state), http.StatusSeeOther)
+	if oauthOn {
+		http.Redirect(w, r, myFitnessPalConfig.AuthCodeURL(state), http.StatusSeeOther)
+	} else {
+		msg := url.QueryEscape("sorry - you cannot connect to My Fitness Pal right now")
+		http.Redirect(w, r, "/?msg="+msg, http.StatusSeeOther)
+	}
 }
 
 func oauthMFPReceiveHandler(w http.ResponseWriter, r *http.Request) {

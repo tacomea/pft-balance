@@ -15,7 +15,7 @@
 <p>Protein: {{.Protein}}</p>
 <p>Fat: {{.Fat}}</p>
 <p>Carbs: {{.Carbs}}</p>
-<form action="/mfp/check" method="post">
+<form action="/oauth/mfp/check" method="post">
     <input type="hidden" value={{.ID}} name="id">
     <input type="submit" value="注文">
 </form>
