@@ -1,4 +1,4 @@
-# pfc-balance-calcuilator
+# pfc-balance-calculator
 
 ### what is this?
 Haven't you ever thought about keeping record of your pfc balance? And also how it would be a pain in the ass?
