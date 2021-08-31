@@ -26,11 +26,7 @@ Supported Tracker App: `None` (I put the code to use MyFitnessPal, but I need to
 #### Method1
 1. run mongodb locally
 2. for the first time, comment out initMongo(food/main.go line:89) to initialize Food Nutrition DB
-3. `make` in directories below (you have to make 4 times)
-   - food
-   - menu
-   - store
-   - user  
+3. `make`
 4. access `localhost:80` to create a menu and then, access `localhost:8080` to order & track data (data will show up in the terminal running user/main,go)
   
 #### Method2 
