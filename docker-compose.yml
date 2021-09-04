@@ -1,9 +1,10 @@
 version: "3"
 services:
   food_server:
+    container_name: food_server
     build: ./food
-    ports:
-      - "50051:50051"
+#    ports:
+#      - "50051:50051"
     volumes:
       - ./food:/go/src/food/
     command: >
@@ -14,11 +15,14 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: food_data
+      DB_HOST: db
+      DB_PORT: 3306
 
   menu_server:
+    container_name: menu_server
     build: ./menu
-    ports:
-      - "50050:50050"
+#    ports:
+#      - "50050:50050"
     volumes:
       - ./menu:/go/src/menu/
     command: >
@@ -29,6 +33,8 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: food_data
+      DB_HOST: db
+      DB_PORT: 3306
 
   store_server:
     build: ./store
@@ -38,16 +44,22 @@ services:
       - ./store:/go/src/store/
     command: >
       sh -c "reflex -s -r '\.go$$' go run main.go"
+    environment:
+      FOOD_HOST: food_server
+      FOOD_PORT: 50051
+      MENU_HOST: menu_server
+      MENU_PORT: 50050
 
   mysql:
+    container_name: db
     image: mysql:5.7.22
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_USER: admin
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: food_data
-    ports:
-      - "3306:3306"
+#    ports:
+#      - "3306:3306"
     volumes:
       - "./mysql/data:/var/lib/mysql"
       - "./mysql/conf_d:/etc/mysql/conf.d"

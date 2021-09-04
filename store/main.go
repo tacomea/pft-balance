@@ -30,7 +30,16 @@ func init() {
 
 func main() {
 	// gRPC
-	cc1, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
+
+	foodHost := os.Getenv("FOOD_HOST")
+	if foodHost == "" {
+		foodHost = "localhost"
+	}
+	foodPort := os.Getenv("FOOD_PORT")
+	if foodPort == "" {
+		foodPort = "50051"
+	}
+	cc1, err := grpc.Dial(fmt.Sprintf("%s:%s", foodHost, foodPort), grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("could not conntect: %v\n", err)
 	}
@@ -41,7 +50,15 @@ func main() {
 		}
 	}(cc1)
 
-	cc2, err := grpc.Dial("localhost:50050", grpc.WithInsecure())
+	menuHost := os.Getenv("MENU_HOST")
+	if menuHost == "" {
+		menuHost = "localhost"
+	}
+	menuPort := os.Getenv("MENU_PORT")
+	if menuPort == "" {
+		menuPort = "50050"
+	}
+	cc2, err := grpc.Dial(fmt.Sprintf("%s:%s", menuHost, menuPort), grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("could not conntect: %v\n", err)
 	}

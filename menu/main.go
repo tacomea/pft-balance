@@ -17,12 +17,22 @@ import (
 	"pft-balance/menu/repository"
 )
 
+//var (
+//	schema         = "%s:%s@tcp(mysql:3306)/%s?charset=utf8&parseTime=True&loc=Local"
+//	username       = os.Getenv("MYSQL_USER")
+//	password       = os.Getenv("MYSQL_PASSWORD")
+//	userDbName     = os.Getenv("MYSQL_DATABASE")
+//	dataSourceName = fmt.Sprintf(schema, username, password, userDbName)
+//)
+
 var (
-	schema         = "%s:%s@tcp(mysql:3306)/%s?charset=utf8&parseTime=True&loc=Local"
-	username       = os.Getenv("MYSQL_USER")
-	password       = os.Getenv("MYSQL_PASSWORD")
-	userDbName     = os.Getenv("MYSQL_DATABASE")
-	dataSourceName = fmt.Sprintf(schema, username, password, userDbName)
+	schema			= "%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local"
+	dbHost			= os.Getenv("DB_HOST")
+	dbPort			= os.Getenv("DB_PORT")
+	username		= os.Getenv("MYSQL_USER")
+	password		= os.Getenv("MYSQL_PASSWORD")
+	userDbName		= os.Getenv("MYSQL_DATABASE")
+	dataSourceName	= fmt.Sprintf(schema, username, dbHost, dbPort, password, userDbName)
 )
 
 func init() {
@@ -63,17 +73,16 @@ func main() {
 	}
 
 	// MySQL
-	//db := connectMySQL()
-	//mm := repository.NewMenuServerMySQL(db)
+	db := connectMySQL()
+	mm := repository.NewMenuServerMySQL(db)
 
 	// Mongo
-	client := connectMongo()
-	colMenu := client.Database("food_db").Collection("menu")
-	mm := repository.NewMenuServerMongo(colMenu)
+	//client := connectMongo()
+	//colMenu := client.Database("food_db").Collection("menu")
+	//mm := repository.NewMenuServerMongo(colMenu)
 
 	// Initializing DB
 	//initDb(colFood)
-
 
 	menuServer := grpc.NewServer()
 

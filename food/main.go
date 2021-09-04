@@ -21,11 +21,13 @@ import (
 )
 
 var (
-	schema         = "%s:%s@tcp(mysql:3306)/%s?charset=utf8&parseTime=True&loc=Local"
-	username       = os.Getenv("MYSQL_USER")
-	password       = os.Getenv("MYSQL_PASSWORD")
-	userDbName     = os.Getenv("MYSQL_DATABASE")
-	dataSourceName = fmt.Sprintf(schema, username, password, userDbName)
+	schema			= "%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local"
+	dbHost			= os.Getenv("DB_HOST")
+	dbPort			= os.Getenv("DB_PORT")
+	username		= os.Getenv("MYSQL_USER")
+	password		= os.Getenv("MYSQL_PASSWORD")
+	userDbName		= os.Getenv("MYSQL_DATABASE")
+	dataSourceName	= fmt.Sprintf(schema, username, dbHost, dbPort, password, userDbName)
 )
 
 func init() {
@@ -66,16 +68,15 @@ func main() {
 	}
 
 	// MySQL
-	//db := connectMySQL()
-	//sm := repository.NewFoodServerMySQL(db)
-	//mm := repository.NewMenuServerMySQL(db)
+	db := connectMySQL()
+	sm := repository.NewFoodServerMySQL(db)
 
 	// Mongo
-	client := connectMongo()
+	//client := connectMongo()
+	//colFood := client.Database("food_db").Collection("food")
+	//sm := repository.NewFoodServerMongo(colFood)
 
 	// Food
-	colFood := client.Database("food_db").Collection("food")
-	sm := repository.NewFoodServerMongo(colFood)
 	foodServer := grpc.NewServer()
 	foodpb.RegisterFoodServiceServer(foodServer, sm)
 
