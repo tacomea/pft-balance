@@ -30,9 +30,8 @@ Supported Tracker App: `None` (I put the code to use MyFitnessPal, but I need to
 4. access `localhost:80` to create a menu and then, access `localhost:8080` to order & track data (data will show up in the terminal running user/main,go)
   
 #### Method2 
-(this currently doesn't work. - I'm still looking up how to connect different containers... )  
 
-1.change db from Mongo to MySQL in food/main.go & menu/main.go
-2.`docker-compose up` in pfc-balance directory 
+1. change db from Mongo to MySQL in food/main.go & menu/main.go
+2. `docker-compose up` in pfc-balance directory 
 
 In either way, to use MyFitnessPal API, you need to make `oauthOn` true in user/main.go line39 and insert client ID & Client Secret in user/main.go line 22/23.
